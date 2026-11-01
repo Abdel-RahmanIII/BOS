@@ -1,4 +1,4 @@
-# Milestone 1: Project Idea & Business Model Canvas
+﻿# Milestone 1: Project Idea & Business Model Canvas
 
 ## Founders' Contribution Table (1 Page)
 | Founder Name | Role | Deliverables & Sections Owned | % Contribution |
@@ -12,8 +12,23 @@
 ## Deliverable 1.1: Founding Memo (Max. 12 Pages, Excluding Appendices)
 
 ### 1. Vision and Mission
-* **10-Year Vision:** 
-* **Daily Mission:** 
+* **10-Year Vision:** To become the operating system for barbershops and salons across MENA, where every chair is visible, every wait is predictable, and no customer is lost.
+* **Daily Mission:** Every day, we show customers the live wait for their own barber, or let them book him for a slot sized to their service (about 30 minutes for hair, 20 for a beard), so they arrive just in time. Shops keep their queue fair and replace their paper logs.
+
+#### How the Mission Leads to the Vision
+* **Today (Cairo barbershops):** Live per-barber wait, plus the automatic service log that replaces the front desk's paper.
+* **Next:** Service-based booking with a specific barber, introduced shop by shop once owners see that visible bookings stay fair to walk-ins.
+* **In 10 years:** Salons and grooming businesses across MENA, running their queues, bookings and records on one platform.
+
+#### Why It Fits Our Evidence
+* **"Their own barber":** Customers are loyal to one barber, and walk-outs happen while other barbers are free.
+* **"Live wait" first:** Both shops we interviewed refuse reservations, because it is unfair to customers who arrived first. We intend to change that policy, not work around it. Our answer to the fairness objection:
+  - Every booked slot is shown on the shop screen, so walk-ins see why someone goes ahead;
+  - Bookings only fill a barber's free time; and
+  - A small deposit discourages no-shows.
+  *(Changing this policy is our riskiest assumption, so we test it with owners before building booking).*
+* **"Slot sized to their service":** A haircut and a beard take different times, so slots and wait estimates are calculated per service instead of a flat appointment length.
+* **"Replace their paper logs":** Shops record every service per barber by hand and pay for no software today.
 
 ### 2. Problem and Customer
 * **Problem Description:** (Who has the problem, frequency, current solutions, and cost of the problem)
