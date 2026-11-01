@@ -31,9 +31,39 @@
 * **"Replace their paper logs":** Shops record every service per barber by hand and pay for no software today.
 
 ### 2. Problem and Customer
-* **Problem Description:** (Who has the problem, frequency, current solutions, and cost of the problem)
-* **Ideal Customer Profile (ICP):** 
-* **Job-to-be-Done (JTBD) Statement:** 
+
+* **Problem Description:**
+  * **Who Has the Problem:**
+    * **The Primary Buyer (Barbershop Owner-Operator):** Owners of multi-chair, upper-mid barbershops suffer from severe queue imbalances and blind operations. Demand clusters around 1–2 popular barbers while other chairs sit empty, causing shops to lose revenue from untracked walk-outs while relying on manual paper notebooks and constant phone interruptions.
+    * **The End-User (The Loyal or High-Intent Client):** Young men and professionals who demand a haircut from *their specific barber*—either through personal loyalty or after discovering a barber via social media (e.g., viral TikTok/Instagram hair transformation clips). They face complete "wait blindness" with no way to check queue length before arriving.
+  * **Frequency:**
+    * **Daily & Peak-Bunched:** The problem occurs daily, concentrating during evenings (6:00 PM – 11:00 PM), Thursdays, Fridays, and weekends.
+    * **Frequent Communication Friction:** Receptionists handle 5–10 calls per busy day solely answering *"Is [Barber X] free?"*, while individual barbers receive ~5 direct calls and messages daily.
+  * **Current Solutions & Workarounds:**
+    * *Guesswork & Blind Walk-Ins:* Clients show up unannounced; encountering 2–4 waiting customers, they either endure a 30–60 minute wait or walk away.
+    * *Phone Calls & WhatsApp DMs:* Regulars call or message barbers and front desks directly to check availability, causing constant interruptions during operating hours.
+    * *Strict "First-Come, First-Served" Policy:* Shops actively reject traditional booking apps because allowing customers to skip the physical queue violates shop floor fairness and upsets waiting walk-ins.
+    * *Physical Paper Ledgers:* Staff manually log each service on paper notebooks, leaving owners with no retention tracking or customer data.
+  * **Cost of the Problem:**
+    * **Direct Revenue Loss for Owners:** Field interviews confirm walk-outs happen daily. At Shop 1's baseline (120 EGP/cut), losing just 3 walk-away clients per day costs **360 EGP per day, or ~10,800 EGP per month** in unrecovered top-line revenue.
+    * **Uncaptured Social Discoverability:** High-intent prospective clients who discover a barber on TikTok/Instagram hit a dead end without a direct link to check live availability or queue status, failing to convert viral interest into visits.
+    * **Client Time & Friction Cost:** Loyal clients lose 30–60 minutes in waiting chairs or incur wasted round-trip commutes when forced to walk away.
+
+* **Ideal Customer Profile (ICP):**
+  * **Economic Buyer ICP (Barbershop Owner-Operator):**
+    * *Geography & Setting:* High-density urban commercial districts in Greater Cairo, starting in **New Cairo and Nasr City**.
+    * *Shop Capacity & Tier:* Multi-chair establishments (**3 to 8 chairs**) charging **100 to 250 EGP per haircut**, where individual barber craftsmanship drives customer loyalty.
+    * *Operational Profile:* Relies on manual paper logging, adheres strictly to first-come, first-served walk-ins, and wants to prevent walk-outs without disrupting shop floor fairness.
+  * **End-User ICP (The Loyal / High-Intent Client):**
+    * *Demographics:* Men aged **18 to 35** (students and working professionals) in urban Cairo.
+    * *Behavior:* Strongly loyal to one specific barber, or actively seeking skilled barbers seen on TikTok/Instagram.
+    * *Tech Profile:* App-literate smartphone user who prefers checking a live queue online over calling or waiting blindly in a shop.
+
+* **Job-to-be-Done (JTBD) Statement:**
+  * **Buyer JTBD (Shop Owner):**
+    > *"When customer demand bunches on popular barbers or rushes in from social media, I want to make our live queue transparent and automate daily service logs, so I can eliminate walk-away losses and run an orderly, fair shop without hiring extra staff."*
+  * **End-User JTBD (Loyal / High-Intent Client):**
+    > *"When I need a haircut from my designated barber (or see his work on TikTok), I want to see his real-time queue length before heading out, so I can arrive just in time, skip the 45-minute wait, and never have to settle for another barber."* 
 
 ### 3. Customer Discovery
 
