@@ -36,9 +36,85 @@
 * **Job-to-be-Done (JTBD) Statement:** 
 
 ### 3. Customer Discovery
+
+To validate the core problem and test our initial hypothesis, we conducted **6 customer discovery interviews** across both sides of the market: 4 on the supply side across two barbershops (2 barbers, 1 front-desk receptionist, and 1 owner) and 2 on the demand side with customers.
+
+Following ***The Mom Test*** principles, we strictly avoided pitching our idea upfront and asked about specific, recent past behavior (*"the last busy day"*, *"the last time someone left"*), not hypothetical opinions. Where answers were vague (*"a lot"*), we asked for concrete numbers and recent examples. Statements about future intentions were flagged as weak evidence. Interviews were conducted in Egyptian Arabic, framed neutrally as a GUC academic research project: *"I'm a GUC student doing a project on barbershops. I'm not selling anything."*
+
+| Segment | Interviews | Setting / Profile |
+|---|:---:|---|
+| **Barber** | 2 | Shop 1 (multi-chair, front desk), Shop 2 (peer-managed, no front desk) |
+| **Front-desk receptionist** | 1 | Shop 1 |
+| **Shop owner** | 1 | Shop 1 |
+| **Customer** | 2 | Customer 1 (loyal to a specific barber), Customer 2 (no preferred barber) |
+
 * **Interview Guide:** (*The Mom Test* principles — past behavior, not opinions)
-* **Summary of Findings:** 
-* **Invalidated Assumptions & Surprises:** 
+
+  **Barbers (Shop 1 & Shop 2)**
+  1. Tell me about the last busy day. How did you know whose turn it was?
+  2. Are there barbers people ask for by name? When was the last time people waited for one barber while others were free?
+  3. When was the last time someone left because the wait was too long? Do they come back, or go elsewhere?
+  4. Do customers call or WhatsApp you before coming? Roughly how many times a day?
+  5. Do you ever book someone an appointment? What happens if someone asks you to?
+  6. When customers call while you're working, how do you answer?
+  7. Has the shop ever used an app for bookings or the queue? What happened?
+
+  **Front Desk (Shop 1)**
+  1. Tell me about the last really busy day. How did you track the order? How many people called asking about a wait?
+  2. When someone calls about a specific barber, what do you tell them?
+  3. Have you ever taken reservations by phone? Why do you work first come, first served?
+  4. When you tell a caller the barber is busy, what does he do next?
+
+  **Shop Owner (Shop 1)**
+  1. When did someone last leave because the barber they wanted was busy? How many do you lose like that per week?
+  2. How much is a haircut? A beard?
+  3. Why did you choose no reservations?
+  4. Do you pay monthly for any software or app for the shop?
+  5. *(Tested only at the very end)* If we built a screen showing the wait for each barber, with no reservations and no line-skipping, would you try it?
+
+  **Customers (Demand Side)**
+  1. Tell me about your last haircut. When did you go, how did you choose that time, and how long did you wait?
+  2. Before going, did you call the barber or the shop? Why or why not?
+  3. When did you last leave without a haircut because of the wait? What did you do after?
+  4. Have you ever used an app to book anything? What happened?
+
+* **Summary of Findings:**
+
+  > **Core Insight:** The core problem is **customer loyalty, not shop capacity**: regulars wait for or leave one popular barber while other barbers sit idle.
+
+  | # | Finding | Field Evidence | Heard From |
+  |---|---|---|---|
+  | **1** | **Demand bunches on 1–2 popular barbers while others are idle** | Popular barbers have 2–4 people waiting. *"Just now I was giving someone a haircut and another was waiting for me while the whole shop was free."* | Barber 1, Barber 2, Owner |
+  | **2** | **Customers walk out daily, and nobody counts it** | Owner: walk-outs happen *"always"*, number unknown. Some return later or the next day; some never return. | Barber 1, Barber 2, Owner, Customer 1 |
+  | **3** | **Customers already use a manual workaround: calling to ask "are you free?"** | 5–10 calls per busy day to the front desk; about 5 a day to one popular barber; regulars have barbers' phone numbers. | Front desk, Barber 1, Barber 2 |
+  | **4** | **Customers who don't call just guess, and guess wrong** | Customer 1 went in the morning *"thinking he'd be free"* and waited ~30 minutes. | Customer 1 |
+  | **5** | **Both shops refuse reservations as strict policy** | The owner's rationale is fairness: a customer who arrived first should not see a later arrival skip ahead. | Front desk, Owner, Barber 2 |
+  | **6** | **Shops keep records by hand and pay for no software** | Front desk logs every service per barber on paper; at Shop 2 another barber takes payment and logs the service (shop policy). | Front desk, Owner, Barber 2 |
+  | **7** | **The wait-time pain belongs exclusively to loyal customers** | Customer 2 has no preferred barber and waited 0 minutes. | Customer 2 |
+  | **8** | **Phone and app habits already exist** | Barbers answer phones during cuts. Both customers book padel or football courts by app; one also books doctors. | Barber 1, Barber 2, Customers 1–2 |
+
+  * **Prices & Illustrative Loss:** Shop 1 charges 120 EGP for a haircut, 70 EGP for a beard, 170 EGP for both. Losing 3 haircut customers a day to walk-outs equals **360 EGP a day, about 10,800 EGP a month** in lost revenue.
+  * **Willingness to Pay Reality Check:** The owner stated, *"Of course I'd even pay for a service like that,"* and was open to a free trial. We treat this as stated opinion rather than committed budget, since the shop currently spends nothing on software.
+
+* **Invalidated Assumptions & Surprises:**
+
+  Our primary assumption—that shops want customers to book a specific barber in advance—was **invalidated**. We pivoted our MVP from advance time-slot booking to **live wait visibility**.
+
+  | Assumption Before Interviews | What We Learned (Field Evidence) | What We Changed (Strategic Pivot) |
+  |---|---|---|
+  | **Shops want customers to book a barber in advance** | Both shops refuse reservations as policy. The owner says it is unfair to customers who arrived first. | **MVP shows a live per-barber wait** (*"2 waiting for [barber], about 40 minutes"*) and never changes arrival order. Booking becomes an optional per-shop setting later, if at all. |
+  | **Long waits come from too few barbers** | Waits come from loyalty: regulars wait for one barber while others are free. | **Wait is shown per barber**, not aggregated per shop. |
+  | **All young male customers feel the pain** | Customers with no preferred barber barely wait; they take whoever is free. | **ICP narrowed to loyal customers** who wait for one specific barber. |
+  | **Customers who leave are lost for good** | At Shop 2 most leavers ask *"when will you be free?"* and return then. At Shop 1 some never return. | **Add queue alerts:** The cost is wasted trips and delay as much as lost revenue. Added a *"your barber's queue is short"* alert. |
+  | **Barbers would manage the app themselves** | Shop 1 already has a front desk that logs every service on paper; Shop 2 delegates payment to a peer barber. | **Dual staff logging:** The front desk, or the designated cashier barber, marks services done. Auto-calculated totals per barber replace paper ledgers. |
+  | **Barbers want customers to see their queue at all times** | Barber 2 decides whether to take another customer based on how much energy he has left. | **Queue control:** Each barber gets an individual *"open / close my queue"* toggle control. |
+
+  **Other Surprises & Limitations:**
+  * *Operational Surprises:* The owner has no idea how many customers he loses, and the front desk cannot tell whether a telephone caller later came in. At Shop 2, a peer barber takes payment and logs services to ensure internal control.
+  * *Methodological Limitations:* Small sample (2 shops, 2 customers; 3 shop interviews from Shop 1). Customer 1 is the interviewer's brother (potential confirmation bias). Future willingness to pay is stated, not demonstrated. Revenue totals were withheld as confidential by Shop 1.
+  * *Next Discovery Cycle:* Expand to at least 2 additional shops in other neighborhoods and arms-length customers to verify if the strict no-reservation policy and loyalty clustering hold universally.
+
+*(Full anonymized raw interview logs with verbatim translated quotes and surprises are provided in [Appendix A: Full Customer Discovery Interview Log](#appendix-a-full-customer-discovery-interview-log).)*
 
 ### 4. Market Sizing
 **Price used in both methods:** EGP 6,000 per shop per year (EGP 500/month).
@@ -299,7 +375,17 @@ The platform gathers both sides of the market in one place: many barbershops (su
 ## Appendices
 
 ### Appendix A: Full Customer Discovery Interview Log
-*(Anonymized, with date, role/segment, interviewer, and notes)*
+
+All interviews were conducted on **October 31, 2026** by N (CEO), as agreed with the course instructor. Names, shop names, and phone numbers are withheld for privacy. Contact details for interviewees who agreed to verification are held privately by the interviewer.
+
+| # | Date | Role / Segment | Interviewer | Key Past Behaviour | Numbers | Key Quote (Translated) | Surprise |
+|---|---|---|---|---|---|---|---|
+| **1** | 31 Oct 2026 | Barber, Shop 1 (has front desk) | N (CEO) | First come, first served, with a separate wait for specific barbers. Front desk logs every service per barber. Regulars call or message barbers directly. Answers phone during cuts. | Walk-outs daily. Popular barbers have 2–4 waiting while others are free. | Regulars wait for their barber *"while the rest of the barbers are free"* | Demand bunches on 1–2 barbers. Shop has never used a booking app. |
+| **2** | 31 Oct 2026 | Front-desk receptionist, Shop 1 | N (CEO) | Strict first come, first served. Customer queue plus a barber rotation. Logs every service on paper. Regulars call barbers directly. | 5–10 calls per busy day asking whether a specific barber is free. | *"If someone called me and came later, I don't know if it's who called me"* | Reservations are against shop policy and were never tried. |
+| **3** | 31 Oct 2026 | Owner, Shop 1 | N (CEO) | No reservations, for fairness. Pays for no software. All calculations done by the front desk on paper. | Haircut 120 EGP, beard 70 EGP, both 170 EGP. Walk-outs *"always"*, uncounted. | *"Of course I'd even pay for a service like that"* | Does not measure his own losses. Open to a free trial (stated, not committed). |
+| **4** | 31 Oct 2026 | Barber, Shop 2 (no front desk) | N (CEO) | Barbers manage the order. Another barber takes payment and logs the service (policy). No reservations (policy). Leavers ask when he'll be free and return then. | About 5 calls or messages a day to him. Walk-outs *"a lot"*. | *"Just now I was giving someone a haircut and another was waiting for me while the whole shop was free"* | Decides whether to take another customer based on his remaining physical energy. |
+| **5** | 31 Oct 2026 | Customer, 18–35, loyal to one barber (family member) | N (CEO) | Went in the morning guessing his barber would be free. Sometimes calls ahead, sometimes not, though he has the number. Books padel and football courts by app. | Waited about 30 minutes 2 days earlier. Walked out about a month ago with 2 ahead; returned the next day. | *"I went thinking he'd be free"* | Has the barber's phone number but doesn't reliably call ahead. |
+| **6** | 31 Oct 2026 | Customer, 30, working professional, no preferred barber | N (CEO) | Went after work last week (his only free time) before a conference the next day. Didn't call. Takes whoever is free. Books padel courts and doctor appointments by app. | Waited 0 minutes. | *"I don't have a specific barber, whoever's free"* | Had a preferred barber when younger and stopped caring. Says he'd find another barber rather than wait (hypothetical). |
 
 ### Appendix B: Cap Table & Founders' Agreement
 
