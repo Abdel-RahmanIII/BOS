@@ -26,11 +26,94 @@
 * **Invalidated Assumptions & Surprises:** 
 
 ### 4. Market Sizing
-* **Top-Down Sizing:** (TAM, SAM, SOM with sources and assumptions)
-* **Bottom-Up Sizing:** (TAM, SAM, SOM with sources and assumptions)
-* **Reconciliation:** 
-* **"Why Now?":** 
+**Price used in both methods:** EGP 6,000 per shop per year (EGP 500/month).
 
+---
+
+## Top-Down
+
+### TAM = EGP 36M 
+**Calculation:** EGP 12bn × 3% × 10% = EGP 36M
+- **EGP 12bn:** Annual income of Egypt's barber sector, estimated at no less than EGP 12bn by the head of the hairdressing division at the Cairo Chamber of Commerce [1].
+- **× 3%:** Share of revenue a barbershop spends on software (POS, scheduling, payments) [2].
+- **× 10%:** Only licensed shops can subscribe; about 200,000 of at least 2 million salons are licensed [1].
+
+### SAM = EGP 8.6M 
+**Calculation:** EGP 36M × 23.8% = EGP 8.6M
+- **× 23.8%:** launches in Cairo (10.5M), Giza (9.9M) and Alexandria (5.7M), 26.1M of Egypt's 109.5M people [3].
+
+### SOM = EGP 924k
+**Calculation:** EGP 8.6M × 10.8% = EGP 924k
+- **× 10.8%:** The share of SAM expected to be captured by Year 3, from the capture plan below.
+
+---
+
+## Bottom-Up
+
+### TAM = EGP 41.1M (6,853 shops)
+**Calculation:** 6,853 shops × EGP 6,000 = EGP 41.1M
+- **6,853:** Men's barbershops listed with an address and phone in Egypt's Yellow Pages, summed across governorates: Cairo 3,037, Giza 2,519, Qalyubia 540, Alexandria 283, Menoufia 198, Sharqia 74, Kafr El-Sheikh 61, Dakahlia 59, Damietta 42, Fayoum 40 [4].
+
+### SAM = EGP 8.0M (1,330 shops)
+**Calculation:** 1,330 shops × EGP 6,000 = EGP 8.0M
+- **Step 1:** Yellow Pages lists 5,839 men's barbershops in the 3 launch cities: Cairo 3,037, Giza 2,519, Alexandria 283 [4].
+- **Step 2:** Of these, 1,330 have a Google Maps business profile, meaning they already use technology: Cairo 632, Giza 475, Alexandria 223 [5].
+
+### SOM = EGP 924k (154 shops)
+**Calculation:** 154 shops × EGP 6,000 = EGP 924k (11.6% of SAM)
+- **154 shops:** From the same capture plan.
+
+---
+
+## SOM Capture Plan (used by both)
+
+| Year | Sales effort | New shops | Lost (15% churn) | Active shops |
+|---|---|---|---|---|
+| 1 | 2 founders, Nasr City and New Cairo | 2/month = 24 | — | 24 |
+| 2 | + 1 sales rep, add Giza | 4/month = 48 | 4 | 68 |
+| 3 | + 2nd sales rep, add Alexandria | 8/month = 96 | 10 | **154** |
+
+- **How each year is calculated:** Active shops = last year's shops − 15% churn + new shops.
+- **Why 8 a month is realistic:** 2 sales reps each sign 1 shop per week.
+
+---
+
+## Reconciliation
+
+| | Top-down | Bottom-up | Gap |
+|---|---|---|---|
+| TAM | EGP 36M | EGP 41.1M | 14% |
+| SAM | EGP 8.6M | EGP 8.0M | 7% |
+| SOM | EGP 924k | EGP 924k | — |
+
+Two independent starting points, sector money and named shops, land within 7–14% of each other.
+
+---
+
+## Assumptions
+1. **Shop counts come from Yellow Pages Egypt.** Yellow Pages is the national business directory [4], used because no official count of barbershops exists. These counts are a minimum: they miss shops that never listed themselves and may include some that have closed.
+2. **EGP 12bn is a minimum.** The Chamber said the sector earns "no less than" EGP 12bn, so the real figure could be higher. The hairdressing division also covers women's salons, so part of that money may not come from barbers [1].
+3. **3% is a U.S. figure.** No Egyptian data exists on how much barbershops spend on software. Egyptian shops probably spend less, which partly offsets the 12bn being a minimum [2].
+4. **10% licensed is for all salons.** The Chamber's 200,000 licensed out of 2 million mixes men's and women's salons. We assume men's barbershops have a similar licensing rate [1].
+5. **The Google Maps data is unofficial.** It comes from a private company that collects Google Maps listings, and it doesn't explain exactly how it collected them. So it shows the right order of magnitude but isn't an exact count [5].
+6. **EGP 6,000 a year is our own price.** Real willingness to pay still has to be tested with shops [6].
+7. **The sales pace and churn are targets.** Signing 2, then 4, then 8 shops a month, and losing 15% of shops each year, are goals rather than proven numbers. They need to be checked during pilot launches.
+---
+
+
+* **"Why Now?":**
+  Egypt has a huge, recurring market for men’s grooming, yet barbershops still run on walk-ins, phone calls and WhatsApp, so customers waste time waiting and shops lose income from no-shows and idle chairs. Meanwhile, Egyptians have already adopted booking and paying through their phones for rides, food and doctor visits. Existing booking platforms are generic or foreign and not built for local barbershops, which leaves a clear gap. A simple, barber-focused booking and POS app that brings organized, predictable visits fills this gap in a market where still has no dominant business in this area.
+
+## References
+1. Masrawy, "شعبة الكوافير: قطاع الحلاقة يحقق دخلًا سنويًا لا يقل عن 12 مليار جنيه," Aug 18, 2026. [Link](https://www.masrawy.com/news/news_economy/details/2026/8/18/3034825/)
+2. BizMetricsHQ, "Barbershop Business Benchmarks: cost structure." [Link](https://www.bizmetricshq.com/industries/beauty/barbershop/)
+3. Egypt Today, "Egypt's domestic population reaches 109.5 Million: CAPMAS," Sep 19, 2026. [Link](https://www.egypttoday.com/Article/1/149579/Egypt’s-domestic-population-reaches-109-5-Million-CAPMAS)
+4. Yellow Pages Egypt, "حلاق رجالي" (men's barber) category. [Link](https://yellowpages.com.eg/ar/category/%D8%AD%D9%84%D8%A7%D9%82-%D8%B1%D8%AC%D8%A7%D9%84%D9%8A)
+5. Rentech SmartScraper, "List of Barber shops in Egypt," data as of Apr 1, 2026. [Link](https://rentechdigital.com/smartscraper/business-report-details/list-of-barber-shops-in-egypt)
+6. Codeiks, "برنامج محل حلاقة رجالي في مصر." [Link](https://www.codeiks.com/blog/barber-shop-software-egypt)
+7. El Watan News, SAR/EGP exchange rate, Apr 27, 2026. [Link](https://www.elwatannews.com/news/details/8273856)
+8. A. Wahsh, "Understand the Market," guest lecture, CSEN1096 Business of Software, GUC, 2026: 02 · Market Size, clinic worked example.
+9. CAPMAS, Egyptian Economic Census 2022/2023 (metadata). [Link](https://metadata.capmas.gov.eg/ar/index.php/catalog/1948)
 ### 5. Market Structure and Competition
 *
   ## Competition List by Tier
@@ -56,7 +139,7 @@
 | **General marketing strategy** | Almost no public marketing so far. Shop-side pitch: "Goodbye WhatsApp chaos", "fill empty hours" with 24/7 booking, "get paid automatically" [3]. Free onboarding in Arabic and English, Cairo phone support (Sat to Thu, 10:00 to 20:00), WhatsApp chat, AI assistant [3][5]. Positions itself as built in Egypt [3]. | Free-to-start pitch, with paid plans added in 2025 [12]. The marketplace brings new customers and Fresha charges a fee on the first booking only [11][12]. Creator posts with working stylists and barbers. Claims shops get 26% more customers and a 392% return (third-party study, not independently checked) [12]. Self-serve sign-up with a 7-day trial for small shops [11][12]. |
 | **Online marketing strategy** | Instagram: 11 followers [6]. Facebook: 1 follower, one post, 0 reviews [7]. A blog page exists; posts not read [1]. Website and apps are the main channel [1]. | Heavy Google advertising: about 2,000 Search ads, with automated per-shop ads in several languages [12]. Instagram about 80,000 followers; TikTok and LinkedIn active; no active Meta or TikTok ads [12]. Arabic platform live since 2025 [13]. Middle East push targets the Gulf (Dubai and Saudi teams; Qatar, Oman and Kuwait next), and Egypt is not mentioned [13]. |
 | **Strengths** | Egyptian company with local support in Arabic and English [3][5]. Prices in EGP [2]. Online payment at booking and refunds [3][4]. Reminders and reviews [3]. Dashboard for bookings, team and revenue [3]. | Large review base in Egypt: Rashed's Studio 3,205 reviews, Shad's Men's Salon 1,691, Gedo Salon branches 356 to 1,392 [9][10]. Customers choose barber and slot online [10]. Full toolset: waitlist, deposits, POS, memberships, reports [14]. Strong global brand [12]. |
-| **Weaknesses** | Few barbers: 9 in one area [2], though its partner form says "thousands of shops" [8]. Not barber-focused: pet clinics and women's salons sit on the same app [2]. Almost no social following [6][7]. Deposit and no-show rules not stated [3][4]. | The 20% fee on new customers plus processing fees add up [11][14]. Customers must log in to book (email, mobile, Google or Apple) [10]. No Egypt-specific marketing found [13]. Phone support is a paid add-on on the Independent plan [14]. Reported billing disputes, from a competitor's review [14]. Not barber-specific [9]. |
+| **Weaknesses** | Few barbers: 9 in one area [2], though its partner form says "thousands of shops" [8]. Not barber-focused: pet clinics and women's salons sit on the same app [2]. Almost no social following [6][7]. Deposit and no-show rules not stated [3][4]. | The 20% fee on new customers plus processing fees add up [11][14]. No Egypt-specific marketing found [13]. Phone support is a paid add-on on the Independent plan [14].  Not barber-specific [9]. |
 | **Competitive advantage** | Local: Egyptian team, EGP, Arabic and Cairo-hours support [3][5]. | Already has shops and thousands of reviews in Egypt, plus a complete product [9][10][14]. |
 * ## Positioning Map
 
@@ -83,8 +166,47 @@
 - [18] Codeiks, barber shop software page (vendor description, not independent data). <https://www.codeiks.com/blog/barber-shop-software-egypt>
 - [19] The Barber, New Cairo, online booking page. <https://thebarber-eg.com/en/blog/online-booking-grooming-lounges-egypt>
 ### 6. Differentiation and Moat
-* **Current Differentiation:** (What makes you clearly better today)
-* **Defensible Moat:** (Network effects, proprietary data, switching costs, brand, scale economics)
+*## Differentiators
+
+Current options fall into three groups: general beauty platforms (Fresha, Ehgezly), single-shop booking tools (Dahem Salon, QR Barbers, Dexef), and the status quo (walk-ins, calls and WhatsApp). None of them combines the four points below.
+
+### 1. A marketplace for barbershops only
+Every listing is a men's barbershop. Fresha and Ehgezly list barbers next to salons, spas and other categories, and single-shop tools only show one shop. Here, customers looking for a barber compare barbershops only, and a shop is seen by people who are looking for exactly what it offers.Since it is focusing on barbershops only it can bring more barbershops than general beauty platforms ,which will increase the network of barbershops acquired and cause a network effect non replaceable.
+
+### 2. Ratings for each barber, not just each shop
+Customers rate both the shop and the barber who cut their hair. In a barbershop, people choose the barber, so a skilled barber builds his own reputation and attracts customers by name. On general platforms, reviews sit on the business profile, and single-shop tools have no public reviews. Shops with good barbers will be exposed and rewarded on a larger scale than just word of mouth.
+
+### 3. Barber profiles that move with the barber
+In Egypt, barbers often move between shops, and loyal customers follow the barber, not the shop. Each barber has his own profile with his ratings, photos of his work and his customers. If he moves to another shop on the platform, his reputation moves with him and his customers can find him. General platforms tie everything to the business, and single-shop tools lose the barber's history when he leaves.
+
+**Why it matters for barbershops:**
+- **Scouting proven talent.** A shop owner can find skilled barbers on the platform by their real ratings and work, instead of hiring on word of mouth.
+- **Hiring brings customers.** A barber who joins a shop brings his reputation and his loyal customers with him, so the shop gains revenue from day one.
+- **Lower hiring risk.** The owner sees a barber's track record before hiring him, not after.
+
+### Why this is hard to copy as a whole
+Since there is no platform for barbers only, this can be something completely new for barbershops and customers. It helps them with online booking, which is the basic feature we provide to facilitate daily operations and reduce lost profits from clients who leave because of traffic. In addition, the platform offers monetization and exposure to barbershops, helps with talent acquisition, and rewards shops that have high-quality barbers, helping in marketing and human resources operations for barbershops. This combination is not offered anywhere in Egypt which is exactly why our product standout.
+* ## Moat
+
+### 1. Switching costs
+
+Once a barbershop runs on the platform, leaving means losing what it has built:
+
+- **Its reputation.** The ratings and reviews of the shop and each of its barbers stay on the platform. On a competitor's app, the shop starts again from zero next to shops with hundreds of reviews.
+- **Its booking customers.** The shop would have to convince every regular who books online to download a new app and book there instead. Many won't, and some will book another shop that is still on the platform.
+- **Its history.** Months of data on revenue, barber performance and customer visits stay behind, so the owner loses the record he uses to manage his team.
+
+**Why it protects us:** a competitor would have to offer a shop enough to make up for losing its reputation, its booking customers and its history, which is very hard to do.
+
+### 2. Network effects
+
+The platform gathers both sides of the market in one place: many barbershops (supply) and a large customer base (demand).
+
+- **Each side keeps the other.** Customers come because the shops are here, and shops stay because the customers are here.
+- **It becomes the standard.** The more shops and customers join, the more the platform becomes the default place to find and book a barber, so even more people join.
+- **Reviews build up with use.** Every visit adds ratings that a new platform cannot copy or buy.
+
+**Why it cannot be copied:** a competitor can copy the features, but not the network. A new platform starts with no shops, no customers and no reviews, and has to compete with a platform that already has supply and demand. No shop wants to move first and lose its customers, and no customer wants to move first and find few shops. Gathering both sides from scratch takes years and a large budget.
 
 ### 7. Product-Market Fit (PMF) Plan
 * **PMF Verification Method:** (e.g., Sean Ellis 40% test, Superhuman-style segmentation, retention signals)
