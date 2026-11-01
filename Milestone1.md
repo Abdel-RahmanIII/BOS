@@ -56,31 +56,11 @@
 | **General marketing strategy** | Almost no public marketing so far. Shop-side pitch: "Goodbye WhatsApp chaos", "fill empty hours" with 24/7 booking, "get paid automatically" [3]. Free onboarding in Arabic and English, Cairo phone support (Sat to Thu, 10:00 to 20:00), WhatsApp chat, AI assistant [3][5]. Positions itself as built in Egypt [3]. | Free-to-start pitch, with paid plans added in 2025 [12]. The marketplace brings new customers and Fresha charges a fee on the first booking only [11][12]. Creator posts with working stylists and barbers. Claims shops get 26% more customers and a 392% return (third-party study, not independently checked) [12]. Self-serve sign-up with a 7-day trial for small shops [11][12]. |
 | **Online marketing strategy** | Instagram: 11 followers [6]. Facebook: 1 follower, one post, 0 reviews [7]. A blog page exists; posts not read [1]. Website and apps are the main channel [1]. | Heavy Google advertising: about 2,000 Search ads, with automated per-shop ads in several languages [12]. Instagram about 80,000 followers; TikTok and LinkedIn active; no active Meta or TikTok ads [12]. Arabic platform live since 2025 [13]. Middle East push targets the Gulf (Dubai and Saudi teams; Qatar, Oman and Kuwait next), and Egypt is not mentioned [13]. |
 | **Strengths** | Egyptian company with local support in Arabic and English [3][5]. Prices in EGP [2]. Online payment at booking and refunds [3][4]. Reminders and reviews [3]. Dashboard for bookings, team and revenue [3]. | Large review base in Egypt: Rashed's Studio 3,205 reviews, Shad's Men's Salon 1,691, Gedo Salon branches 356 to 1,392 [9][10]. Customers choose barber and slot online [10]. Full toolset: waitlist, deposits, POS, memberships, reports [14]. Strong global brand [12]. |
-| **Weaknesses** | Few barbers: 9 in one area [2], though its partner form says "thousands of shops" [8]. Not barber-focused: pet clinics and women's salons sit on the same app [2]. Almost no social following [6][7]. Deposit and no-show rules not stated [3][4]. No queue or walk-in tool described [3]. | The 20% fee on new customers plus processing fees add up [11][14]. Customers must log in to book (email, mobile, Google or Apple) [10]. No Egypt-specific marketing found [13]. Phone support is a paid add-on on the Independent plan [14]. Reported billing disputes, from a competitor's review [14]. Not barber-specific [9]. |
-| **Competitive advantage** | Local: Egyptian team, EGP, Arabic and Cairo-hours support [3][5]. (Analysis.) | Already has shops and thousands of reviews in Egypt, plus a complete product [9][10][14]. (Analysis.) |
-* **Positioning Map:** 
-MONETIZATION FOR THE BARBERSHOP
-## Positioning Map
+| **Weaknesses** | Few barbers: 9 in one area [2], though its partner form says "thousands of shops" [8]. Not barber-focused: pet clinics and women's salons sit on the same app [2]. Almost no social following [6][7]. Deposit and no-show rules not stated [3][4]. | The 20% fee on new customers plus processing fees add up [11][14]. Customers must log in to book (email, mobile, Google or Apple) [10]. No Egypt-specific marketing found [13]. Phone support is a paid add-on on the Independent plan [14]. Reported billing disputes, from a competitor's review [14]. Not barber-specific [9]. |
+| **Competitive advantage** | Local: Egyptian team, EGP, Arabic and Cairo-hours support [3][5]. | Already has shops and thousands of reviews in Egypt, plus a complete product [9][10][14]. |
+* ## Positioning Map
 
-```text
-MONETIZATION FOR THE BARBERSHOP
-(benefit of being listed next to other shops)
-
-HIGH |
-     |                          ● Fresha                          ◆ Dour
-     |
-     |
-     |
-     |      ● Ehgezly
-     |
-     |
-     |                                                            ● QR Barbers
-     |                          ● Dexef             ● Dahem Salon
-LOW  |                                                            ● Walk-in queue / Call or WhatsApp
-     +------------------------------------------------------------------------------------------------>
-      Generalist (not only barbershops)                                            Barbershop-specific
-      FOCUS ON BARBERSHOPS AND THEIR SPECIFIC NEEDS
-```
+![Positioning map: barbershop booking in Egypt](positioning-map.png)
 
 ## References
 - [1] Ehgezly, home page. <https://ehgezly.app/>
