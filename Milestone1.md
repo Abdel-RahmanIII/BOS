@@ -330,8 +330,32 @@ The platform gathers both sides of the market in one place: many barbershops (su
 **Why it cannot be copied:** a competitor can copy the features, but not the network. A new platform starts with no shops, no customers and no reviews, and has to compete with a platform that already has supply and demand. No shop wants to move first and lose its customers, and no customer wants to move first and find few shops. Gathering both sides from scratch takes years and a large budget.
 
 ### 7. Product-Market Fit (PMF) Plan
-* **PMF Verification Method:** (e.g., Sean Ellis 40% test, Superhuman-style segmentation, retention signals)
-* **Target Thresholds:** 
+
+Following the three-part framework from market analysis (Survey predicts, Process improves, Behaviour proves):
+
+* **PMF Verification Method:**
+  * **1. Survey (Predicts) — The Sean Ellis Test:**
+    * Survey active users after 30 days (clients who checked queue $\ge 2$ times; shop owners/cashiers running the queue screen daily):
+      > *"How would you feel if you could no longer use this platform tomorrow?"*  
+      > *(A) Very disappointed &nbsp;&nbsp;|&nbsp;&nbsp; (B) Somewhat disappointed &nbsp;&nbsp;|&nbsp;&nbsp; (C) Not disappointed*
+  * **2. Process (Improves) — The Superhuman PMF Engine (Rahul Vohra):**
+    * **Segment:** Profile users who answer "Very disappointed" to isolate our core ICP (loyal clients who visit a specific barber every 2–4 weeks; multi-chair shops with 3–8 chairs).
+    * **Analyze:** Identify what fans love (e.g., real-time barber queue visibility, zero walk-outs) vs. what holds back the "somewhat disappointed" group.
+    * **50/50 Roadmap:** Allocate 50% of development to doubling down on what fans love and 50% to resolving core friction for "somewhat disappointed" users.
+    * **Repeat:** Re-survey cohorts monthly to track score progression.
+  * **3. Behaviour (Proves) — Flattening Retention Curves:**
+    * Measure cohort retention over time to confirm a loyal core stays without push notifications:
+      * **Client Cohorts:** 30, 60, and 90-day repeat queue check-in rates (tracking the natural 2–4 week haircut cycle).
+      * **Shop B2B Cohorts:** Monthly active shop usage and subscription renewals.
+  * **4. Pull Signals:**
+    * Measure organic word-of-mouth (clients sharing live queue links with friends) and inbound requests from neighboring barbershops.
+
+* **Target Thresholds:**
+  * **Sean Ellis Score:** $\ge 40\%$ "Very disappointed" among surveyed active clients; $\ge 50\%$ among shop owners/cashiers.
+  * **Client Cohort Retention:** 60-day cohort curve flattens at $\ge 35–40\%$ repeat active users.
+  * **Shop B2B Retention:** Monthly shop churn $< 1.3\%$ (maintaining our SOM assumption of $< 15\%$ annual churn).
+  * **Workflow Stickiness:** $\ge 85\%$ of all daily cuts logged digitally on the screen rather than paper ledgers.
+  * **Operational Pull:** $\ge 60\%$ of queue views occur during peak hours (6:00 PM – 11:00 PM) before in-person arrival. 
 
 ### 8. Product Strategy and MVP
 * **MVP Scope:** (Designed to test the riskiest assumption)
