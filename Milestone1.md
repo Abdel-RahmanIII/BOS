@@ -1,4 +1,4 @@
-﻿# Milestone 1: Project Idea & Business Model Canvas
+# Milestone 1: Project Idea & Business Model Canvas
 
 ## Founders' Contribution Table (1 Page)
 | Founder Name | Role | Deliverables & Sections Owned | % Contribution |
@@ -311,10 +311,55 @@ The platform gathers both sides of the market in one place: many barbershops (su
 * **Roadmap (Now / Next / Later for 6–12 Months):** 
 
 ### 9. Company Type and Founding Structure
+
 * **Company Type Justification:** (Venture-scale vs. SME/lifestyle)
+  * **Company Type:** Venture-scale startup.
+  * We are a venture-scale startup. Three founders split equity 35 / 30 / 25 by role, with 10% reserved for future employees. All shares vest over 4 years with a 1-year cliff, and all IP belongs to the company.
+  * **Why venture-scale, not an SME or lifestyle business:**
+    * **Software scales cheaply:** Adding a new barbershop costs almost nothing; there is no new staff or location per customer.
+    * **Recurring revenue:** Shops pay a monthly subscription, so revenue grows with every shop we add.
+    * **A large, expandable market:** We start with Cairo barbershops, then move to salons and grooming businesses across MENA (see [Section 1: Vision and Mission](#1-vision-and-mission)).
+    * **A data advantage:** Every shop adds data on walk-outs, wait times and barber demand that no shop records today. That data improves wait estimates and is hard for a competitor to copy.
+    * **The honest counter-argument:** Shops pay for no software today and run on paper, so prices per shop will start low. Venture scale therefore depends on signing many shops cheaply, not a few shops at a high price. If shops prove hard to win, this would become an SME, and we will test that before raising money.
+
 * **Founding Roles:** (Including Product Owner)
+  | Founder | Role | Owns |
+  | :--- | :--- | :--- |
+  | **N** | CEO / Product owner | Vision, product decisions and the MVP scope, customer discovery, fundraising. Owns product. |
+  | **S** | CTO | The customer app, the shop screen and the barber app; technical architecture; data |
+  | **R** | COO | Shop partnerships, onboarding barbershops, operations and support, the next rounds of interviews |
+
+  * **Product Owner Designation:** N owns product because N ran the customer discovery and turned it into product decisions: the move from booking to a live per-barber wait, and the narrower ICP of loyal customers.
+
 * **Equity Split & Vesting Schedule:** (e.g., 4 years with 1-year cliff)
-* **IP Assignment:** 
+  * The split is weighted by role, based on responsibility, how hard each role is to replace, and early work done.
+
+  | Holder | Shares | Ownership | Vesting |
+  | :--- | :---: | :---: | :--- |
+  | **N (CEO / Product owner)** | 3,500,000 | 35% | 4 years, 1-year cliff |
+  | **S (CTO)** | 3,000,000 | 30% | 4 years, 1-year cliff |
+  | **R (COO)** | 2,500,000 | 25% | 4 years, 1-year cliff |
+  | **Employee option pool** | 1,000,000 | 10% | Set per hire |
+  | **Total** | **10,000,000** | **100%** | |
+
+  * **Role Weighting Rationale:**
+    * **CEO (35%):** Makes the final product and company decisions, and leads fundraising.
+    * **CTO (30%):** Builds the core product; the hardest role to replace.
+    * **COO (25%):** Brings in and keeps the shops.
+    * **Option pool (10%):** Set aside to hire early employees, at the low end of the usual 10–20% range.
+  * **Vesting Schedule:** 4 years, 1-year cliff, monthly after that. No founder owns any shares until 12 months after the company starts. At the cliff, 25% vest at once; the rest vest in equal monthly amounts over the next 36 months.
+  * **Founder Departure:** If a founder leaves, they keep only what has vested. Unvested shares return to the company, so the remaining founders are not carrying someone who left.
+  * **Current Status:** Today: 0% vested, because the cliff has not been reached.
+  * *(See [Appendix B: Cap Table & Founders' Agreement](#appendix-b-cap-table--founders-agreement) for detailed monthly vesting calculations, pre-seed dilution modeling, and cap table template references).*
+
+* **IP Assignment:**
+  Every founder signs an IP assignment agreement that transfers to the company everything they create for it:
+  * The app code, the shop screen and the barber app
+  * Designs, the brand name and the logo
+  * The customer-discovery data: interview notes, the interview log and findings
+  * Any work done before the company is incorporated
+
+  This means no founder can leave and take the product with them, and investors can see that the company owns what it sells.
 
 ---
 
@@ -388,6 +433,35 @@ All interviews were conducted on **October 31, 2026** by N (CEO), as agreed with
 | **6** | 31 Oct 2026 | Customer, 30, working professional, no preferred barber | N (CEO) | Went after work last week (his only free time) before a conference the next day. Didn't call. Takes whoever is free. Books padel courts and doctor appointments by app. | Waited 0 minutes. | *"I don't have a specific barber, whoever's free"* | Had a preferred barber when younger and stopped caring. Says he'd find another barber rather than wait (hypothetical). |
 
 ### Appendix B: Cap Table & Founders' Agreement
+
+#### 1. Cap Table & Model Documentation
+The filled cap table is in `Cap Table - Founding Structure.xlsx`, built on the course template. It has the Cap Table, Founders and vesting, Funding Rounds (none raised yet), a hypothetical 10% pre-seed dilution scenario, and a Summary. The template's formulas were stored as text and two pointed at the wrong cells; these were fixed so every percentage now calculates. Reference: [Cap table template, The Startup Project](https://startupproject.org/templates/cap-table/).
+
+| Holder | Shares | Ownership | Vesting Schedule | Role Rationale |
+| :--- | :---: | :---: | :--- | :--- |
+| **N (CEO / Product owner)** | 3,500,000 | 35% | 4 years, 1-year cliff | Makes the final product and company decisions, and leads fundraising. |
+| **S (CTO)** | 3,000,000 | 30% | 4 years, 1-year cliff | Builds the core product; the hardest role to replace. |
+| **R (COO)** | 2,500,000 | 25% | 4 years, 1-year cliff | Brings in and keeps the shops. |
+| **Employee option pool** | 1,000,000 | 10% | Set per hire | Set aside to hire early employees, at the low end of the usual 10–20% range. |
+| **Total** | **10,000,000** | **100%** | | |
+
+#### 2. Dilution Scenario (Hypothetical Pre-Seed Round)
+No investors yet. If we later sell 10% in a pre-seed round, every holder is diluted by the same proportion, and founders go from 90% to 81% together (Dilution Scenarios sheet).
+
+#### 3. Detailed Vesting Mechanics & Example
+* **Terms:** 4 years, 1-year cliff, monthly after that. No founder owns any shares until 12 months after the company starts. At the cliff, 25% vest at once; the rest vest in equal monthly amounts over the next 36 months.
+* **Example:** N holds 3,500,000 shares. At 12 months, 875,000 vest. After that, about 72,917 vest each month until all 3,500,000 have vested at 48 months.
+* **Departure Provision:** If a founder leaves, they keep only what has vested. Unvested shares return to the company, so the remaining founders are not carrying someone who left.
+* **Current Status:** Today: 0% vested, because the cliff has not been reached.
+
+#### 4. IP Assignment Terms
+Every founder signs an IP assignment agreement that transfers to the company everything they create for it:
+* The app code, the shop screen and the barber app
+* Designs, the brand name and the logo
+* The customer-discovery data: interview notes, the interview log and findings
+* Any work done before the company is incorporated
+
+This means no founder can leave and take the product with them, and investors can see that the company owns what it sells.
 
 ### Appendix C: Generative AI Disclosure
 *(Tools used and for what purpose)*
