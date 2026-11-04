@@ -4,8 +4,8 @@
 | Founder Name | Role | Deliverables & Sections Owned | % Contribution |
 | :--- | :--- | :--- | :--- |
 | Nooreldeen | CEO / Product owner | 1.1 Section 1 (Vision and Mission), Section 3 (Customer Discovery), Section 9 (Company Type and Founding Structure); Appendix A (Interview Log); Appendix B (Cap Table) | |
-| Abdelrahman | CTO | | |
-| Ahmed | COO | | |
+| Abdelrahman | CTO | Technical deliverables | |
+| Ahmed | COO | Operations deliverables | |
 
 ---
 
@@ -387,7 +387,7 @@ Following the three-part framework from market analysis (Survey predicts, Proces
   * **Product Owner Designation:** Nooreldeen owns product because Nooreldeen ran the customer discovery and turned it into product decisions: the move from booking to a live per-barber wait, and the narrower ICP of loyal customers.
 
 * **Founder–Market Fit:**
-  We are three GUC students building a software company, and our roles cover the three things it must do well: understand barbershops, build the product, and win shops. Nooreldeen (CEO) has already done the field work: he ran all six discovery interviews across two barbershops, on both the shop and customer side, and turned them into the product's direction. Abdelrahman (CTO) [add: relevant technical experience, e.g. apps, systems or projects he has built]. Ahmed (COO) [add: relevant experience or access, e.g. sales, operations, or contacts with barbershops]. Our gap: [add: what the team lacks today, e.g. industry experience, and how we close it].
+  We are three GUC students building a software company, and our roles cover the three things it must do well: understand barbershops, build the product, and win shops. Nooreldeen (CEO) has already done the field work: he ran all six discovery interviews across two barbershops, on both the shop and customer side, and turned them into the product's direction. Abdelrahman (CTO) led this milestone's technical deliverables and will build the customer app, the shop screen and the barber app. Ahmed (COO) led this milestone's operations deliverables and will run shop partnerships, onboarding and support. Our gap: [add: what the team lacks today, e.g. industry experience, and how we close it].
 
 * **Equity Split & Vesting Schedule:** (e.g., 4 years with 1-year cliff)
   * The split is weighted by role, based on responsibility, how hard each role is to replace, and early work done.
