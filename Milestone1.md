@@ -4,7 +4,7 @@
 | Founder Name | Role | Deliverables & Sections Owned | % Contribution |
 | :--- | :--- | :--- | :--- |
 | Nooreldeen | CEO / Product owner | 1.1 Section 1 (Vision and Mission), Section 3 (Customer Discovery), Section 9 (Company Type and Founding Structure); Appendix A (Interview Log); Appendix B (Cap Table) | |
-| Abdelraahman | CTO | | |
+| Abdelrahman | CTO | | |
 | Ahmed | COO | | |
 
 ---
@@ -380,7 +380,7 @@ Following the three-part framework from market analysis (Survey predicts, Proces
   | Founder | Role | Owns |
   | :--- | :--- | :--- |
   | **Nooreldeen** | CEO / Product owner | Vision, product decisions and the MVP scope, customer discovery, fundraising. Owns product. |
-  | **Abdelraahman** | CTO | The customer app, the shop screen and the barber app; technical architecture; data |
+  | **Abdelrahman** | CTO | The customer app, the shop screen and the barber app; technical architecture; data |
   | **Ahmed** | COO | Shop partnerships, onboarding barbershops, operations and support, the next rounds of interviews |
 
   * **Product Owner Designation:** Nooreldeen owns product because Nooreldeen ran the customer discovery and turned it into product decisions: the move from booking to a live per-barber wait, and the narrower ICP of loyal customers.
@@ -391,7 +391,7 @@ Following the three-part framework from market analysis (Survey predicts, Proces
   | Holder | Shares | Ownership | Vesting |
   | :--- | :---: | :---: | :--- |
   | **Nooreldeen (CEO / Product owner)** | 3,500,000 | 35% | 4 years, 1-year cliff |
-  | **Abdelraahman (CTO)** | 3,000,000 | 30% | 4 years, 1-year cliff |
+  | **Abdelrahman (CTO)** | 3,000,000 | 30% | 4 years, 1-year cliff |
   | **Ahmed (COO)** | 2,500,000 | 25% | 4 years, 1-year cliff |
   | **Employee option pool** | 1,000,000 | 10% | Set per hire |
   | **Total** | **10,000,000** | **100%** | |
@@ -494,7 +494,7 @@ The filled cap table is in `Cap Table - Founding Structure.xlsx`, built on the c
 | Holder | Shares | Ownership | Vesting Schedule | Role Rationale |
 | :--- | :---: | :---: | :--- | :--- |
 | **Nooreldeen (CEO / Product owner)** | 3,500,000 | 35% | 4 years, 1-year cliff | Makes the final product and company decisions, and leads fundraising. |
-| **Abdelraahman (CTO)** | 3,000,000 | 30% | 4 years, 1-year cliff | Builds the core product; the hardest role to replace. |
+| **Abdelrahman (CTO)** | 3,000,000 | 30% | 4 years, 1-year cliff | Builds the core product; the hardest role to replace. |
 | **Ahmed (COO)** | 2,500,000 | 25% | 4 years, 1-year cliff | Brings in and keeps the shops. |
 | **Employee option pool** | 1,000,000 | 10% | Set per hire | Set aside to hire early employees, at the low end of the usual 10–20% range. |
 | **Total** | **10,000,000** | **100%** | | |
