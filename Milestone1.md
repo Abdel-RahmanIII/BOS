@@ -3,9 +3,9 @@
 ## Founders' Contribution Table (1 Page)
 | Founder Name | Role | Deliverables & Sections Owned | % Contribution |
 | :--- | :--- | :--- | :--- |
-| | | | |
-| | | | |
-| | | | |
+| Nooreldeen | CEO / Product owner | 1.1 Section 1 (Vision and Mission), Section 3 (Customer Discovery), Section 9 (Company Type and Founding Structure); Appendix A (Interview Log); Appendix B (Cap Table) | |
+| Abdelraahman | CTO | | |
+| Ahmed | COO | | |
 
 ---
 
@@ -371,28 +371,28 @@ Following the three-part framework from market analysis (Survey predicts, Proces
   * We are a venture-scale startup. Three founders split equity 35 / 30 / 25 by role, with 10% reserved for future employees. All shares vest over 4 years with a 1-year cliff, and all IP belongs to the company.
   * **Why venture-scale, not an SME or lifestyle business:**
     * **Software scales cheaply:** Adding a new barbershop costs almost nothing; there is no new staff or location per customer.
-    * **Recurring revenue:** Shops pay a monthly subscription, so revenue grows with every shop we add.
+    * **Revenue that grows with every haircut:** We earn a commission on each haircut served through the platform, so revenue grows with every shop we add and every customer each shop serves. Shops pay nothing upfront and only pay when they earn.
     * **A large, expandable market:** We start with Cairo barbershops, then move to salons and grooming businesses across MENA (see [Section 1: Vision and Mission](#1-vision-and-mission)).
     * **A data advantage:** Every shop adds data on walk-outs, wait times and barber demand that no shop records today. That data improves wait estimates and is hard for a competitor to copy.
-    * **The honest counter-argument:** Shops pay for no software today and run on paper, so prices per shop will start low. Venture scale therefore depends on signing many shops cheaply, not a few shops at a high price. If shops prove hard to win, this would become an SME, and we will test that before raising money.
+    * **The honest counter-argument:** The commission on a single haircut is small, and shops pay for no software today. Venture scale therefore depends on high volume: many shops, each serving many haircuts through the platform, rather than a few shops paying a high price. Shops may also resist a fee on every cut, or log cuts outside the platform to avoid it. If volume stays low, this would become an SME, and we will test that before raising money.
 
 * **Founding Roles:** (Including Product Owner)
   | Founder | Role | Owns |
   | :--- | :--- | :--- |
-  | **N** | CEO / Product owner | Vision, product decisions and the MVP scope, customer discovery, fundraising. Owns product. |
-  | **S** | CTO | The customer app, the shop screen and the barber app; technical architecture; data |
-  | **R** | COO | Shop partnerships, onboarding barbershops, operations and support, the next rounds of interviews |
+  | **Nooreldeen** | CEO / Product owner | Vision, product decisions and the MVP scope, customer discovery, fundraising. Owns product. |
+  | **Abdelraahman** | CTO | The customer app, the shop screen and the barber app; technical architecture; data |
+  | **Ahmed** | COO | Shop partnerships, onboarding barbershops, operations and support, the next rounds of interviews |
 
-  * **Product Owner Designation:** N owns product because N ran the customer discovery and turned it into product decisions: the move from booking to a live per-barber wait, and the narrower ICP of loyal customers.
+  * **Product Owner Designation:** Nooreldeen owns product because Nooreldeen ran the customer discovery and turned it into product decisions: the move from booking to a live per-barber wait, and the narrower ICP of loyal customers.
 
 * **Equity Split & Vesting Schedule:** (e.g., 4 years with 1-year cliff)
   * The split is weighted by role, based on responsibility, how hard each role is to replace, and early work done.
 
   | Holder | Shares | Ownership | Vesting |
   | :--- | :---: | :---: | :--- |
-  | **N (CEO / Product owner)** | 3,500,000 | 35% | 4 years, 1-year cliff |
-  | **S (CTO)** | 3,000,000 | 30% | 4 years, 1-year cliff |
-  | **R (COO)** | 2,500,000 | 25% | 4 years, 1-year cliff |
+  | **Nooreldeen (CEO / Product owner)** | 3,500,000 | 35% | 4 years, 1-year cliff |
+  | **Abdelraahman (CTO)** | 3,000,000 | 30% | 4 years, 1-year cliff |
+  | **Ahmed (COO)** | 2,500,000 | 25% | 4 years, 1-year cliff |
   | **Employee option pool** | 1,000,000 | 10% | Set per hire |
   | **Total** | **10,000,000** | **100%** | |
 
@@ -475,16 +475,16 @@ Following the three-part framework from market analysis (Survey predicts, Proces
 
 ### Appendix A: Full Customer Discovery Interview Log
 
-All interviews were conducted on **October 31, 2026** by N (CEO), as agreed with the course instructor. Names, shop names, and phone numbers are withheld for privacy. Contact details for interviewees who agreed to verification are held privately by the interviewer.
+All interviews were conducted on **October 31, 2026** by Nooreldeen (CEO), as agreed with the course instructor. Names, shop names, and phone numbers are withheld for privacy. Contact details for interviewees who agreed to verification are held privately by the interviewer.
 
 | # | Date | Role / Segment | Interviewer | Key Past Behaviour | Numbers | Key Quote (Translated) | Surprise |
 |---|---|---|---|---|---|---|---|
-| **1** | 31 Oct 2026 | Barber, Shop 1 (has front desk) | N (CEO) | First come, first served, with a separate wait for specific barbers. Front desk logs every service per barber. Regulars call or message barbers directly. Answers phone during cuts. | Walk-outs daily. Popular barbers have 2–4 waiting while others are free. | Regulars wait for their barber *"while the rest of the barbers are free"* | Demand bunches on 1–2 barbers. Shop has never used a booking app. |
-| **2** | 31 Oct 2026 | Front-desk receptionist, Shop 1 | N (CEO) | Strict first come, first served. Customer queue plus a barber rotation. Logs every service on paper. Regulars call barbers directly. | 5–10 calls per busy day asking whether a specific barber is free. | *"If someone called me and came later, I don't know if it's who called me"* | Reservations are against shop policy and were never tried. |
-| **3** | 31 Oct 2026 | Owner, Shop 1 | N (CEO) | No reservations, for fairness. Pays for no software. All calculations done by the front desk on paper. | Haircut 120 EGP, beard 70 EGP, both 170 EGP. Walk-outs *"always"*, uncounted. | *"Of course I'd even pay for a service like that"* | Does not measure his own losses. Open to a free trial (stated, not committed). |
-| **4** | 31 Oct 2026 | Barber, Shop 2 (no front desk) | N (CEO) | Barbers manage the order. Another barber takes payment and logs the service (policy). No reservations (policy). Leavers ask when he'll be free and return then. | About 5 calls or messages a day to him. Walk-outs *"a lot"*. | *"Just now I was giving someone a haircut and another was waiting for me while the whole shop was free"* | Decides whether to take another customer based on his remaining physical energy. |
-| **5** | 31 Oct 2026 | Customer, 18–35, loyal to one barber (family member) | N (CEO) | Went in the morning guessing his barber would be free. Sometimes calls ahead, sometimes not, though he has the number. Books padel and football courts by app. | Waited about 30 minutes 2 days earlier. Walked out about a month ago with 2 ahead; returned the next day. | *"I went thinking he'd be free"* | Has the barber's phone number but doesn't reliably call ahead. |
-| **6** | 31 Oct 2026 | Customer, 30, working professional, no preferred barber | N (CEO) | Went after work last week (his only free time) before a conference the next day. Didn't call. Takes whoever is free. Books padel courts and doctor appointments by app. | Waited 0 minutes. | *"I don't have a specific barber, whoever's free"* | Had a preferred barber when younger and stopped caring. Says he'd find another barber rather than wait (hypothetical). |
+| **1** | 31 Oct 2026 | Barber, Shop 1 (has front desk) | Nooreldeen (CEO) | First come, first served, with a separate wait for specific barbers. Front desk logs every service per barber. Regulars call or message barbers directly. Answers phone during cuts. | Walk-outs daily. Popular barbers have 2–4 waiting while others are free. | Regulars wait for their barber *"while the rest of the barbers are free"* | Demand bunches on 1–2 barbers. Shop has never used a booking app. |
+| **2** | 31 Oct 2026 | Front-desk receptionist, Shop 1 | Nooreldeen (CEO) | Strict first come, first served. Customer queue plus a barber rotation. Logs every service on paper. Regulars call barbers directly. | 5–10 calls per busy day asking whether a specific barber is free. | *"If someone called me and came later, I don't know if it's who called me"* | Reservations are against shop policy and were never tried. |
+| **3** | 31 Oct 2026 | Owner, Shop 1 | Nooreldeen (CEO) | No reservations, for fairness. Pays for no software. All calculations done by the front desk on paper. | Haircut 120 EGP, beard 70 EGP, both 170 EGP. Walk-outs *"always"*, uncounted. | *"Of course I'd even pay for a service like that"* | Does not measure his own losses. Open to a free trial (stated, not committed). |
+| **4** | 31 Oct 2026 | Barber, Shop 2 (no front desk) | Nooreldeen (CEO) | Barbers manage the order. Another barber takes payment and logs the service (policy). No reservations (policy). Leavers ask when he'll be free and return then. | About 5 calls or messages a day to him. Walk-outs *"a lot"*. | *"Just now I was giving someone a haircut and another was waiting for me while the whole shop was free"* | Decides whether to take another customer based on his remaining physical energy. |
+| **5** | 31 Oct 2026 | Customer, 18–35, loyal to one barber (family member) | Nooreldeen (CEO) | Went in the morning guessing his barber would be free. Sometimes calls ahead, sometimes not, though he has the number. Books padel and football courts by app. | Waited about 30 minutes 2 days earlier. Walked out about a month ago with 2 ahead; returned the next day. | *"I went thinking he'd be free"* | Has the barber's phone number but doesn't reliably call ahead. |
+| **6** | 31 Oct 2026 | Customer, 30, working professional, no preferred barber | Nooreldeen (CEO) | Went after work last week (his only free time) before a conference the next day. Didn't call. Takes whoever is free. Books padel courts and doctor appointments by app. | Waited 0 minutes. | *"I don't have a specific barber, whoever's free"* | Had a preferred barber when younger and stopped caring. Says he'd find another barber rather than wait (hypothetical). |
 
 ### Appendix B: Cap Table & Founders' Agreement
 
@@ -493,9 +493,9 @@ The filled cap table is in `Cap Table - Founding Structure.xlsx`, built on the c
 
 | Holder | Shares | Ownership | Vesting Schedule | Role Rationale |
 | :--- | :---: | :---: | :--- | :--- |
-| **N (CEO / Product owner)** | 3,500,000 | 35% | 4 years, 1-year cliff | Makes the final product and company decisions, and leads fundraising. |
-| **S (CTO)** | 3,000,000 | 30% | 4 years, 1-year cliff | Builds the core product; the hardest role to replace. |
-| **R (COO)** | 2,500,000 | 25% | 4 years, 1-year cliff | Brings in and keeps the shops. |
+| **Nooreldeen (CEO / Product owner)** | 3,500,000 | 35% | 4 years, 1-year cliff | Makes the final product and company decisions, and leads fundraising. |
+| **Abdelraahman (CTO)** | 3,000,000 | 30% | 4 years, 1-year cliff | Builds the core product; the hardest role to replace. |
+| **Ahmed (COO)** | 2,500,000 | 25% | 4 years, 1-year cliff | Brings in and keeps the shops. |
 | **Employee option pool** | 1,000,000 | 10% | Set per hire | Set aside to hire early employees, at the low end of the usual 10–20% range. |
 | **Total** | **10,000,000** | **100%** | | |
 
@@ -504,7 +504,7 @@ No investors yet. If we later sell 10% in a pre-seed round, every holder is dilu
 
 #### 3. Detailed Vesting Mechanics & Example
 * **Terms:** 4 years, 1-year cliff, monthly after that. No founder owns any shares until 12 months after the company starts. At the cliff, 25% vest at once; the rest vest in equal monthly amounts over the next 36 months.
-* **Example:** N holds 3,500,000 shares. At 12 months, 875,000 vest. After that, about 72,917 vest each month until all 3,500,000 have vested at 48 months.
+* **Example:** Nooreldeen holds 3,500,000 shares. At 12 months, 875,000 vest. After that, about 72,917 vest each month until all 3,500,000 have vested at 48 months.
 * **Departure Provision:** If a founder leaves, they keep only what has vested. Unvested shares return to the company, so the remaining founders are not carrying someone who left.
 * **Current Status:** Today: 0% vested, because the cliff has not been reached.
 
