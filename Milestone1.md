@@ -132,7 +132,7 @@ Following ***The Mom Test*** principles, we strictly avoided pitching our idea u
 
   | Assumption Before Interviews | What We Learned (Field Evidence) | What We Changed (Strategic Pivot) |
   |---|---|---|
-  | **Shops want customers to book a barber in advance** | Both shops refuse reservations as policy. The owner says it is unfair to customers who arrived first. | **MVP shows a live per-barber wait** (*"2 waiting for [barber], about 40 minutes"*) and never changes arrival order. Booking becomes an optional per-shop setting later, if at all. |
+  | **Shops want customers to book a barber in advance** | Both shops refuse reservations as policy. The owner says it is unfair to customers who arrived first. | **MVP shows a live per-barber wait** (*"2 waiting for [barber], about 40 minutes"*) and never changes arrival order. Booking with a specific barber comes later, introduced shop by shop once owners see that visible bookings stay fair to walk-ins (see [Section 1](#1-vision-and-mission)). |
   | **Long waits come from too few barbers** | Waits come from loyalty: regulars wait for one barber while others are free. | **Wait is shown per barber**, not aggregated per shop. |
   | **All young male customers feel the pain** | Customers with no preferred barber barely wait; they take whoever is free. | **ICP narrowed to loyal customers** who wait for one specific barber. |
   | **Customers who leave are lost for good** | At Shop 2 most leavers ask *"when will you be free?"* and return then. At Shop 1 some never return. | **Add queue alerts:** The cost is wasted trips and delay as much as lost revenue. Added a *"your barber's queue is short"* alert. |
@@ -375,6 +375,7 @@ Following the three-part framework from market analysis (Survey predicts, Proces
     * **A large, expandable market:** We start with Cairo barbershops, then move to salons and grooming businesses across MENA (see [Section 1: Vision and Mission](#1-vision-and-mission)).
     * **A data advantage:** Every shop adds data on walk-outs, wait times and barber demand that no shop records today. That data improves wait estimates and is hard for a competitor to copy.
     * **The honest counter-argument:** The commission on a single haircut is small, and shops pay for no software today. Venture scale therefore depends on high volume: many shops, each serving many haircuts through the platform, rather than a few shops paying a high price. Shops may also resist a fee on every cut, or log cuts outside the platform to avoid it. If volume stays low, this would become an SME, and we will test that before raising money.
+    * **Revenue math (to complete):** A commission of [__] EGP per haircut × [__] haircuts per shop per month × [__] shops = [__] EGP per month. (Commission rate to be confirmed.)
 
 * **Founding Roles:** (Including Product Owner)
   | Founder | Role | Owns |
@@ -384,6 +385,9 @@ Following the three-part framework from market analysis (Survey predicts, Proces
   | **Ahmed** | COO | Shop partnerships, onboarding barbershops, operations and support, the next rounds of interviews |
 
   * **Product Owner Designation:** Nooreldeen owns product because Nooreldeen ran the customer discovery and turned it into product decisions: the move from booking to a live per-barber wait, and the narrower ICP of loyal customers.
+
+* **Founder–Market Fit:**
+  We are three GUC students building a software company, and our roles cover the three things it must do well: understand barbershops, build the product, and win shops. Nooreldeen (CEO) has already done the field work: he ran all six discovery interviews across two barbershops, on both the shop and customer side, and turned them into the product's direction. Abdelrahman (CTO) [add: relevant technical experience, e.g. apps, systems or projects he has built]. Ahmed (COO) [add: relevant experience or access, e.g. sales, operations, or contacts with barbershops]. Our gap: [add: what the team lacks today, e.g. industry experience, and how we close it].
 
 * **Equity Split & Vesting Schedule:** (e.g., 4 years with 1-year cliff)
   * The split is weighted by role, based on responsibility, how hard each role is to replace, and early work done.
@@ -489,7 +493,7 @@ All interviews were conducted on **October 31, 2026** by Nooreldeen (CEO). Names
 ### Appendix B: Cap Table & Founders' Agreement
 
 #### 1. Cap Table & Model Documentation
-The filled cap table is in `Cap Table - Founding Structure.xlsx`, built on the course template. It has the Cap Table, Founders and vesting, Funding Rounds (none raised yet), a hypothetical 10% pre-seed dilution scenario, and a Summary. The template's formulas were stored as text and two pointed at the wrong cells; these were fixed so every percentage now calculates. Reference: [Cap table template, The Startup Project](https://startupproject.org/templates/cap-table/).
+The filled cap table is in `Cap Table - Founding Structure.xlsx`, built on the course template. It has the Cap Table, Founders and vesting, Funding Rounds (none raised yet), a hypothetical 10% pre-seed dilution scenario, and a Summary. Reference: [Cap table template, The Startup Project](https://startupproject.org/templates/cap-table/).
 
 | Holder | Shares | Ownership | Vesting Schedule | Role Rationale |
 | :--- | :---: | :---: | :--- | :--- |
