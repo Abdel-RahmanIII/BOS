@@ -475,7 +475,7 @@ Following the three-part framework from market analysis (Survey predicts, Proces
 
 ### Appendix A: Full Customer Discovery Interview Log
 
-All interviews were conducted on **October 31, 2026** by Nooreldeen (CEO), as agreed with the course instructor. Names, shop names, and phone numbers are withheld for privacy. Contact details for interviewees who agreed to verification are held privately by the interviewer.
+All interviews were conducted on **October 31, 2026** by Nooreldeen (CEO). Names, shop names, and phone numbers are withheld for privacy. Contact details for interviewees who agreed to verification are held privately by the interviewer.
 
 | # | Date | Role / Segment | Interviewer | Key Past Behaviour | Numbers | Key Quote (Translated) | Surprise |
 |---|---|---|---|---|---|---|---|
