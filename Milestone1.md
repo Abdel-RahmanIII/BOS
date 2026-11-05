@@ -393,28 +393,28 @@ Following the three-part framework from market analysis (Survey predicts, Proces
 
 * **Feature Prioritization (Top 20 Features):**
 
-  | # | Feature Name | Target User | Description & Why It Matters |
-  |---|---|---|---|
-  | **1** | **Quick walk-in entry (<15s)** | Front Desk / Cashier | Replaces paper notebook; must be faster than handwriting or staff abandon it during peak hours. |
-  | **2** | **One-tap chair seat and finish toggles** | Front Desk / Cashier | Frees chairs and updates the live queue with one touch; keeps staff hands-off clunky menus. |
-  | **3** | **In-shop waiting room TV screen** | Waiting Clients & Staff | A luxury display that can wait. Customers check queue status on their phones, so a dedicated TV is not needed for launch. |
-  | **4** | **Live per-barber queue tracker** | Customer | Shows live wait per barber (*"2 ahead, ~40 min"*); eliminates blind waiting and stops walk-outs. |
-  | **5** | **Barber queue pause/open toggle** | Barber | Gives barbers control over physical fatigue and shift pacing so they can pause incoming clients. |
-  | **6** | **Automated daily cut & cash ledger** | Shop Owner & Cashier | Instantly sums daily cuts, services, and cash per barber; replaces manual paper accounting. |
-  | **7** | **Real-time multi-device sync (<2s)** | System / All | WebSockets keep front desk and customer phones in sync with no delay or double-booking. |
-  | **8** | **SMS / WhatsApp proximity alerts** | Customer | Alerts customer when 1 person is ahead so they arrive just in time without sitting in the lobby. |
-  | **9** | **Deposit-backed advance slot booking** | Customer & Shop | Collects 30–50 EGP deposit via InstaPay/wallet to guarantee slot and eliminate no-shows. |
-  | **10** | **In-app checkout with deposit deduction** | Front Desk & Customer | Built directly into tablet with no dedicated POS needed; automatically deducts prepaid deposit from final bill. |
-  | **11** | **Dynamic service duration buffers** | Front Desk & Customer | Sizes slots by service (30m hair, 20m beard) with small buffers to prevent floor bottlenecks. |
-  | **12** | **Verified dual-axis review system** | Customer, Shop & Barber | Review prompt unlocked only after completed cut ticket, rating Shop Ambiance (1–5) and Barber Skill (1–5). |
-  | **13** | **Barber portable profile & social showcase** | Barber & Customer | Barber portfolio with verified cut stats, skill tags, and Instagram/TikTok transformation video links. |
-  | **14** | **Late arrival 10-minute grace release** | System & Front Desk | Auto-releases an advance slot to walk-ins if customer is >10 min late, forfeiting the deposit. |
-  | **15** | **Barbershop discovery & geo-search directory** | Customer | Search and filter barbershops by neighborhood (New Cairo, Nasr City), price, and live wait time. |
-  | **16** | **Smart cut-cycle reminder engine** | Customer & Barber | Automated reminder sent every 2–4 weeks based on past haircut frequency to bring customers back. |
-  | **17** | **Automated monthly SaaS billing** | Shop Owner & Platform | Recurring billing system charging 1,000 EGP/month subscription to shop owners. |
-  | **18** | **Multi-chair shop owner analytics** | Shop Owner | Dashboard tracking saved walk-outs, chair utilization rates, and barber revenue. |
-  | **19** | **AI dynamic wait prediction** | Customer & System | Machine learning model predicting wait times; deferred because fixed service buffers work well enough. |
-  | **20** | **Retail product inventory & stock tracking** | Shop Owner & Platform | Tracking shelf retail products (waxes, oils); hard to implement with zero early payoff since services drive >95% of revenue. |
+  | # | Feature Name | Target User | MoSCoW | Kano Category | Why It Matters |
+  |---|---|---|---|---|---|
+  | **1** | **Quick walk-in entry (<15s)** | Front Desk / Cashier | **Must-Have** | **Basic** | Replaces paper notebook; must be faster than handwriting or staff abandon it during peak hours. |
+  | **2** | **One-tap chair seat and finish toggles** | Front Desk / Cashier | **Must-Have** | **Basic** | Frees chairs and updates the live queue with one touch; keeps staff hands-off clunky menus. |
+  | **3** | **In-shop waiting room TV screen** | Waiting Clients & Staff | **Could-Have** | **Delighter** | A luxury display that can wait. Customers check queue status on their phones, so a dedicated TV is not needed for launch. |
+  | **4** | **Live per-barber queue tracker** | Customer | **Must-Have** | **One-Dimensional** | Shows live wait per barber (*"2 ahead, ~40 min"*); eliminates blind waiting and stops walk-outs. |
+  | **5** | **Barber queue pause/open toggle** | Barber | **Must-Have** | **Basic** | Gives barbers control over physical fatigue and shift pacing so they can pause incoming clients. |
+  | **6** | **Automated daily cut & cash ledger** | Shop Owner & Cashier | **Must-Have** | **One-Dimensional** | Instantly sums daily cuts, services, and cash per barber; replaces manual paper accounting. |
+  | **7** | **Real-time multi-device sync (<2s)** | System / All | **Must-Have** | **Basic** | WebSockets keep front desk and customer phones in sync with no delay or double-booking. |
+  | **8** | **SMS / WhatsApp proximity alerts** | Customer | **Should-Have** | **One-Dimensional** | Alerts customer when 1 person is ahead so they arrive just in time without sitting in the lobby. |
+  | **9** | **Deposit-backed advance slot booking** | Customer & Shop | **Should-Have** | **One-Dimensional** | Collects 30–50 EGP deposit via InstaPay/wallet to guarantee slot and eliminate no-shows. |
+  | **10** | **In-app checkout with deposit deduction** | Front Desk & Customer | **Should-Have** | **Basic** | Built directly into tablet with no dedicated POS needed; automatically deducts prepaid deposit from final bill. |
+  | **11** | **Dynamic service duration buffers** | Front Desk & Customer | **Should-Have** | **One-Dimensional** | Sizes slots by service (30m hair, 20m beard) with small buffers to prevent floor bottlenecks. |
+  | **12** | **Verified dual-axis review system** | Customer, Shop & Barber | **Should-Have** | **Delighter** | Review prompt unlocked only after completed cut ticket, rating Shop Ambiance (1–5) and Barber Skill (1–5). |
+  | **13** | **Barber portable profile & social showcase** | Barber & Customer | **Should-Have** | **Delighter** | Barber portfolio with verified cut stats, skill tags, and Instagram/TikTok transformation video links. |
+  | **14** | **Late arrival 10-minute grace release** | System & Front Desk | **Could-Have** | **Basic** | Auto-releases an advance slot to walk-ins if customer is >10 min late, forfeiting the deposit. |
+  | **15** | **Barbershop discovery & geo-search directory** | Customer | **Could-Have** | **One-Dimensional** | Search and filter barbershops by neighborhood (New Cairo, Nasr City), price, and live wait time. |
+  | **16** | **Smart cut-cycle reminder engine** | Customer & Barber | **Could-Have** | **Delighter** | Automated reminder sent every 2–4 weeks based on past haircut frequency to bring customers back. |
+  | **17** | **Automated monthly SaaS billing** | Shop Owner & Platform | **Could-Have** | **Indifferent** | Recurring billing system charging 1,000 EGP/month subscription to shop owners. |
+  | **18** | **Multi-chair shop owner analytics** | Shop Owner | **Could-Have** | **One-Dimensional** | Dashboard tracking saved walk-outs, chair utilization rates, and barber revenue. |
+  | **19** | **AI dynamic wait prediction** | Customer & System | **Won't-Have** | **Delighter** | Machine learning model predicting wait times; deferred because fixed service buffers work well enough. |
+  | **20** | **Retail product inventory & stock tracking** | Shop Owner & Platform | **Won't-Have** | **Indifferent** | Tracking shelf retail products (waxes, oils); hard to implement with zero early payoff since services drive >95% of revenue. |
 
 * **Roadmap (Now / Next / Later for 6–12 Months):**
 
