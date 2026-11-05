@@ -12,13 +12,13 @@
 ## Deliverable 1.1: Founding Memo (Max. 12 Pages, Excluding Appendices)
 
 ### 1. Vision and Mission
-* **10-Year Vision:** To become the operating system for barbershops and salons across MENA, where every chair is visible, every wait is predictable, and no customer is lost.
-* **Daily Mission:** Every day, we show customers the live wait for their own barber, or let them book him for a slot sized to their service (about 30 minutes for hair, 20 for a beard), so they arrive just in time. Shops keep their queue fair and replace their paper logs.
+* **10-Year Vision:** To become the marketplace for barbershops and salons across MENA, where customers find the right barber, every chair is visible, every wait is predictable, and no customer is lost.
+* **Daily Mission:** Every day, through our barbershop marketplace, we help customers find a barber and show them the live wait for their own barber, or let them book him for a slot sized to their service (about 30 minutes for hair, 20 for a beard), so they arrive just in time. Shops keep their queue fair, replace their paper logs and reach new customers.
 
 #### How the Mission Leads to the Vision
-* **Today (Cairo barbershops):** Live per-barber wait, plus the automatic service log that replaces the front desk's paper.
+* **Today (Cairo barbershops, on a marketplace for barbershops only):** Live per-barber wait, plus the automatic service log that replaces the front desk's paper.
 * **Next:** Service-based booking with a specific barber, introduced shop by shop once owners see that visible bookings stay fair to walk-ins.
-* **In 10 years:** Salons and grooming businesses across MENA, running their queues, bookings and records on one platform.
+* **In 10 years:** Salons and grooming businesses across MENA, running their queues, bookings and records on one marketplace, where customers find them and barbers carry their reputation from shop to shop.
 
 #### Why It Fits Our Evidence
 * **"Their own barber":** Customers are loyal to one barber, and walk-outs happen while other barbers are free.
@@ -367,15 +367,15 @@ Following the three-part framework from market analysis (Survey predicts, Proces
 ### 9. Company Type and Founding Structure
 
 * **Company Type Justification:** (Venture-scale vs. SME/lifestyle)
-  * **Company Type:** Venture-scale startup.
-  * We are a venture-scale startup. Three founders split equity 35 / 30 / 25 by role, with 10% reserved for future employees. All shares vest over 4 years with a 1-year cliff, and all IP belongs to the company.
+  * **Company Type:** Venture-scale marketplace startup.
+  * We are a venture-scale marketplace startup. Three founders split equity 35 / 30 / 25 by role, with 10% reserved for future employees. All shares vest over 4 years with a 1-year cliff, and all IP belongs to the company.
   * **Why venture-scale, not an SME or lifestyle business:**
     * **Software scales cheaply:** Adding a new barbershop costs almost nothing; there is no new staff or location per customer.
-    * **Revenue that grows with every haircut:** We earn a commission on each haircut served through the platform, so revenue grows with every shop we add and every customer each shop serves. Shops pay nothing upfront and only pay when they earn.
+    * **Revenue that grows with every shop, then with every new customer:** Each shop pays a monthly subscription of 1,000 EGP, so revenue grows with every shop we add. As our marketplace starts bringing shops new customers, we add a commission on each new customer we bring them, so revenue also grows with marketplace traffic.
     * **A large, expandable market:** We start with Cairo barbershops, then move to salons and grooming businesses across MENA (see [Section 1: Vision and Mission](#1-vision-and-mission)).
-    * **A data advantage:** Every shop adds data on walk-outs, wait times and barber demand that no shop records today. That data improves wait estimates and is hard for a competitor to copy.
-    * **The honest counter-argument:** The commission on a single haircut is small, and shops pay for no software today. Venture scale therefore depends on high volume: many shops, each serving many haircuts through the platform, rather than a few shops paying a high price. Shops may also resist a fee on every cut, or log cuts outside the platform to avoid it. If volume stays low, this would become an SME, and we will test that before raising money.
-    * **Revenue math (to complete):** A commission of [__] EGP per haircut × [__] haircuts per shop per month × [__] shops = [__] EGP per month. (Commission rate to be confirmed.)
+    * **A marketplace and data advantage:** Every shop and barber we add makes the marketplace more useful to customers, and every new customer makes it more valuable to shops: a network effect that is hard for a competitor to copy. Every shop also adds data on walk-outs, wait times and barber demand that no shop records today, which improves wait estimates.
+    * **The honest counter-argument:** Shops pay for no software today, so 1,000 EGP a month is a new cost they must see a return on. A subscription in one city alone is not venture scale: that depends on signing many shops across MENA and on the marketplace bringing enough new customers to earn a commission. If shops will not pay or the marketplace stays small, this would become an SME, and we will test that before raising money.
+    * **Revenue math:** 1,000 EGP per shop per month × number of shops. For example, 10 pilot shops = 10,000 EGP a month (120,000 EGP a year), and 100 shops = 100,000 EGP a month (1.2 million EGP a year). The commission on new marketplace customers comes on top, once the marketplace brings measurable traffic.
 
 * **Founding Roles:** (Including Product Owner)
   | Founder | Role | Owns |
@@ -387,7 +387,7 @@ Following the three-part framework from market analysis (Survey predicts, Proces
   * **Product Owner Designation:** Nooreldeen owns product because Nooreldeen ran the customer discovery and turned it into product decisions: the move from booking to a live per-barber wait, and the narrower ICP of loyal customers.
 
 * **Founder–Market Fit:**
-  We are three GUC students building a software company, and our roles cover the three things it must do well: understand barbershops, build the product, and win shops. Nooreldeen (CEO) has already done the field work: he ran all six discovery interviews across two barbershops, on both the shop and customer side, and turned them into the product's direction. Abdelrahman (CTO) led this milestone's technical deliverables and will build the customer app, the shop screen and the barber app. Ahmed (COO) led this milestone's operations deliverables and will run shop partnerships, onboarding and support. Our gap: we are full-time students, so our time is limited, especially during exams, and none of us knows yet how to register a company in Egypt or collect a commission from shops legally. We close the first by keeping the pilot small (2–3 shops) and planning the heavy work around the semester, and the second by getting advice from a lawyer and from GUC’s startup support before we register, and by using a licensed local payment provider to collect the commission.
+  We are three GUC students building a software company, and our roles cover the three things it must do well: understand barbershops, build the product, and win shops. Nooreldeen (CEO) has already done the field work: he ran all six discovery interviews across two barbershops, on both the shop and customer side, and turned them into the product's direction. Abdelrahman (CTO) led this milestone's technical deliverables and will build the customer app, the shop screen and the barber app. Ahmed (COO) led this milestone's operations deliverables and will run shop partnerships, onboarding and support. Our gap: we are full-time students, so our time is limited, especially during exams, and none of us knows yet how to register a company in Egypt or legally collect monthly subscriptions from shops. We close the first by keeping the pilot small (2–3 shops) and planning the heavy work around the semester, and the second by getting advice from a lawyer and from GUC’s startup support before we register, and by using a licensed local payment provider to collect the subscriptions.
 
 * **Equity Split & Vesting Schedule:** (e.g., 4 years with 1-year cliff)
   * The split is weighted by role, based on responsibility, how hard each role is to replace, and early work done.
@@ -426,36 +426,40 @@ Following the three-part framework from market analysis (Survey predicts, Proces
 *(The one-page canvas is in `Business Model Canvas and Pricing Hypothesis.docx`. Every block is based on our 6 discovery interviews.)*
 
 ### 1. Business Model Canvas (9 Blocks)
-* **Key Partners:** Pilot barbershops in New Cairo and Nasr City (first shops, free trial); barbers with a social following, who share their live queue link; a local payment provider (cards and wallets) to collect the commission and booking deposits; cloud hosting and SMS / push notification providers; a tablet supplier for the in-shop queue screen.
-* **Key Activities:** Build and run the customer app, shop screen and barber app; sign and onboard shops in person and train the front desk; keep per-barber wait estimates accurate; keep interviewing shops and customers and run pilots.
-* **Key Resources:** The platform (live queue, service log, alerts); live data on walk-outs, waits and barber demand that no shop records today; the network of shops, barbers and their ratings; the founding team (product, tech, operations).
+* **Key Partners:** Pilot barbershops in New Cairo and Nasr City (the first shops on the marketplace, free first month); barbers with a social following, who share their marketplace profile and live queue link; a local payment provider (cards and wallets) to collect subscriptions, deposits and, later, commissions; cloud hosting and SMS / push notification providers; a tablet supplier for the in-shop queue screen.
+* **Key Activities:** Build and run the marketplace (customer app), the shop screen and the barber app; grow both sides of the marketplace by signing shops in person and bringing customers through their barbers; keep per-barber wait estimates accurate; keep interviewing shops and customers and run pilots.
+* **Key Resources:** The marketplace platform (shop and barber profiles, live queue, service log, alerts); barber ratings and profiles that move with the barber; live data on walk-outs, waits and barber demand that no shop records today; the founding team (product, tech, operations).
 * **Value Propositions:**
-  * *For shops:* win back walk-outs (about 10,800 EGP a month at 3 lost cuts a day, our estimate); fewer "is he free?" calls (5–10 a day at the front desk); an automatic service log per barber replaces the paper notebook; keeps first come, first served, so walk-ins stay treated fairly; nothing to pay upfront, pay only per haircut.
-  * *For customers:* see the live wait for your own barber and arrive just in time; a "your barber's queue is short" alert.
-  * *For barbers:* an open / close queue control and fewer calls during cuts.
-* **Customer Relationships:** In-person onboarding and support for every shop (COO); a free first month for pilot shops; a WhatsApp support line for shop staff; a self-service app for customers.
-* **Channels:** Direct visits to shops by the founders, later sales reps; a queue screen and QR code at the shop entrance; barbers' Instagram, TikTok and WhatsApp, with a link to their live queue; the customer app and web page.
+  * *For shops:* win back walk-outs (about 10,800 EGP a month at 3 lost cuts a day, our estimate); new customers who find them on a marketplace for barbershops only; fewer "is he free?" calls (5–10 a day at the front desk); an automatic service log per barber replaces the paper notebook; keeps first come, first served, so walk-ins stay treated fairly.
+  * *For customers:* find a barber and see the live wait for your own barber, so you arrive just in time; a "your barber's queue is short" alert.
+  * *For barbers:* a profile and ratings that follow him from shop to shop, plus an open / close queue control.
+* **Customer Relationships:** In-person onboarding and support for every shop (COO); a free first month, then a monthly subscription; a WhatsApp support line for shop staff; a self-service marketplace app for customers.
+* **Channels:** Direct visits to shops by the founders, later sales reps; a queue screen and QR code at the shop entrance; barbers' Instagram, TikTok and WhatsApp, linking to their marketplace profile; the marketplace app and web page.
 * **Customer Segments:**
   * *Paying customer:* owners of multi-chair barbershops (3–8 chairs, 100–250 EGP per cut) in Greater Cairo that work first come, first served and log on paper.
   * *Users:* men aged 18–35 loyal to one specific barber, and high-intent clients who found a barber on social media.
-  * *Not targeted:* customers with no preferred barber (they barely wait).
-* **Cost Structure:** Product development (founders' time now, engineers later); cloud hosting, SMS and push notifications; queue-screen tablets for shops; field sales and onboarding (sales reps from Year 2); payment processing fees on collected commission; marketing with barbers on social media.
-* **Revenue Streams:** A commission on each haircut served through the platform: **[__] EGP per haircut** (rate to be confirmed). No subscription and no setup fee; customers use the app for free. Revenue grows with shops × haircuts per shop.
+  * *Later:* customers with no preferred barber, who use the marketplace to find whoever is free nearby.
+* **Cost Structure:** Product development (founders' time now, engineers later); cloud hosting, SMS and push notifications; queue-screen tablets for shops; field sales and onboarding (sales reps from Year 2); payment processing fees on subscriptions; marketing with barbers on social media to grow the customer side of the marketplace.
+* **Revenue Streams:** A monthly subscription of **1,000 EGP per shop**, after a free first month. Later, a commission on each new customer the marketplace brings to a shop. Customers and barbers use the marketplace for free. Revenue grows with shops now, and with marketplace traffic later.
 
 ### 2. Pricing Hypothesis
-We charge shops a commission on each haircut served through the platform. Shops pay nothing upfront, customers use the app for free, and the initial price is [__] EGP per haircut, to be confirmed by the team and tested in Milestone 2.
+We charge each shop a monthly subscription of 1,000 EGP, after a free first month. Customers and barbers use the marketplace for free. Later, once the marketplace brings shops new customers, we add a commission on each new customer we bring.
 
-* **Monetization Model:** Marketplace take rate / usage-based: a fee per haircut served through the platform, not a monthly subscription. The barbershop pays; customers and barbers do not. No setup fee and no subscription, so a shop's bill rises and falls with the haircuts it actually serves.
-* **Initial Price Point:** **[__] EGP per haircut** (or [__]% of the haircut price). At Shop 1's price of 120 EGP, that is [__]% of each cut.
+* **Monetization Model:**
+  * *Subscription now:* a fixed 1,000 EGP per shop per month (software-as-a-service).
+  * *Marketplace commission later:* a fee on each new customer the marketplace brings to a shop, never on customers the shop already has.
+  * *Who pays:* the barbershop. Customers and barbers do not.
+* **Initial Price Point:** **1,000 EGP per shop per month** (12,000 EGP a year), after a free first month. At Shop 1's price of 120 EGP, that is the value of about 8–9 haircuts a month.
 * **Pricing Logic:**
-  * *Fits a customer who pays for no software today.* The owner we interviewed pays for no software and runs everything on paper. A per-haircut fee removes the upfront cost that would stop him from trying.
-  * *Value-based.* Losing 3 haircut customers a day at 120 EGP costs a shop about 10,800 EGP a month (our estimate). The commission must stay a small share of the value we recover: if the platform wins back even one walk-out a day (about 3,600 EGP a month), the shop should keep most of that gain.
-  * *Anchoring against competitors.* Fresha charges a 20% one-time fee on each new customer it brings through its marketplace, plus card fees of 2.79% + USD 0.20. Ehgezly does not publish its shop fees (see [Section 5](#5-market-structure-and-competition)). Our per-haircut fee is set to look small next to Fresha's 20%.
+  * *Value-based.* Losing 3 haircut customers a day at 120 EGP costs a shop about 10,800 EGP a month (our estimate). 1,000 EGP is under 10% of that: recovering about 9 haircuts a month, one every 3–4 days, pays for the subscription.
+  * *Simple and predictable.* The owner we interviewed pays for no software today, so a fixed price he knows upfront is easier to accept. A flat fee also removes the two risks of a per-haircut commission: shops hiding cuts to avoid the fee, and owners resisting a fee on every cut.
+  * *Anchored against competitors.* Fresha charges USD 19.95 a month for an independent professional and USD 14.95 per barber a month for teams (see [Section 5](#5-market-structure-and-competition)). At about 50 EGP per USD, a 5-barber shop on Fresha would pay about 3,700 EGP a month, before its 20% fee on new customers. 1,000 EGP for the whole shop is well below that. Ehgezly does not publish its shop fees.
+  * *Why the commission comes later.* A fee on new customers only makes sense once the marketplace actually brings them. Fresha shows that shops accept a fee on new marketplace customers; we follow that model once we have traffic, and set the rate below Fresha's 20%.
   * *Willingness to pay from interviews.* The owner said, *"Of course I'd even pay for a service like that,"* and was open to a free trial. This is stated, not committed, so we treat it as a signal to test, not as proof.
 * **Risks and How We Test Them:**
-  * *Leakage:* shops may serve haircuts without logging them, to avoid the fee.
-  * *Resistance to a fee on every cut:* owners may prefer a fixed monthly price.
-  * *Milestone 2 test:* offer pilot shops the commission after the free month and record how many accept, at what rate, and how many cuts they log.
+  * *Price too high:* 1,000 EGP is a new monthly cost for shops that pay for no software today.
+  * *Slow marketplace growth:* if few new customers come through the marketplace, commission revenue arrives later than planned.
+  * *Milestone 2 test:* after the free month, offer pilot shops the 1,000 EGP subscription and record how many accept. If most refuse, test a lower price or a per-barber price.
 
 ---
 
