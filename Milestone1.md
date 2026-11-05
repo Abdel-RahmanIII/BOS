@@ -23,7 +23,7 @@
 #### Why It Fits Our Evidence
 * **"Their own barber":** Customers are loyal to one barber, and walk-outs happen while other barbers are free.
 * **"Live wait" first:** Both shops we interviewed refuse reservations, because it is unfair to customers who arrived first. We intend to change that policy, not work around it. Our answer to the fairness objection:
-  - Every booked slot is shown on the shop screen, so walk-ins see why someone goes ahead;
+  - Every booked slot is visible on the front-desk queue and client phones (and later on waiting-area TV screens), so walk-ins see why someone goes ahead;
   - Bookings only fill a barber's free time; and
   - A small deposit discourages no-shows.
   *(Overcoming this fairness objection is a key business model assumption—ranked among our top riskiest assumptions in Deliverable 1.3—so we validate willingness to pay and deposit mechanics before building full advance booking).*
@@ -557,7 +557,7 @@ Following the three-part framework from market analysis (Survey predicts, Proces
 *(The one-page canvas is in `Business Model Canvas and Pricing Hypothesis.docx`. Every block is based on our 6 discovery interviews.)*
 
 ### 1. Business Model Canvas (9 Blocks)
-* **Key Partners:** Pilot barbershops in New Cairo and Nasr City (the first shops on the marketplace, free first month); barbers with a social following, who share their marketplace profile and live queue link; a local payment provider (cards and wallets) to collect subscriptions, deposits and, later, commissions; cloud hosting and SMS / push notification providers; a tablet supplier for the in-shop queue screen.
+* **Key Partners:** Pilot barbershops in New Cairo and Nasr City (the first shops on the marketplace, free first month); barbers with a social following, who share their marketplace profile and live queue link; a local payment provider (cards and wallets) to collect subscriptions, deposits and, later, commissions; cloud hosting and SMS / push notification providers; hardware/tablet suppliers for front-desk logging (or low-cost tablets for shops without one).
 * **Key Activities:** Build and run the marketplace (customer app), the shop screen and the barber app; grow both sides of the marketplace by signing shops in person and bringing customers through their barbers; keep per-barber wait estimates accurate; keep interviewing shops and customers and run pilots.
 * **Key Resources:** The marketplace platform (shop and barber profiles, live queue, service log, alerts); barber ratings and profiles that move with the barber; live data on walk-outs, waits and barber demand that no shop records today; the founding team (product, tech, operations).
 * **Value Propositions:**
@@ -565,12 +565,12 @@ Following the three-part framework from market analysis (Survey predicts, Proces
   * *For customers:* find a barber and see the live wait for your own barber, so you arrive just in time; a "your barber's queue is short" alert.
   * *For barbers:* a profile and ratings that follow him from shop to shop, plus an open / close queue control.
 * **Customer Relationships:** In-person onboarding and support for every shop (COO); a free first month, then a monthly subscription; a WhatsApp support line for shop staff; a self-service marketplace app for customers.
-* **Channels:** Direct visits to shops by the founders, later sales reps; a queue screen and QR code at the shop entrance; barbers' Instagram, TikTok and WhatsApp, linking to their marketplace profile; the marketplace app and web page.
+* **Channels:** Direct visits to shops by the founders, later sales reps; QR code posters at shop entrances/counters linking to the live mobile queue; barbers' Instagram, TikTok and WhatsApp, linking to their marketplace profile; the marketplace app and web page.
 * **Customer Segments:**
   * *Paying customer:* owners of multi-chair barbershops (3–8 chairs, 100–250 EGP per cut) in Greater Cairo that work first come, first served and log on paper.
   * *Users:* men aged 18–35 loyal to one specific barber, and high-intent clients who found a barber on social media.
   * *Later:* customers with no preferred barber, who use the marketplace to find whoever is free nearby.
-* **Cost Structure:** Product development (founders' time now, engineers later); cloud hosting, SMS and push notifications; queue-screen tablets for shops; field sales and onboarding (sales reps from Year 2); payment processing fees on subscriptions; marketing with barbers on social media to grow the customer side of the marketplace.
+* **Cost Structure:** Product development (founders' time now, engineers later); cloud hosting, SMS and push notifications; front-desk logger tablets for pilot shops (when not using existing shop devices); field sales and onboarding (sales reps from Year 2); payment processing fees on subscriptions; marketing with barbers on social media to grow the customer side of the marketplace.
 * **Revenue Streams:** A monthly subscription of **1,000 EGP per shop**, after a free first month. Later, a commission on each new customer the marketplace brings to a shop. Customers and barbers use the marketplace for free. Revenue grows with shops now, and with marketplace traffic later.
 
 ### 2. Pricing Hypothesis
