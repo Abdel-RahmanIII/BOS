@@ -153,7 +153,7 @@ Following ***The Mom Test*** principles, we strictly avoided pitching our idea u
 
 *(Full anonymized raw interview logs with verbatim translated quotes and surprises are provided in [Appendix A: Full Customer Discovery Interview Log](#appendix-a-full-customer-discovery-interview-log).)*
 
-# Market Sizing
+### 4. Market Sizing
 
 **Price used in both methods:** EGP 1,000 per shop per month = **EGP 12,000 per year**.
 
@@ -164,7 +164,7 @@ Following ***The Mom Test*** principles, we strictly avoided pitching our idea u
 ### TAM = EGP 67.2M
 **Calculation:** EGP 12bn × 5.6% × 10% = EGP 67.2M
 - **EGP 12bn:** Annual income of Egypt's barber sector, estimated at no less than EGP 12bn by the Cairo Chamber of Commerce's hairdressing division [1].
-- **× 5.6%:** Share of a salon's revenue spent on what our product replaces: software for scheduling, POS and CRM (up to 0.6%) plus marketing to win customers which is offered by our marketplace exposure(up to 5%) [2].
+- **× 5.6%:** Share of a salon's revenue spent on what our product replaces: software for scheduling, POS and CRM (up to 0.6%) plus marketing to win customers which is offered by our marketplace exposure (up to 5%) [2].
 - **× 10%:** Only licensed shops can subscribe; about 200,000 of at least 2 million salons are licensed [1].
 
 ### SAM = EGP 16.0M
@@ -237,8 +237,8 @@ Egypt has a huge, recurring market for men's grooming, yet barbershops still run
 *(Market sizing sources, citations, and reference links are detailed in [Appendix D: Market Sizing Sources & Citations](#appendix-d-market-sizing-sources--citations).)*
 
 ### 5. Market Structure and Competition
-*
-  ## Competition List by Tier
+
+## Competition List by Tier
 
 | Tier | Competitor | What it does | Why this tier |
 |---|---|---|---|
@@ -250,8 +250,7 @@ Egypt has a huge, recurring market for men's grooming, yet barbershops still run
 | Substitute | Walk-in queue [18] | Customer arrives and waits for a turn. | Barber does no online booking. |
 | Substitute | Call or WhatsApp [19] | Customer and barber agree a time by message or call, and the barber confirms manually. | Barber does no online booking. |
 
-*
-  ## Competition Matrix: Direct Competitors
+## Competition Matrix: Direct Competitors
 
 | | Ehgezly | Fresha |
 |---|---|---|
@@ -263,7 +262,7 @@ Egypt has a huge, recurring market for men's grooming, yet barbershops still run
 | **Strengths** | Egyptian company with local support in Arabic and English [3][5]. Prices in EGP [2]. Online payment at booking and refunds [3][4]. Reminders and reviews [3]. Dashboard for bookings, team and revenue [3]. | Large review base in Egypt: Rashed's Studio 3,205 reviews, Shad's Men's Salon 1,691, Gedo Salon branches 356 to 1,392 [9][10]. Customers choose barber and slot online [10]. Full toolset: waitlist, deposits, POS, memberships, reports [14]. Strong global brand [12]. |
 | **Weaknesses** | Few barbers: 9 in one area [2], though its partner form says "thousands of shops" [8]. Not barber-focused: pet clinics and women's salons sit on the same app [2]. Almost no social following [6][7]. Deposit and no-show rules not stated [3][4]. | The 20% fee on new customers plus processing fees add up [11][14]. No Egypt-specific marketing found [13]. Phone support is a paid add-on on the Independent plan [14].  Not barber-specific [9]. |
 | **Competitive advantage** | Local: Egyptian team, EGP, Arabic and Cairo-hours support [3][5]. | Already has shops and thousands of reviews in Egypt, plus a complete product [9][10][14]. |
-* ## Positioning Map
+## Positioning Map
 
 ![Positioning map: barbershop booking in Egypt](positioning-map.png)
 
@@ -293,7 +292,7 @@ Egypt has a huge, recurring market for men's grooming, yet barbershops still run
 Current options fall into three groups: general beauty platforms (Fresha, Ehgezly), single-shop booking tools (Dahem Salon, QR Barbers, Dexef), and the status quo (walk-ins, calls and WhatsApp). None of them combines the three points below.
 
 ### 1. A marketplace for barbershops only
-Every listing is a men's barbershop. Fresha and Ehgezly list barbers next to salons, spas and other categories, and single-shop tools only show one shop. Here, customers looking for a barber compare barbershops only, and a shop is seen by people who are looking for exactly what it offers.Since it is focusing on barbershops only it can bring more barbershops than general beauty platforms ,which will increase the network of barbershops acquired and cause a network effect non replaceable. Leading to high monetization, free marketing and exposure to barbershops on top of the booking system offered. 
+Every listing is a men's barbershop. Fresha and Ehgezly list barbers next to salons, spas and other categories, and single-shop tools only show one shop. Here, customers looking for a barber compare barbershops only, and a shop is seen by people who are looking for exactly what it offers. Since it focuses strictly on barbershops, it aggregates barbershop supply far more effectively than generic beauty platforms, creating an irreplaceable vertical network effect. This unlocks higher monetization, organic discovery, and targeted marketing exposure for barbershops on top of the queue and management software. 
 
 ### 2. Ratings for each barber, not just each shop
 Customers rate both the shop and the barber who cut their hair. In a barbershop, people choose the barber, so a skilled barber builds his own reputation and attracts customers by name. On general platforms, reviews sit on the business profile, and single-shop tools have no public reviews. Shops with good barbers will be exposed and rewarded on a larger scale than just word of mouth. Also barbershops will be able to assess their staff and know who to keep and who to let go.
@@ -307,8 +306,8 @@ In Egypt, barbers often move between shops, and loyal customers follow the barbe
 - **Lower hiring risk.** The owner sees a barber's track record before hiring him, not after.
 
 ### Why this is hard to copy as a whole
-Since there is no platform for barbers only, this can be something completely new for barbershops and customers. It helps them with live queue visibility and streamlined front-desk logging (with advance booking unlocked once fairness is established), reducing lost profits from clients who leave because of traffic. In addition, the platform offers monetization and exposure to barbershops, helps with talent acquisition, and rewards shops that have high-quality barbers, helping in marketing and human resources operations for barbershops. This combination is not offered anywhere in Egypt which is exactly why our product standout.
-* ## Moat
+Since there is no platform for barbers only, this can be something completely new for barbershops and customers. It helps them with live queue visibility and streamlined front-desk logging (with advance booking unlocked once fairness is established), reducing lost profits from clients who leave because of traffic. In addition, the platform offers monetization and exposure to barbershops, helps with talent acquisition, and rewards shops that have high-quality barbers, helping in marketing and human resources operations for barbershops. This combination is not offered anywhere in Egypt which is exactly why our product stands out.
+## Moat
 
 ### 1. Switching costs
 
