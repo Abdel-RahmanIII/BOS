@@ -26,7 +26,7 @@
   - Every booked slot is shown on the shop screen, so walk-ins see why someone goes ahead;
   - Bookings only fill a barber's free time; and
   - A small deposit discourages no-shows.
-  *(Changing this policy is our riskiest assumption, so we test it with owners before building booking).*
+  *(Overcoming this fairness objection is a key business model assumption—ranked among our top riskiest assumptions in Deliverable 1.3—so we validate willingness to pay and deposit mechanics before building full advance booking).*
 * **"Slot sized to their service":** A haircut and a beard take different times, so slots and wait estimates are calculated per service instead of a flat appointment length.
 * **"Replace their paper logs":** Shops record every service per barber by hand and pay for no software today.
 
@@ -360,8 +360,8 @@ Following the three-part framework from market analysis (Survey predicts, Proces
 
 ### 8. Product Strategy and MVP
 
-* **MVP Scope:** (Designed to test the riskiest assumption)
-  The MVP is designed to test our primary riskiest operational assumption: **that shop staff will reliably maintain an accurate digital queue throughout the day in real time, and customers will use live per-barber wait visibility to arrive just in time instead of walking out.** If staff abandon the tool during peak rushes or wait times desync, the queue becomes inaccurate and the platform loses all customer trust.
+* **MVP Scope:** (Designed to test the riskiest operational and commercial assumptions from Deliverable 1.3)
+  The MVP is designed to test our core operational assumption (Deliverable 1.3, Assumption #4): **that shop staff will reliably maintain an accurate digital queue throughout the day in real time, and customers will use live per-barber wait visibility to arrive just in time instead of walking out**, while simultaneously verifying shop willingness to convert to a paid subscription (Deliverable 1.3, Assumption #1). If staff abandon the tool during peak rushes or wait times desync, the queue becomes inaccurate and the platform loses all customer trust.
 
   To test this, the MVP is deployed across 2–3 busy multi-chair barbershops (3–8 chairs) in New Cairo and Nasr City over a 4-week pilot, focusing strictly on the operational queue loop and paper replacement before building out the wider marketplace.
 
