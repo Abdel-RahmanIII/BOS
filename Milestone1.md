@@ -721,7 +721,15 @@ Every founder signs an IP assignment agreement that transfers to the company eve
 This means no founder can leave and take the product with them, and investors can see that the company owns what it sells.
 
 ### Appendix C: Generative AI Disclosure
-*(Tools used and for what purpose)*
+
+In accordance with course guidelines, Generative AI tools (**Claude** and **Google Gemini**) were used to assist with Milestone 1 as summarized below:
+
+| Tool | Purpose & Usage |
+| :--- | :--- |
+| **Anthropic Claude** | Brainstorming solution framing, drafting and refining deliverable text, formatting, and translating in-person interview notes. |
+| **Google Gemini** | Desk research (Egyptian market statistics, competitor models), sanity-checking spreadsheet formulas (Cap Table & TAM/SAM/SOM), and structuring tables. |
+
+* **Human Oversight & Integrity:** All customer discovery interviews were conducted in person by the co-founders. All AI-assisted market estimates, citations, and spreadsheet calculations were independently reviewed, fact-checked against primary sources, and verified by the team.
 
 ### Appendix D: Market Sizing Sources & Citations
 
