@@ -3,9 +3,11 @@
 ## Founders' Contribution Table (1 Page)
 | Founder Name | Role | Deliverables & Sections Owned | % Contribution |
 | :--- | :--- | :--- | :--- |
-| Nooreldeen | CEO / Product owner | 1.1 Section 1 (Vision and Mission), Section 3 (Customer Discovery), Section 9 (Company Type and Founding Structure); Appendix A (Interview Log); Appendix B (Cap Table); Deliverable 1.2 (Business Model Canvas and Pricing Hypothesis) | |
-| Abdelrahman | CTO | Technical deliverables | |
-| Ahmed | COO | Operations deliverables | |
+| Nooreldeen | CEO / Product owner | 1.1 Section 1 (Vision and Mission), Section 3 (Customer Discovery, all 6 interviews), Section 9 (Company Type and Founding Structure); Deliverable 1.2 (Business Model Canvas and Pricing Hypothesis); Appendix A (Interview Log); Appendix B (Cap Table) | 36.7% |
+| Abdelrahman | CTO | 1.1 Section 2 (Problem and Customer), Section 7 (Product-Market Fit Plan), Section 8 (Product Strategy and MVP); Deliverable 1.4 (Investor One-Pager); Appendix C (Generative AI Disclosure); memo assembly and consistency fixes | 32.9% |
+| Ahmed | COO | 1.1 Section 4 (Market Sizing), Section 5 (Market Structure and Competition, positioning map), Section 6 (Differentiation and Moat); Deliverable 1.3 (Riskiest Assumptions) | 30.4% |
+
+*% Contribution is calculated in `Founders Contribution Table.xlsx` (weighted scores for idea, business model, domain expertise, commitment and risk, and responsibilities).*
 
 ---
 
