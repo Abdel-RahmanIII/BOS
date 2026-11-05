@@ -729,7 +729,7 @@ In accordance with course guidelines, Generative AI tools (**Claude** and **Goog
 | **Anthropic Claude** | Brainstorming solution framing, drafting and refining deliverable text, formatting, and translating in-person interview notes. |
 | **Google Gemini** | Desk research (Egyptian market statistics, competitor models), sanity-checking spreadsheet formulas (Cap Table & TAM/SAM/SOM), and structuring tables. |
 
-* **Human Oversight & Integrity:** All customer discovery interviews were conducted in person by the co-founders. All AI-assisted market estimates, citations, and spreadsheet calculations were independently reviewed, fact-checked against primary sources, and verified by the team.
+* **Human Oversight & Integrity:** All customer discovery interviews were conducted in person by the co-founders.
 
 ### Appendix D: Market Sizing Sources & Citations
 
