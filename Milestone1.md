@@ -230,17 +230,12 @@ Two independent starting points, sector money and named shops, land within 18% a
 ---
 
 ## Why Now?
-Egypt has a huge, recurring market for men's grooming, yet barbershops still run on walk-ins, phone calls and WhatsApp. Customers waste time waiting, and shops lose income from no-shows and idle chairs. Meanwhile, Egyptians already book and pay through their phones for rides, food and doctor visits. Existing booking platforms are generic or foreign and charge commissions on new customers instead of being built for local barbershops, which leaves a clear gap. We fill it with a simple, barber-focused booking, POS and marketplace app that brings organized, predictable visits to a market that is ready for it.
+Egypt has a huge, recurring market for men's grooming, yet barbershops still run on walk-ins, phone calls and WhatsApp. Customers waste time waiting, and shops lose income from no-shows and idle chairs. Meanwhile, Egyptians already book and pay through their phones for rides, food and doctor visits. Existing booking platforms are generic or foreign and charge commissions on new customers instead of being built for local barbershops, which leaves a clear gap. We fill it with a simple, barber-focused live queue, POS and marketplace app that brings organized, predictable visits to a market that is ready for it.
 
 ---
 
-## References
-1. Masrawy, "شعبة الكوافير: قطاع الحلاقة يحقق دخلًا سنويًا لا يقل عن 12 مليار جنيه," Aug 18, 2026. [Link](https://www.masrawy.com/news/news_economy/details/2026/8/18/3034825/)
-2. Booksy, "Cost to Run a Hair Salon: Complete Monthly Expenses Breakdown (2026)." [Link](https://biz.booksy.com/blog/cost-to-run-a-hair-salon)
-3. Egypt Today, "Egypt's domestic population reaches 109.5 Million: CAPMAS," Sep 19, 2026. [Link](https://www.egypttoday.com/Article/1/149579/Egypt’s-domestic-population-reaches-109-5-Million-CAPMAS)
-4. Yellow Pages Egypt, "حلاق رجالي" (men's barber) category. [Link](https://yellowpages.com.eg/ar/category/%D8%AD%D9%84%D8%A7%D9%82-%D8%B1%D8%AC%D8%A7%D9%84%D9%8A)
-5. Rentech SmartScraper, "List of Barber shops in Egypt," data as of Apr 1, 2026. [Link](https://rentechdigital.com/smartscraper/business-report-details/list-of-barber-shops-in-egypt)
-6. A. Wahsh, "Understand the Market," guest lecture, CSEN1096 Business of Software, GUC, 2026: 02 · Market Size, clinic worked example.
+*(Market sizing sources, citations, and reference links are detailed in [Appendix D: Market Sizing Sources & Citations](#appendix-d-market-sizing-sources--citations).)*
+
 ### 5. Market Structure and Competition
 *
   ## Competition List by Tier
@@ -295,7 +290,7 @@ Egypt has a huge, recurring market for men's grooming, yet barbershops still run
 ### 6. Differentiation and Moat
 ## Differentiators
 
-Current options fall into three groups: general beauty platforms (Fresha, Ehgezly), single-shop booking tools (Dahem Salon, QR Barbers, Dexef), and the status quo (walk-ins, calls and WhatsApp). None of them combines the four points below.
+Current options fall into three groups: general beauty platforms (Fresha, Ehgezly), single-shop booking tools (Dahem Salon, QR Barbers, Dexef), and the status quo (walk-ins, calls and WhatsApp). None of them combines the three points below.
 
 ### 1. A marketplace for barbershops only
 Every listing is a men's barbershop. Fresha and Ehgezly list barbers next to salons, spas and other categories, and single-shop tools only show one shop. Here, customers looking for a barber compare barbershops only, and a shop is seen by people who are looking for exactly what it offers.Since it is focusing on barbershops only it can bring more barbershops than general beauty platforms ,which will increase the network of barbershops acquired and cause a network effect non replaceable. Leading to high monetization, free marketing and exposure to barbershops on top of the booking system offered. 
@@ -312,7 +307,7 @@ In Egypt, barbers often move between shops, and loyal customers follow the barbe
 - **Lower hiring risk.** The owner sees a barber's track record before hiring him, not after.
 
 ### Why this is hard to copy as a whole
-Since there is no platform for barbers only, this can be something completely new for barbershops and customers. It helps them with online booking, which is the basic feature we provide to facilitate daily operations and reduce lost profits from clients who leave because of traffic. In addition, the platform offers monetization and exposure to barbershops, helps with talent acquisition, and rewards shops that have high-quality barbers, helping in marketing and human resources operations for barbershops. This combination is not offered anywhere in Egypt which is exactly why our product standout.
+Since there is no platform for barbers only, this can be something completely new for barbershops and customers. It helps them with live queue visibility and streamlined front-desk logging (with advance booking unlocked once fairness is established), reducing lost profits from clients who leave because of traffic. In addition, the platform offers monetization and exposure to barbershops, helps with talent acquisition, and rewards shops that have high-quality barbers, helping in marketing and human resources operations for barbershops. This combination is not offered anywhere in Egypt which is exactly why our product standout.
 * ## Moat
 
 ### 1. Switching costs
@@ -621,9 +616,9 @@ We charge each shop a monthly subscription of 1,000 EGP, after a free first mont
 - **Pass/fail:** at least 50% pay
 - **Next step:** success → keep deposits as the core mechanism. Failure (below 30%) → test a smaller or optional deposit. Unclear (30–50%) → test a lower deposit amount.
 
-## 3. Customers can book easily, and receptionists can add walk-ins quickly
+## 3. Customers can check live queue and book easily, and receptionists can add walk-ins quickly
 
-**Test (clickable prototype):** Build clickable screens of the booking flow and the "add walk-in" button only. Ask customers to "book a haircut with this barber tomorrow at 7 pm" without help. Have receptionists add real walk-ins during a busy hour. Time both.
+**Test (clickable prototype):** Build clickable screens of the live queue/booking flow and the "add walk-in" button only. Ask customers to check their barber's live wait and reserve a slot without help. Have receptionists add real walk-ins during a busy hour. Time both.
 
 - **Segment and sample:** 10 customers, 3 receptionists
 - **Behavior measured:** unaided task completion and time taken
@@ -645,9 +640,9 @@ Receptionists add every walk-in to the queue as soon as they arrive. Every finis
 
 ## 5. The platform is able to technically connect customers to many shops and keep each shop's queue updated live
 
-Customers book any shop through the marketplace, receptionists add walk-ins, and every change shows up instantly for both customers and shops.
+Customers track queues and book through the marketplace, receptionists add walk-ins, and every change shows up instantly for both customers and shops.
 
-**Test (limited working version):** Build a basic working version with 2 shops, a customer booking screen and a receptionist screen. Run it with real bookings and walk-ins for a few days, and check that every change appears on all screens instantly with no double bookings.
+**Test (limited working version):** Build a basic working version with 2 shops, a customer queue/booking screen and a receptionist screen. Run it with real bookings and walk-ins for a few days, and check that every change appears on all screens instantly with no double bookings.
 
 - **Segment and sample:** 2 shops, about 50 bookings and walk-ins
 - **Behavior measured:** whether updates appear instantly, and whether any slot is double booked
@@ -730,3 +725,10 @@ This means no founder can leave and take the product with them, and investors ca
 *(Tools used and for what purpose)*
 
 ### Appendix D: Market Sizing Sources & Citations
+
+1. Masrawy, "شعبة الكوافير: قطاع الحلاقة يحقق دخلًا سنويًا لا يقل عن 12 مليار جنيه," Aug 18, 2026. [Link](https://www.masrawy.com/news/news_economy/details/2026/8/18/3034825/)
+2. Booksy, "Cost to Run a Hair Salon: Complete Monthly Expenses Breakdown (2026)." [Link](https://biz.booksy.com/blog/cost-to-run-a-hair-salon)
+3. Egypt Today, "Egypt's domestic population reaches 109.5 Million: CAPMAS," Sep 19, 2026. [Link](https://www.egypttoday.com/Article/1/149579/Egypt’s-domestic-population-reaches-109-5-Million-CAPMAS)
+4. Yellow Pages Egypt, "حلاق رجالي" (men's barber) category. [Link](https://yellowpages.com.eg/ar/category/%D8%AD%D9%84%D8%A7%D9%82-%D8%B1%D8%AC%D8%A7%D9%84%D9%8A)
+5. Rentech SmartScraper, "List of Barber shops in Egypt," data as of Apr 1, 2026. [Link](https://rentechdigital.com/smartscraper/business-report-details/list-of-barber-shops-in-egypt)
+6. A. Wahsh, "Understand the Market," guest lecture, CSEN1096 Business of Software, GUC, 2026: 02 · Market Size, clinic worked example.
