@@ -659,13 +659,24 @@ Customers book any shop through the marketplace, receptionists add walk-ins, and
 
 
 ## Deliverable 1.4: Investor One-Pager
-* **Problem:** 
-* **Solution:** 
+* **Problem:** In Egypt's men's grooming market, customers are loyal to individual barbers, not shop brands. Demand bunches heavily on 1–2 star barbers while other chairs sit empty. Because shops enforce a strict "first-come, first-served" policy to stay fair to waiting walk-ins and rely on manual paper ledgers, loyal customers face 30–60 minute blind waits or walk out—costing a typical shop **~10,800 EGP/month (~130,000 EGP/year)** at just 3 lost haircuts/day, alongside 10–15 daily phone calls asking *"Is my barber free?"*
+* **Solution:** A vertical barbershop marketplace and live queue-management OS. We start with **live per-barber wait visibility** and proximity alerts so customers arrive just in time without skipping the walk-in line, paired with a **<15-second front-desk tablet logger** that replaces paper notebooks and automates daily cash and cut tallies. Once shops trust digital queue fairness on the shop floor, we unlock **deposit-backed (30–50 EGP) service-sized bookings**, **dual-axis verified reviews** (rating shop ambiance vs. barber skill), and **portable barber profiles** that follow craftsmen across shops.
 * **Customer:** 
+  * *Primary Buyer (B2B):* Owners of multi-chair, upper-mid barbershops (3–8 chairs, 100–250 EGP per cut) in Greater Cairo (launching in New Cairo and Nasr City) currently operating on walk-ins and paper logs.
+  * *End-Users & Providers:* App-literate men aged 18–35 loyal to a specific barber (or discovering one via TikTok/Instagram reels), and barbers aged 20–35 seeking shift pacing and a portable digital reputation.
 * **Market:** 
-* **Business Model:** 
-* **Evidence So Far:** 
-* **Team:** 
+  * **TAM:** **EGP 67.2M** (top-down, from Egypt's EGP 12bn+ barber sector) to **EGP 82.2M** (bottom-up, 6,853 listed men's barbershops in Egypt at EGP 12,000/year).
+  * **SAM:** **EGP 16.0M** in both methods (1,330 tech-enabled barbershops on Google Maps across Cairo, Giza, and Alexandria).
+  * **SOM (Year 3):** **EGP 1.85M** (**154 active shops** across Cairo, Giza, and Alexandria, starting with 24 shops in Year 1 in New Cairo and Nasr City), establishing the foundation to expand across MENA.
+* **Business Model:** **B2B SaaS + Marketplace Commission.** Shops pay a flat **1,000 EGP/month** subscription (12,000 EGP/year) after a 1-month free trial—under 10% of their estimated monthly walk-out loss, paying for itself by recovering just ~9 haircuts/month (~2 per week). Once the consumer marketplace drives discovery (Months 7–12), we add a **10–15% commission** strictly on *new* customers brought to the shop. Free for customers and barbers.
+* **Evidence So Far:** Conducted **6 *Mom Test* interviews** across two Cairo barbershops (1 owner, 1 front-desk receptionist, 2 barbers) and 2 customers:
+  * Confirmed daily uncounted walk-outs caused by per-barber loyalty while adjacent chairs sit idle.
+  * Confirmed 100% manual paper logging, zero software spend, and 5–10 daily availability calls to the front desk plus ~5 direct calls/messages per barber mid-haircut.
+  * **Key Pivot from Evidence:** Discovered both shops strictly ban reservations to protect walk-in fairness—prompting our pivot from advance-only booking to a *live per-barber wait queue* MVP first. Shop 1's owner expressed verbal willingness to pay and interest in a pilot trial.
+* **Team:** Three co-founders covering product, technology, and operations under a **35% / 30% / 25% equity split** (10% option pool, 4-year vesting with a 1-year cliff, and full IP assignment):
+  * **Nooreldeen (CEO & Product Owner — 35%):** Led all 6 field discovery interviews, customer validation, pricing design, and the MVP pivot to live wait visibility.
+  * **Abdelrahman (CTO — 30%):** Owns technical architecture, building the <2s real-time WebSocket sync engine, front-desk tablet web app, and consumer mobile web tracker.
+  * **Ahmed (COO — 25%):** Owns direct shop sales, in-person front-desk onboarding, pilot operations in New Cairo and Nasr City, and ongoing customer discovery.
 
 ---
 
