@@ -512,13 +512,13 @@ Following the three-part framework from market analysis (Survey predicts, Proces
   | Founder | Role | Owns |
   | :--- | :--- | :--- |
   | **Nooreldeen** | CEO / Product owner | Vision, product decisions and the MVP scope, customer discovery, fundraising. Owns product. |
-  | **Abdelrahman** | CTO | The customer app, the shop screen and the barber app; technical architecture; data |
+  | **Abdelrahman** | CTO | Technical architecture, real-time sync backend, front-desk tablet web app, and consumer mobile web app |
   | **Ahmed** | COO | Shop partnerships, onboarding barbershops, operations and support, the next rounds of interviews |
 
   * **Product Owner Designation:** Nooreldeen owns product because Nooreldeen ran the customer discovery and turned it into product decisions: the move from booking to a live per-barber wait, and the narrower ICP of loyal customers.
 
 * **Founder–Market Fit:**
-  We are three GUC students building a software company, and our roles cover the three things it must do well: understand barbershops, build the product, and win shops. Nooreldeen (CEO) has already done the field work: he ran all six discovery interviews across two barbershops, on both the shop and customer side, and turned them into the product's direction. Abdelrahman (CTO) led this milestone's technical deliverables and will build the customer app, the shop screen and the barber app. Ahmed (COO) led this milestone's operations deliverables and will run shop partnerships, onboarding and support. Our gap: we are full-time students, so our time is limited, especially during exams, and none of us knows yet how to register a company in Egypt or legally collect monthly subscriptions from shops. We close the first by keeping the pilot small (2–3 shops) and planning the heavy work around the semester, and the second by getting advice from a lawyer and from GUC’s startup support before we register, and by using a licensed local payment provider to collect the subscriptions.
+  We are three GUC students building a software company, and our roles cover the three things it must do well: understand barbershops, build the product, and win shops. Nooreldeen (CEO) has already done the field work: he ran all six discovery interviews across two barbershops, on both the shop and customer side, and turned them into the product's direction. Abdelrahman (CTO) led this milestone's technical deliverables and will build the front-desk tablet web app, consumer mobile web app, and real-time backend. Ahmed (COO) led this milestone's operations deliverables and will run shop partnerships, onboarding and support. Our gap: we are full-time students, so our time is limited, especially during exams, and none of us knows yet how to register a company in Egypt or legally collect monthly subscriptions from shops. We close the first by keeping the pilot small (2–3 shops) and planning the heavy work around the semester, and the second by getting advice from a lawyer and from GUC’s startup support before we register, and by using a licensed local payment provider to collect the subscriptions.
 
 * **Equity Split & Vesting Schedule:** (e.g., 4 years with 1-year cliff)
   * The split is weighted by role, based on responsibility, how hard each role is to replace, and early work done.
@@ -543,7 +543,7 @@ Following the three-part framework from market analysis (Survey predicts, Proces
 
 * **IP Assignment:**
   Every founder signs an IP assignment agreement that transfers to the company everything they create for it:
-  * The app code, the shop screen and the barber app
+  * All codebase, web applications (front-desk tablet app, consumer mobile web app), and backend systems
   * Designs, the brand name and the logo
   * The customer-discovery data: interview notes, the interview log and findings
   * Any work done before the company is incorporated
@@ -558,7 +558,7 @@ Following the three-part framework from market analysis (Survey predicts, Proces
 
 ### 1. Business Model Canvas (9 Blocks)
 * **Key Partners:** Pilot barbershops in New Cairo and Nasr City (the first shops on the marketplace, free first month); barbers with a social following, who share their marketplace profile and live queue link; a local payment provider (cards and wallets) to collect subscriptions, deposits and, later, commissions; cloud hosting and SMS / push notification providers; hardware/tablet suppliers for front-desk logging (or low-cost tablets for shops without one).
-* **Key Activities:** Build and run the marketplace (customer app), the shop screen and the barber app; grow both sides of the marketplace by signing shops in person and bringing customers through their barbers; keep per-barber wait estimates accurate; keep interviewing shops and customers and run pilots.
+* **Key Activities:** Build and run the front-desk tablet app, marketplace (customer app), and real-time backend engine; grow both sides of the marketplace by signing shops in person and bringing customers through their barbers; keep per-barber wait estimates accurate; keep interviewing shops and customers and run pilots.
 * **Key Resources:** The marketplace platform (shop and barber profiles, live queue, service log, alerts); barber ratings and profiles that move with the barber; live data on walk-outs, waits and barber demand that no shop records today; the founding team (product, tech, operations).
 * **Value Propositions:**
   * *For shops:* win back walk-outs (about 10,800 EGP a month at 3 lost cuts a day, our estimate); new customers who find them on a marketplace for barbershops only; fewer "is he free?" calls (5–10 a day at the front desk); an automatic service log per barber replaces the paper notebook; keeps first come, first served, so walk-ins stay treated fairly.
@@ -714,7 +714,7 @@ No investors yet. If we later sell 10% in a pre-seed round, every holder is dilu
 
 #### 4. IP Assignment Terms
 Every founder signs an IP assignment agreement that transfers to the company everything they create for it:
-* The app code, the shop screen and the barber app
+* All codebase, web applications (front-desk tablet app, consumer mobile web app), and backend systems
 * Designs, the brand name and the logo
 * The customer-discovery data: interview notes, the interview log and findings
 * Any work done before the company is incorporated
