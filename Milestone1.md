@@ -153,43 +153,43 @@ Following ***The Mom Test*** principles, we strictly avoided pitching our idea u
 
 *(Full anonymized raw interview logs with verbatim translated quotes and surprises are provided in [Appendix A: Full Customer Discovery Interview Log](#appendix-a-full-customer-discovery-interview-log).)*
 
-### 4. Market Sizing
-**Price used in both methods:** EGP 6,000 per shop per year (EGP 500/month).
+# Market Sizing
+
+**Price used in both methods:** EGP 1,000 per shop per month = **EGP 12,000 per year**.
 
 ---
 
-## Top-Down
+## Top-Down (money)
 
-### TAM = EGP 36M 
-**Calculation:** EGP 12bn × 3% × 10% = EGP 36M
-- **EGP 12bn:** Annual income of Egypt's barber sector, estimated at no less than EGP 12bn by the head of the hairdressing division at the Cairo Chamber of Commerce [1].
-- **× 3%:** Share of revenue a barbershop spends on software (POS, scheduling, payments) [2].
+### TAM = EGP 67.2M
+**Calculation:** EGP 12bn × 5.6% × 10% = EGP 67.2M
+- **EGP 12bn:** Annual income of Egypt's barber sector, estimated at no less than EGP 12bn by the Cairo Chamber of Commerce's hairdressing division [1].
+- **× 5.6%:** Share of a salon's revenue spent on what our product replaces: software for scheduling, POS and CRM (up to 0.6%) plus marketing to win customers which is offered by our marketplace exposure(up to 5%) [2].
 - **× 10%:** Only licensed shops can subscribe; about 200,000 of at least 2 million salons are licensed [1].
 
-### SAM = EGP 8.6M 
-**Calculation:** EGP 36M × 23.8% = EGP 8.6M
-- **× 23.8%:** launches in Cairo (10.5M), Giza (9.9M) and Alexandria (5.7M), 26.1M of Egypt's 109.5M people [3].
+### SAM = EGP 16.0M
+**Calculation:** EGP 67.2M × 23.8% = EGP 16.0M
+- **× 23.8%:** We launch in Cairo (10.5M), Giza (9.9M) and Alexandria (5.7M), 26.1M of Egypt's 109.5M people [3].
 
-### SOM = EGP 924k
-**Calculation:** EGP 8.6M × 10.8% = EGP 924k
-- **× 10.8%:** The share of SAM expected to be captured by Year 3, from the capture plan below.
+### SOM = EGP 1.85M
+**Calculation:** EGP 16.0M × 11.5% = EGP 1.85M
+- **× 11.5%:** Share of SAM captured by Year 3, from the capture plan below (154 shops × EGP 12,000 ÷ SAM).
 
 ---
 
-## Bottom-Up
+## Bottom-Up (customers × price)
 
-### TAM = EGP 41.1M (6,853 shops)
-**Calculation:** 6,853 shops × EGP 6,000 = EGP 41.1M
+### TAM = EGP 82.2M (6,853 shops)
+**Calculation:** 6,853 shops × EGP 12,000 = EGP 82.2M
 - **6,853:** Men's barbershops listed with an address and phone in Egypt's Yellow Pages, summed across governorates: Cairo 3,037, Giza 2,519, Qalyubia 540, Alexandria 283, Menoufia 198, Sharqia 74, Kafr El-Sheikh 61, Dakahlia 59, Damietta 42, Fayoum 40 [4].
 
-### SAM = EGP 8.0M (1,330 shops)
-**Calculation:** 1,330 shops × EGP 6,000 = EGP 8.0M
-- **Step 1:** Yellow Pages lists 5,839 men's barbershops in the 3 launch cities: Cairo 3,037, Giza 2,519, Alexandria 283 [4].
-- **Step 2:** Of these, 1,330 have a Google Maps business profile, meaning they already use technology: Cairo 632, Giza 475, Alexandria 223 [5].
+### SAM = EGP 16.0M (1,330 shops)
+**Calculation:** 1,330 shops × EGP 12,000 = EGP 16.0M
+- **1,330:** Barbershops with a Google Maps business profile in Cairo (632), Giza (475) and Alexandria (223), meaning they already use technology [5].
 
-### SOM = EGP 924k (154 shops)
-**Calculation:** 154 shops × EGP 6,000 = EGP 924k (11.6% of SAM)
-- **154 shops:** From the same capture plan.
+### SOM = EGP 1.85M (154 shops)
+**Calculation:** 154 shops × EGP 12,000 = EGP 1.85M
+- **154 shops:** From the capture plan below.
 
 ---
 
@@ -202,7 +202,7 @@ Following ***The Mom Test*** principles, we strictly avoided pitching our idea u
 | 3 | + 2nd sales rep, add Alexandria | 8/month = 96 | 10 | **154** |
 
 - **How each year is calculated:** Active shops = last year's shops − 15% churn + new shops.
-- **Why 8 a month is realistic:** 2 sales reps each sign 1 shop per week.
+- **Why 8 a month is realistic assumption:** 2 sales reps each sign 1 shop per week.
 
 ---
 
@@ -210,38 +210,37 @@ Following ***The Mom Test*** principles, we strictly avoided pitching our idea u
 
 | | Top-down | Bottom-up | Gap |
 |---|---|---|---|
-| TAM | EGP 36M | EGP 41.1M | 14% |
-| SAM | EGP 8.6M | EGP 8.0M | 7% |
-| SOM | EGP 924k | EGP 924k | — |
+| TAM | EGP 67.2M | EGP 82.2M | 18% |
+| SAM | EGP 16.0M | EGP 16.0M | <1% |
+| SOM | EGP 1.85M | EGP 1.85M | — |
 
-Two independent starting points, sector money and named shops, land within 7–14% of each other.
-
+Two independent starting points, sector money and named shops, land within 18% at TAM and match at SAM. 
 ---
 
 ## Assumptions
 1. **Shop counts come from Yellow Pages Egypt.** Yellow Pages is the national business directory [4], used because no official count of barbershops exists. These counts are a minimum: they miss shops that never listed themselves and may include some that have closed.
 2. **EGP 12bn is a minimum.** The Chamber said the sector earns "no less than" EGP 12bn, so the real figure could be higher. The hairdressing division also covers women's salons, so part of that money may not come from barbers [1].
-3. **3% is a U.S. figure.** No Egyptian data exists on how much barbershops spend on software. Egyptian shops probably spend less, which partly offsets the 12bn being a minimum [2].
+3. **5.6% is the salon spend on software and marketing.** The figures come from Booksy and describe salons in general; Egyptian barbers' actual marketing spend still has to be checked in interviews [2].
 4. **10% licensed is for all salons.** The Chamber's 200,000 licensed out of 2 million mixes men's and women's salons. We assume men's barbershops have a similar licensing rate [1].
-5. **The Google Maps data is unofficial.** It comes from a private company that collects Google Maps listings, and it doesn't explain exactly how it collected them. So it shows the right order of magnitude but isn't an exact count [5].
-6. **EGP 6,000 a year is our own price.** Real willingness to pay still has to be tested with shops [6].
-7. **The sales pace and churn are targets.** Signing 2, then 4, then 8 shops a month, and losing 15% of shops each year, are goals rather than proven numbers. They need to be checked during pilot launches.
+5. **Shops are spread in proportion to population** across governorates [3].
+6. **The Google Maps data is unofficial.** It comes from a private company that collects Google Maps listings and doesn't explain exactly how it collected them. It shows the right order of magnitude but isn't an exact count [5].
+7. **EGP 12,000 a year is our own price.** Real willingness to pay still has to be tested with shops.
+8. **The sales pace and churn are targets.** Signing 2, then 4, then 8 shops a month, and losing 15% of shops each year, are goals rather than proven numbers. They need to be checked during pilot launches.
+
 ---
 
+## Why Now?
+Egypt has a huge, recurring market for men's grooming, yet barbershops still run on walk-ins, phone calls and WhatsApp. Customers waste time waiting, and shops lose income from no-shows and idle chairs. Meanwhile, Egyptians already book and pay through their phones for rides, food and doctor visits. Existing booking platforms are generic or foreign and charge commissions on new customers instead of being built for local barbershops, which leaves a clear gap. We fill it with a simple, barber-focused booking, POS and marketplace app that brings organized, predictable visits to a market that is ready for it.
 
-* **"Why Now?":**
-  Egypt has a huge, recurring market for men’s grooming, yet barbershops still run on walk-ins, phone calls and WhatsApp, so customers waste time waiting and shops lose income from no-shows and idle chairs. Meanwhile, Egyptians have already adopted booking and paying through their phones for rides, food and doctor visits. Existing booking platforms are generic or foreign and not built for local barbershops, which leaves a clear gap. A simple, barber-focused booking and POS app that brings organized, predictable visits fills this gap in a market where still has no dominant business in this area.
+---
 
 ## References
 1. Masrawy, "شعبة الكوافير: قطاع الحلاقة يحقق دخلًا سنويًا لا يقل عن 12 مليار جنيه," Aug 18, 2026. [Link](https://www.masrawy.com/news/news_economy/details/2026/8/18/3034825/)
-2. BizMetricsHQ, "Barbershop Business Benchmarks: cost structure." [Link](https://www.bizmetricshq.com/industries/beauty/barbershop/)
+2. Booksy, "Cost to Run a Hair Salon: Complete Monthly Expenses Breakdown (2026)." [Link](https://biz.booksy.com/blog/cost-to-run-a-hair-salon)
 3. Egypt Today, "Egypt's domestic population reaches 109.5 Million: CAPMAS," Sep 19, 2026. [Link](https://www.egypttoday.com/Article/1/149579/Egypt’s-domestic-population-reaches-109-5-Million-CAPMAS)
 4. Yellow Pages Egypt, "حلاق رجالي" (men's barber) category. [Link](https://yellowpages.com.eg/ar/category/%D8%AD%D9%84%D8%A7%D9%82-%D8%B1%D8%AC%D8%A7%D9%84%D9%8A)
 5. Rentech SmartScraper, "List of Barber shops in Egypt," data as of Apr 1, 2026. [Link](https://rentechdigital.com/smartscraper/business-report-details/list-of-barber-shops-in-egypt)
-6. Codeiks, "برنامج محل حلاقة رجالي في مصر." [Link](https://www.codeiks.com/blog/barber-shop-software-egypt)
-7. El Watan News, SAR/EGP exchange rate, Apr 27, 2026. [Link](https://www.elwatannews.com/news/details/8273856)
-8. A. Wahsh, "Understand the Market," guest lecture, CSEN1096 Business of Software, GUC, 2026: 02 · Market Size, clinic worked example.
-9. CAPMAS, Egyptian Economic Census 2022/2023 (metadata). [Link](https://metadata.capmas.gov.eg/ar/index.php/catalog/1948)
+6. A. Wahsh, "Understand the Market," guest lecture, CSEN1096 Business of Software, GUC, 2026: 02 · Market Size, clinic worked example.
 ### 5. Market Structure and Competition
 *
   ## Competition List by Tier
@@ -294,15 +293,15 @@ Two independent starting points, sector money and named shops, land within 7–1
 - [18] Codeiks, barber shop software page (vendor description, not independent data). <https://www.codeiks.com/blog/barber-shop-software-egypt>
 - [19] The Barber, New Cairo, online booking page. <https://thebarber-eg.com/en/blog/online-booking-grooming-lounges-egypt>
 ### 6. Differentiation and Moat
-*## Differentiators
+## Differentiators
 
 Current options fall into three groups: general beauty platforms (Fresha, Ehgezly), single-shop booking tools (Dahem Salon, QR Barbers, Dexef), and the status quo (walk-ins, calls and WhatsApp). None of them combines the four points below.
 
 ### 1. A marketplace for barbershops only
-Every listing is a men's barbershop. Fresha and Ehgezly list barbers next to salons, spas and other categories, and single-shop tools only show one shop. Here, customers looking for a barber compare barbershops only, and a shop is seen by people who are looking for exactly what it offers.Since it is focusing on barbershops only it can bring more barbershops than general beauty platforms ,which will increase the network of barbershops acquired and cause a network effect non replaceable.
+Every listing is a men's barbershop. Fresha and Ehgezly list barbers next to salons, spas and other categories, and single-shop tools only show one shop. Here, customers looking for a barber compare barbershops only, and a shop is seen by people who are looking for exactly what it offers.Since it is focusing on barbershops only it can bring more barbershops than general beauty platforms ,which will increase the network of barbershops acquired and cause a network effect non replaceable. Leading to high monetization, free marketing and exposure to barbershops on top of the booking system offered. 
 
 ### 2. Ratings for each barber, not just each shop
-Customers rate both the shop and the barber who cut their hair. In a barbershop, people choose the barber, so a skilled barber builds his own reputation and attracts customers by name. On general platforms, reviews sit on the business profile, and single-shop tools have no public reviews. Shops with good barbers will be exposed and rewarded on a larger scale than just word of mouth.
+Customers rate both the shop and the barber who cut their hair. In a barbershop, people choose the barber, so a skilled barber builds his own reputation and attracts customers by name. On general platforms, reviews sit on the business profile, and single-shop tools have no public reviews. Shops with good barbers will be exposed and rewarded on a larger scale than just word of mouth. Also barbershops will be able to assess their staff and know who to keep and who to let go.
 
 ### 3. Barber profiles that move with the barber
 In Egypt, barbers often move between shops, and loyal customers follow the barber, not the shop. Each barber has his own profile with his ratings, photos of his work and his customers. If he moves to another shop on the platform, his reputation moves with him and his customers can find him. General platforms tie everything to the business, and single-shop tools lose the barber's history when he leaves.
@@ -601,27 +600,63 @@ We charge each shop a monthly subscription of 1,000 EGP, after a free first mont
 ---
 
 ## Deliverable 1.3: Riskiest Assumptions
-*(Top 5 assumptions that would kill the company if wrong, ranked by risk, each with the cheapest test. Note which will be tested in Milestone 2.)*
 
-1. **Assumption 1:** 
-   * **Risk Rank:** 1
-   * **Cheapest Test:** 
-2. **Assumption 2:** 
-   * **Risk Rank:** 2
-   * **Cheapest Test:** 
-3. **Assumption 3:** 
-   * **Risk Rank:** 3
-   * **Cheapest Test:** 
-4. **Assumption 4:** 
-   * **Risk Rank:** 4
-   * **Cheapest Test:** 
-5. **Assumption 5:** 
-   * **Risk Rank:** 5
-   * **Cheapest Test:** 
+## 1. Busy barbershops will pay a monthly subscription to organize their queue
 
-* **Selected Validation Experiment for Milestone 2:** 
+**Test (pre-order):** Show 10 busy shops a simple mockup of the queue and booking system, and ask each to pre-pay a discounted first month to get it at launch.
+
+- **Segment and sample:** 10 crowded men's barbershops in one neighborhood
+- **Behavior measured:** shops that actually pre-pay
+- **Test period:** 2 weeks
+- **Pass/fail:** at least 3 shops pre-pay
+- **Next step:** success → build the product. Failure → ask why (price or no need), adjust the price or the pitch, and retest. Unclear (1–2 pay) → pitch 10 more shops.
+
+## 2. Customers will pay a deposit to reserve a barber and a time slot
+
+**Test (concierge):** Take bookings for partner shops manually over WhatsApp. Confirm a booking only after the customer pays a small deposit via InstaPay or wallet, deducted from the haircut price.
+
+- **Segment and sample:** customers of 1–2 partner shops, about 30 booking attempts
+- **Behavior measured:** booking attempts that end in a paid deposit
+- **Test period:** 2 weeks
+- **Pass/fail:** at least 50% pay
+- **Next step:** success → keep deposits as the core mechanism. Failure (below 30%) → test a smaller or optional deposit. Unclear (30–50%) → test a lower deposit amount.
+
+## 3. Customers can book easily, and receptionists can add walk-ins quickly
+
+**Test (clickable prototype):** Build clickable screens of the booking flow and the "add walk-in" button only. Ask customers to "book a haircut with this barber tomorrow at 7 pm" without help. Have receptionists add real walk-ins during a busy hour. Time both.
+
+- **Segment and sample:** 10 customers, 3 receptionists
+- **Behavior measured:** unaided task completion and time taken
+- **Test period:** 1 day for customers; one busy hour per receptionist
+- **Pass/fail:** at least 8 of 10 customers book in about a minute; each walk-in takes about 15 seconds or less
+- **Next step:** success → build these flows as designed. Failure → redesign the step where users got stuck. Unclear → retest that step with 5 new users.
+
+## 4. Shop staff will keep the live queue accurate throughout the day
+
+Receptionists add every walk-in to the queue as soon as they arrive. Every finished customer is paid through the POS, which marks them done and moves the queue. If either step is skipped or delayed, wait times become wrong and the system breaks.
+
+**Test (limited working version in a real shop):** Run a simple working version of the queue and POS payment in a shop for a week, with no reminders after the first day. During busy hours, note when each walk-in arrives and when each customer finishes, then compare with what the system recorded.
+
+- **Segment and sample:** 1–2 shops, about 50 observed customers
+- **Behavior measured:** walk-ins entered within 2 minutes of arrival, and finished customers closed through POS payment
+- **Test period:** 1 week, observing 2–3 busy hours a day
+- **Pass/fail:** at least 80% of walk-ins entered within 2 minutes, and at least 90% of finished customers closed through payment
+- **Next step:** success → the live queue is viable. Failure → find the step staff skip and make it unavoidable (for example, a walk-in can't be paid for unless it was added to the queue). Unclear → ask staff when and why they skipped, fix that, and run one more week.
+
+## 5. The platform is able to technically connect customers to many shops and keep each shop's queue updated live
+
+Customers book any shop through the marketplace, receptionists add walk-ins, and every change shows up instantly for both customers and shops.
+
+**Test (limited working version):** Build a basic working version with 2 shops, a customer booking screen and a receptionist screen. Run it with real bookings and walk-ins for a few days, and check that every change appears on all screens instantly with no double bookings.
+
+- **Segment and sample:** 2 shops, about 50 bookings and walk-ins
+- **Behavior measured:** whether updates appear instantly, and whether any slot is double booked
+- **Test period:** 1 week
+- **Pass/fail:** zero double bookings and updates showing within about 2 seconds
+- **Next step:** success → build on this architecture. Failure → fix how bookings are saved and synced before adding features. Unclear → test with more shops and bookings.
 
 ---
+
 
 ## Deliverable 1.4: Investor One-Pager
 * **Problem:** 
