@@ -3,7 +3,7 @@
 ## Founders' Contribution Table (1 Page)
 | Founder Name | Role | Deliverables & Sections Owned | % Contribution |
 | :--- | :--- | :--- | :--- |
-| Nooreldeen | CEO / Product owner | 1.1 Section 1 (Vision and Mission), Section 3 (Customer Discovery), Section 9 (Company Type and Founding Structure); Appendix A (Interview Log); Appendix B (Cap Table) | |
+| Nooreldeen | CEO / Product owner | 1.1 Section 1 (Vision and Mission), Section 3 (Customer Discovery), Section 9 (Company Type and Founding Structure); Appendix A (Interview Log); Appendix B (Cap Table); Deliverable 1.2 (Business Model Canvas and Pricing Hypothesis) | |
 | Abdelrahman | CTO | Technical deliverables | |
 | Ahmed | COO | Operations deliverables | |
 
@@ -423,83 +423,62 @@ Following the three-part framework from market analysis (Survey predicts, Proces
 
 ## Deliverable 1.2: Business Model Canvas and Pricing Hypothesis
 
+*(The one-page canvas is in `Business Model Canvas and Pricing Hypothesis.docx`. Every block is based on our 6 discovery interviews.)*
+
 ### 1. Business Model Canvas (9 Blocks)
-* **Key Partners:** 
-* **Key Activities:** 
-* **Key Resources:** 
-* **Value Propositions:** 
-* **Customer Relationships:** 
-* **Channels:** 
-* **Customer Segments:** 
-* **Cost Structure:** 
-* **Revenue Streams:** 
+* **Key Partners:** Pilot barbershops in New Cairo and Nasr City (first shops, free trial); barbers with a social following, who share their live queue link; a local payment provider (cards and wallets) to collect the commission and booking deposits; cloud hosting and SMS / push notification providers; a tablet supplier for the in-shop queue screen.
+* **Key Activities:** Build and run the customer app, shop screen and barber app; sign and onboard shops in person and train the front desk; keep per-barber wait estimates accurate; keep interviewing shops and customers and run pilots.
+* **Key Resources:** The platform (live queue, service log, alerts); live data on walk-outs, waits and barber demand that no shop records today; the network of shops, barbers and their ratings; the founding team (product, tech, operations).
+* **Value Propositions:**
+  * *For shops:* win back walk-outs (about 10,800 EGP a month at 3 lost cuts a day, our estimate); fewer "is he free?" calls (5–10 a day at the front desk); an automatic service log per barber replaces the paper notebook; keeps first come, first served, so walk-ins stay treated fairly; nothing to pay upfront, pay only per haircut.
+  * *For customers:* see the live wait for your own barber and arrive just in time; a "your barber's queue is short" alert.
+  * *For barbers:* an open / close queue control and fewer calls during cuts.
+* **Customer Relationships:** In-person onboarding and support for every shop (COO); a free first month for pilot shops; a WhatsApp support line for shop staff; a self-service app for customers.
+* **Channels:** Direct visits to shops by the founders, later sales reps; a queue screen and QR code at the shop entrance; barbers' Instagram, TikTok and WhatsApp, with a link to their live queue; the customer app and web page.
+* **Customer Segments:**
+  * *Paying customer:* owners of multi-chair barbershops (3–8 chairs, 100–250 EGP per cut) in Greater Cairo that work first come, first served and log on paper.
+  * *Users:* men aged 18–35 loyal to one specific barber, and high-intent clients who found a barber on social media.
+  * *Not targeted:* customers with no preferred barber (they barely wait).
+* **Cost Structure:** Product development (founders' time now, engineers later); cloud hosting, SMS and push notifications; queue-screen tablets for shops; field sales and onboarding (sales reps from Year 2); payment processing fees on collected commission; marketing with barbers on social media.
+* **Revenue Streams:** A commission on each haircut served through the platform: **[__] EGP per haircut** (rate to be confirmed). No subscription and no setup fee; customers use the app for free. Revenue grows with shops × haircuts per shop.
 
 ### 2. Pricing Hypothesis
-* **Monetization Model:** (e.g., SaaS tiers, freemium, marketplace take rate, usage-based)
-* **Initial Price Point:** 
-* **Pricing Logic:** (Value-based pricing, anchoring, willingness to pay from interviews)
+We charge shops a commission on each haircut served through the platform. Shops pay nothing upfront, customers use the app for free, and the initial price is [__] EGP per haircut, to be confirmed by the team and tested in Milestone 2.
+
+* **Monetization Model:** Marketplace take rate / usage-based: a fee per haircut served through the platform, not a monthly subscription. The barbershop pays; customers and barbers do not. No setup fee and no subscription, so a shop's bill rises and falls with the haircuts it actually serves.
+* **Initial Price Point:** **[__] EGP per haircut** (or [__]% of the haircut price). At Shop 1's price of 120 EGP, that is [__]% of each cut.
+* **Pricing Logic:**
+  * *Fits a customer who pays for no software today.* The owner we interviewed pays for no software and runs everything on paper. A per-haircut fee removes the upfront cost that would stop him from trying.
+  * *Value-based.* Losing 3 haircut customers a day at 120 EGP costs a shop about 10,800 EGP a month (our estimate). The commission must stay a small share of the value we recover: if the platform wins back even one walk-out a day (about 3,600 EGP a month), the shop should keep most of that gain.
+  * *Anchoring against competitors.* Fresha charges a 20% one-time fee on each new customer it brings through its marketplace, plus card fees of 2.79% + USD 0.20. Ehgezly does not publish its shop fees (see [Section 5](#5-market-structure-and-competition)). Our per-haircut fee is set to look small next to Fresha's 20%.
+  * *Willingness to pay from interviews.* The owner said, *"Of course I'd even pay for a service like that,"* and was open to a free trial. This is stated, not committed, so we treat it as a signal to test, not as proof.
+* **Risks and How We Test Them:**
+  * *Leakage:* shops may serve haircuts without logging them, to avoid the fee.
+  * *Resistance to a fee on every cut:* owners may prefer a fixed monthly price.
+  * *Milestone 2 test:* offer pilot shops the commission after the free month and record how many accept, at what rate, and how many cuts they log.
 
 ---
 
-# Deliverable 1.3: Riskiest Assumptions
+## Deliverable 1.3: Riskiest Assumptions
+*(Top 5 assumptions that would kill the company if wrong, ranked by risk, each with the cheapest test. Note which will be tested in Milestone 2.)*
 
-## 1. Barbershops will pay a commission on every booking made through the platform
+1. **Assumption 1:** 
+   * **Risk Rank:** 1
+   * **Cheapest Test:** 
+2. **Assumption 2:** 
+   * **Risk Rank:** 2
+   * **Cheapest Test:** 
+3. **Assumption 3:** 
+   * **Risk Rank:** 3
+   * **Cheapest Test:** 
+4. **Assumption 4:** 
+   * **Risk Rank:** 4
+   * **Cheapest Test:** 
+5. **Assumption 5:** 
+   * **Risk Rank:** 5
+   * **Cheapest Test:** 
 
-**Test (paid pilot, concierge):** Sign one-page pilot agreements with shops. For 2 weeks, take customer bookings manually through WhatsApp or a form and send them to the shops. At the end, bill each shop its commission for bookings that showed up.
-
-- **Segment and sample:** 10 crowded men's barbershops in one neighborhood
-- **Behavior measured:** shops sign and actually pay the commission
-- **Test period:** 2 weeks
-- **Pass/fail:** at least 3 shops pay and agree to continue
-- **Next step:** success → build the product. Failure → test a lower commission or rethink the model. Unclear (1–2 pay) → interview refusers and extend to 10 more shops.
-
-## 2. Customers will pay a deposit to reserve a barber and a time slot
-
-**Test (concierge):** Take bookings for partner shops manually over WhatsApp. Confirm a booking only after the customer pays a small deposit via InstaPay or wallet, deducted from the haircut price.
-
-- **Segment and sample:** customers of 1–2 partner shops, about 30 booking attempts
-- **Behavior measured:** booking attempts that end in a paid deposit
-- **Test period:** 2 weeks
-- **Pass/fail:** at least 50% pay
-- **Next step:** success → keep deposits as the core mechanism. Failure (below 30%) → test a smaller or optional deposit. Unclear (30–50%) → test a lower deposit amount.
-
-## 3. Customers can book easily, and receptionists can add walk-ins quickly
-
-**Test (clickable prototype):** Build clickable screens of the booking flow and the "add walk-in" button only. Ask customers to "book a haircut with this barber tomorrow at 7 pm" without help. Have receptionists add real walk-ins during a busy hour. Time both.
-
-- **Segment and sample:** 10 customers, 3 receptionists
-- **Behavior measured:** unaided task completion and time taken
-- **Test period:** 1 day for customers; one busy hour per receptionist
-- **Pass/fail:** at least 8 of 10 customers book in about a minute; each walk-in takes about 15 seconds or less
-- **Next step:** success → build these flows as designed. Failure → redesign the step where users got stuck. Unclear → retest that step with 5 new users.
-
-## 4. Shop staff will keep the live queue accurate throughout the day
-
-Receptionists add every walk-in to the queue as soon as they arrive. Every finished customer is paid through the POS, which marks them done and moves the queue. If either step is skipped or delayed, wait times become wrong and the system breaks.
-
-**Test (limited working version in a real shop):** Run a simple working version of the queue and POS payment in a shop for a week, with no reminders after the first day. During busy hours, note when each walk-in arrives and when each customer finishes, then compare with what the system recorded.
-
-- **Segment and sample:** 1–2 shops, about 50 observed customers
-- **Behavior measured:** walk-ins entered within 2 minutes of arrival, and finished customers closed through POS payment
-- **Test period:** 1 week, observing 2–3 busy hours a day
-- **Pass/fail:** at least 80% of walk-ins entered within 2 minutes, and at least 90% of finished customers closed through payment
-- **Next step:** success → the live queue is viable. Failure → find the step staff skip and make it unavoidable (for example, a walk-in can't be paid for unless it was added to the queue). Unclear → ask staff when and why they skipped, fix that, and run one more week.
-
-## 5. The platform is able technically to connect customers to different shops and keep each shop's queue updated live with no delay online or on ground  
-
-Customers book any shop through the marketplace, receptionists add walk-ins, and every change shows up instantly for both customers and shops.
-
-**Test (limited working version):** Build a basic working version with 2 shops, a customer booking screen and a receptionist screen. Run it with real bookings and walk-ins for a few days, and check that every change appears on all screens instantly with no double bookings.
-
-- **Segment and sample:** 2 shops, about 50 bookings and walk-ins
-- **Behavior measured:** whether updates appear instantly, and whether any slot is double booked
-- **Test period:** 1 week
-- **Pass/fail:** zero double bookings and updates showing within about 2 seconds
-- **Next step:** success → build on this architecture. Failure → fix how bookings are saved and synced before adding features. Unclear → test with more shops and bookings.
-
----
-
-**Milestone 2 validation experiment:** .
+* **Selected Validation Experiment for Milestone 2:** 
 
 ---
 
