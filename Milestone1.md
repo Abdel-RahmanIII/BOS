@@ -628,15 +628,15 @@ We charge each shop a monthly subscription of 1,000 EGP, after a free first mont
 
 ## 4. Shop staff will keep the live queue accurate throughout the day
 
-Receptionists add every walk-in to the queue as soon as they arrive. Every finished customer is paid through the POS, which marks them done and moves the queue. If either step is skipped or delayed, wait times become wrong and the system breaks.
+Receptionists add every walk-in to the queue as soon as they arrive. Every finished customer is logged through the tablet, which marks them done and moves the queue. If either step is skipped or delayed, wait times become wrong and the system breaks.
 
-**Test (limited working version in a real shop):** Run a simple working version of the queue and POS payment in a shop for a week, with no reminders after the first day. During busy hours, note when each walk-in arrives and when each customer finishes, then compare with what the system recorded.
+**Test (limited working version in a real shop):** Run a working version of the front-desk tablet queue in 2–3 partner shops for 2–4 weeks (with dedicated observation during busy hours), with no reminders after the first day. Note when each walk-in arrives and when each customer finishes, then compare with what the tablet recorded.
 
-- **Segment and sample:** 1–2 shops, about 50 observed customers
-- **Behavior measured:** walk-ins entered within 2 minutes of arrival, and finished customers closed through POS payment
-- **Test period:** 1 week, observing 2–3 busy hours a day
-- **Pass/fail:** at least 80% of walk-ins entered within 2 minutes, and at least 90% of finished customers closed through payment
-- **Next step:** success → the live queue is viable. Failure → find the step staff skip and make it unavoidable (for example, a walk-in can't be paid for unless it was added to the queue). Unclear → ask staff when and why they skipped, fix that, and run one more week.
+- **Segment and sample:** 2–3 busy multi-chair shops, 100+ observed customer visits
+- **Behavior measured:** walk-ins entered within 2 minutes of arrival, and finished cuts closed through the tablet
+- **Test period:** 4 weeks (with focused observation during 2–3 busy peak hours a day)
+- **Pass/fail:** at least 85% of walk-ins entered within 2 minutes, and at least 90% of completed cuts closed through the tablet
+- **Next step:** success → the live queue is viable. Failure (<70%) → find the step staff skip and automate/simplify it (e.g. one-tap quick logger). Unclear (70–84%) → interview staff during peak rush, adjust button flows, and retest.
 
 ## 5. The platform is able to technically connect customers to many shops and keep each shop's queue updated live
 
