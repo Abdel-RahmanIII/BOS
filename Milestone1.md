@@ -441,26 +441,65 @@ Following the three-part framework from market analysis (Survey predicts, Proces
 
 ---
 
-## Deliverable 1.3: Riskiest Assumptions
-*(Top 5 assumptions that would kill the company if wrong, ranked by risk, each with the cheapest test. Note which will be tested in Milestone 2.)*
+# Deliverable 1.3: Riskiest Assumptions
 
-1. **Assumption 1:** 
-   * **Risk Rank:** 1
-   * **Cheapest Test:** 
-2. **Assumption 2:** 
-   * **Risk Rank:** 2
-   * **Cheapest Test:** 
-3. **Assumption 3:** 
-   * **Risk Rank:** 3
-   * **Cheapest Test:** 
-4. **Assumption 4:** 
-   * **Risk Rank:** 4
-   * **Cheapest Test:** 
-5. **Assumption 5:** 
-   * **Risk Rank:** 5
-   * **Cheapest Test:** 
+## 1. Barbershops will pay a commission on every booking made through the platform
 
-* **Selected Validation Experiment for Milestone 2:** 
+**Test (paid pilot, concierge):** Sign one-page pilot agreements with shops. For 2 weeks, take customer bookings manually through WhatsApp or a form and send them to the shops. At the end, bill each shop its commission for bookings that showed up.
+
+- **Segment and sample:** 10 crowded men's barbershops in one neighborhood
+- **Behavior measured:** shops sign and actually pay the commission
+- **Test period:** 2 weeks
+- **Pass/fail:** at least 3 shops pay and agree to continue
+- **Next step:** success → build the product. Failure → test a lower commission or rethink the model. Unclear (1–2 pay) → interview refusers and extend to 10 more shops.
+
+## 2. Customers will pay a deposit to reserve a barber and a time slot
+
+**Test (concierge):** Take bookings for partner shops manually over WhatsApp. Confirm a booking only after the customer pays a small deposit via InstaPay or wallet, deducted from the haircut price.
+
+- **Segment and sample:** customers of 1–2 partner shops, about 30 booking attempts
+- **Behavior measured:** booking attempts that end in a paid deposit
+- **Test period:** 2 weeks
+- **Pass/fail:** at least 50% pay
+- **Next step:** success → keep deposits as the core mechanism. Failure (below 30%) → test a smaller or optional deposit. Unclear (30–50%) → test a lower deposit amount.
+
+## 3. Customers can book easily, and receptionists can add walk-ins quickly
+
+**Test (clickable prototype):** Build clickable screens of the booking flow and the "add walk-in" button only. Ask customers to "book a haircut with this barber tomorrow at 7 pm" without help. Have receptionists add real walk-ins during a busy hour. Time both.
+
+- **Segment and sample:** 10 customers, 3 receptionists
+- **Behavior measured:** unaided task completion and time taken
+- **Test period:** 1 day for customers; one busy hour per receptionist
+- **Pass/fail:** at least 8 of 10 customers book in about a minute; each walk-in takes about 15 seconds or less
+- **Next step:** success → build these flows as designed. Failure → redesign the step where users got stuck. Unclear → retest that step with 5 new users.
+
+## 4. Shop staff will keep the live queue accurate throughout the day
+
+Receptionists add every walk-in to the queue as soon as they arrive. Every finished customer is paid through the POS, which marks them done and moves the queue. If either step is skipped or delayed, wait times become wrong and the system breaks.
+
+**Test (limited working version in a real shop):** Run a simple working version of the queue and POS payment in a shop for a week, with no reminders after the first day. During busy hours, note when each walk-in arrives and when each customer finishes, then compare with what the system recorded.
+
+- **Segment and sample:** 1–2 shops, about 50 observed customers
+- **Behavior measured:** walk-ins entered within 2 minutes of arrival, and finished customers closed through POS payment
+- **Test period:** 1 week, observing 2–3 busy hours a day
+- **Pass/fail:** at least 80% of walk-ins entered within 2 minutes, and at least 90% of finished customers closed through payment
+- **Next step:** success → the live queue is viable. Failure → find the step staff skip and make it unavoidable (for example, a walk-in can't be paid for unless it was added to the queue). Unclear → ask staff when and why they skipped, fix that, and run one more week.
+
+## 5. The platform is able technically to connect customers to different shops and keep each shop's queue updated live with no delay online or on ground  
+
+Customers book any shop through the marketplace, receptionists add walk-ins, and every change shows up instantly for both customers and shops.
+
+**Test (limited working version):** Build a basic working version with 2 shops, a customer booking screen and a receptionist screen. Run it with real bookings and walk-ins for a few days, and check that every change appears on all screens instantly with no double bookings.
+
+- **Segment and sample:** 2 shops, about 50 bookings and walk-ins
+- **Behavior measured:** whether updates appear instantly, and whether any slot is double booked
+- **Test period:** 1 week
+- **Pass/fail:** zero double bookings and updates showing within about 2 seconds
+- **Next step:** success → build on this architecture. Failure → fix how bookings are saved and synced before adding features. Unclear → test with more shops and bookings.
+
+---
+
+**Milestone 2 validation experiment:** .
 
 ---
 
