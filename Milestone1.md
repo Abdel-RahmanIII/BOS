@@ -33,37 +33,44 @@
 ### 2. Problem and Customer
 
 * **Problem Description:**
-  * **Who Has the Problem:**
-    * **The Primary Buyer (Barbershop Owner-Operator):** Owners of multi-chair, upper-mid barbershops suffer from severe queue imbalances and blind operations. Demand clusters around 1–2 popular barbers while other chairs sit empty, causing shops to lose revenue from untracked walk-outs while relying on manual paper notebooks and constant phone interruptions.
-    * **The End-User (The Loyal or High-Intent Client):** Young men and professionals who demand a haircut from *their specific barber*—either through personal loyalty or after discovering a barber via social media (e.g., viral TikTok/Instagram hair transformation clips). They face complete "wait blindness" with no way to check queue length before arriving.
+  The urban men's grooming sector in Egypt suffers from severe queue imbalances and operational blindness driven by intense loyalty to individual craftsmen rather than shop brands.
+
+  * **Who Has the Problem (Three-Sided Ecosystem):**
+    * **1. The Primary Buyer (Barbershop Owner-Operator):** Owners of multi-chair, upper-mid barbershops suffer from revenue leakage and blind operations. Customer demand bunches heavily on 1–2 popular star barbers while other chairs sit idle. Relying entirely on manual paper ledgers and uncoordinated walk-ins, owners cannot track retention, measure walk-outs, or manage peak-hour floor chaos.
+    * **2. The Service Provider (The Individual Barber):** Skilled craftsmen face constant friction during shifts. Regulars call and message them while they are actively holding shears, breaking their workflow. Barbers experience extreme physical fatigue during unmanaged arrival spikes, have zero tools to pace their workday, and possess no formal, portable digital record of their cutting volume, client ratings, or social media craftsmanship.
+    * **3. The End-User (The Loyal or High-Intent Client):** Young men and professionals who demand a cut from *their designated barber*—either through long-term loyalty or social media discovery (e.g., TikTok/Instagram transformation reels). They face total "wait blindness" before arrival. Arriving to an unexpectedly packed shop, they face an unacceptable dilemma: waste 30–60 minutes in a crowded waiting area, or walk away and forfeit their grooming routine.
   * **Frequency:**
-    * **Daily & Peak-Bunched:** The problem occurs daily, concentrating during evenings (6:00 PM – 11:00 PM), Thursdays, Fridays, and weekends.
-    * **Frequent Communication Friction:** Receptionists handle 5–10 calls per busy day solely answering *"Is [Barber X] free?"*, while individual barbers receive ~5 direct calls and messages daily.
+    * **Daily & Peak-Bunched:** Severe congestion occurs daily, clustering during evening hours (6:00 PM – 11:00 PM), Thursdays, Fridays, and pre-holiday seasons.
+    * **Constant Communication Friction:** Front-desk receptionists field 5–10 calls per busy shift exclusively answering *"Is [Barber X] free?"*, while individual barbers receive ~5 direct WhatsApp messages and calls mid-service every day.
   * **Current Solutions & Workarounds:**
-    * *Guesswork & Blind Walk-Ins:* Clients show up unannounced; encountering 2–4 waiting customers, they either endure a 30–60 minute wait or walk away.
-    * *Phone Calls & WhatsApp DMs:* Regulars call or message barbers and front desks directly to check availability, causing constant interruptions during operating hours.
-    * *Strict "First-Come, First-Served" Policy:* Shops actively reject traditional booking apps because allowing customers to skip the physical queue violates shop floor fairness and upsets waiting walk-ins.
-    * *Physical Paper Ledgers:* Staff manually log each service on paper notebooks, leaving owners with no retention tracking or customer data.
+    * *Blind Walk-Ins & Lobby Guesswork:* Clients arrive unannounced; seeing 2–4 people waiting ahead for their barber, they either endure an uncomfortable 30–60 minute wait or leave.
+    * *Disruptive Direct Messaging:* Regulars text or call barbers directly to negotiate informal timing, forcing barbers to stop cutting or answer with hands full.
+    * *Strict First-Come, First-Served Dogma:* Because traditional booking apps cause later arrivals to cut in front of waiting walk-ins, shops strictly reject reservations to avoid customer conflict and maintain shop-floor fairness.
+    * *Pen-and-Paper Registers:* Receptionists or senior barbers track services manually in paper notebooks, resulting in zero retention analytics, vulnerability to cash reconciliation errors, and untracked client walk-outs.
   * **Cost of the Problem:**
-    * **Direct Revenue Loss for Owners:** Field interviews confirm walk-outs happen daily. At Shop 1's baseline (120 EGP/cut), losing just 3 walk-away clients per day costs **360 EGP per day, or ~10,800 EGP per month** in unrecovered top-line revenue.
-    * **Uncaptured Social Discoverability:** High-intent prospective clients who discover a barber on TikTok/Instagram hit a dead end without a direct link to check live availability or queue status, failing to convert viral interest into visits.
-    * **Client Time & Friction Cost:** Loyal clients lose 30–60 minutes in waiting chairs or incur wasted round-trip commutes when forced to walk away.
+    * **Direct Revenue Loss for Owners:** Field discovery confirms walk-outs occur daily. At Shop 1's baseline (120 EGP/haircut), losing just 3 walk-away clients per day costs **360 EGP per day, ~10,800 EGP per month, or ~130,000 EGP annually** in unrecoverable top-line revenue per shop.
+    * **Staff Productivity Drain:** Front desks lose 30–50 minutes per shift handling repetitive availability calls that fail to convert into visits.
+    * **Lost Social Media Conversion:** High-intent prospective clients who view a barber's viral transformation on TikTok/Instagram hit a dead end without a direct link to check real-time availability or queue status.
+    * **Client Time & Friction Cost:** Loyal customers lose 30–60 minutes per visit in unproductive waiting or incur wasted round-trip commutes when forced to walk out.
 
 * **Ideal Customer Profile (ICP):**
-  * **Economic Buyer ICP (Barbershop Owner-Operator):**
-    * *Geography & Setting:* High-density urban commercial districts in Greater Cairo, starting in **New Cairo and Nasr City**.
-    * *Shop Capacity & Tier:* Multi-chair establishments (**3 to 8 chairs**) charging **100 to 250 EGP per haircut**, where individual barber craftsmanship drives customer loyalty.
-    * *Operational Profile:* Relies on manual paper logging, adheres strictly to first-come, first-served walk-ins, and wants to prevent walk-outs without disrupting shop floor fairness.
-  * **End-User ICP (The Loyal / High-Intent Client):**
-    * *Demographics:* Men aged **18 to 35** (students and working professionals) in urban Cairo.
-    * *Behavior:* Strongly loyal to one specific barber, or actively seeking skilled barbers seen on TikTok/Instagram.
-    * *Tech Profile:* App-literate smartphone user who prefers checking a live queue online over calling or waiting blindly in a shop.
+  * **1. Economic Buyer ICP (Barbershop Owner-Operator):**
+    * *Geography & Density:* High-density urban commercial hubs in Greater Cairo, launching in **New Cairo and Nasr City**.
+    * *Shop Capacity & Pricing:* Multi-chair shops (**3 to 8 chairs**) charging **100 to 250 EGP per haircut**, where individual barber talent drives repeat business.
+    * *Operational Profile:* Uses manual paper logs, enforces strict first-come, first-served queueing, uses smartphones/tablets, and seeks to eliminate walk-outs without disrupting shop floor fairness.
+  * **2. Service Provider ICP (The Craftsman / Barber):**
+    * *Profile:* Barbers aged 20–35 with an established regular following, active social media presence (posting cuts on Instagram/TikTok), paid on commission or chair rental, seeking to pace their energy and build a portable reputation.
+  * **3. End-User ICP (The Loyal / High-Intent Client):**
+    * *Demographics:* Men aged **18 to 35** (students and urban working professionals) in Greater Cairo.
+    * *Behavior & Tech Profile:* App-literate smartphone users strongly loyal to one specific barber who demand schedule predictability and refuse to sit in another barber's chair.
 
-* **Job-to-be-Done (JTBD) Statement:**
+* **Job-to-be-Done (JTBD) Statements:**
   * **Buyer JTBD (Shop Owner):**
     > *"When customer demand bunches on popular barbers or rushes in from social media, I want to make our live queue transparent and automate daily service logs, so I can eliminate walk-away losses and run an orderly, fair shop without hiring extra staff."*
+  * **Provider JTBD (Individual Barber):**
+    > *"When I am working busy shifts, I want to minimize phone call interruptions and control my queue flow, so I can focus on my craft, pace my physical energy, and build a verified reputation that stays with me."*
   * **End-User JTBD (Loyal / High-Intent Client):**
-    > *"When I need a haircut from my designated barber (or see his work on TikTok), I want to see his real-time queue length before heading out, so I can arrive just in time, skip the 45-minute wait, and never have to settle for another barber."* 
+    > *"When I need a haircut from my designated barber (or discover him on TikTok), I want to see his real-time queue length before heading out, so I can arrive just in time, skip the 45-minute wait, and never have to settle for another barber."*
 
 ### 3. Customer Discovery
 
@@ -358,11 +365,141 @@ Following the three-part framework from market analysis (Survey predicts, Proces
   * **Operational Pull:** $\ge 60\%$ of queue views occur during peak hours (6:00 PM – 11:00 PM) before in-person arrival. 
 
 ### 8. Product Strategy and MVP
+
 * **MVP Scope:** (Designed to test the riskiest assumption)
-* **Feature Prioritization (Top 15–20 Features):**
-  * **MoSCoW Classification:** (Must-haves, Should-haves, Could-haves, Won’t-haves)
-  * **Kano Classification:** (Basics, one-dimensionals, delighters, indifferent)
-* **Roadmap (Now / Next / Later for 6–12 Months):** 
+  The MVP is designed to test our primary riskiest operational assumption: **that shop staff will reliably maintain an accurate digital queue throughout the day in real time, and customers will use live per-barber wait visibility to arrive just in time instead of walking out.** If staff abandon the tool during peak rushes or wait times desync, the queue becomes inaccurate and the platform loses all customer trust.
+
+  To test this, the MVP is deployed across 2–3 busy multi-chair barbershops (3–8 chairs) in New Cairo and Nasr City over a 4-week pilot, focusing strictly on the operational queue loop and paper replacement before building out the wider marketplace.
+
+  * **What is IN the MVP:**
+    - **Front-desk tablet web app:** Quick walk-in entry (<15 seconds), one-tap chair seating and finish toggles, and an automatic daily cut and cash log per barber that directly replaces the manual paper register.
+    - **Consumer mobile web app:** Lightweight responsive web link (accessible via QR code or direct link with zero app store download friction) showing real-time per-barber wait status and letting clients join the queue remotely.
+    - **Barber queue pause toggle:** Simple open/pause control per barber to take breaks and manage physical fatigue.
+    - **Real-time synchronization backend:** WebSocket engine keeping the front-desk tablet and customer phones in sync in under 2 seconds.
+    - **Concierge deposit booking test:** Lets customers reserve advance slots with popular barbers by sending a 30–50 EGP deposit via InstaPay or mobile wallet, credited at counter checkout.
+
+  * **What is OUT of the MVP (Deliberately Deferred):**
+    - *In-shop waiting room TV screen:* A luxury display that can wait. Customers check their own phones, avoiding hardware installation friction during early pilots.
+    - *Native iOS/Android store apps:* Web app removes download resistance and avoids app store approval delays during pilot testing.
+    - *Automated payment gateway:* Pilot uses direct InstaPay / mobile wallet concierge transfers to avoid merchant onboarding delays.
+    - *Retail product inventory tracking:* Hard to implement with minimal payoff; Egyptian barbershops earn >95% of revenue from services.
+    - *AI wait time predictions:* Simple fixed buffers (30 min haircut, 20 min beard) are used instead of machine learning algorithms.
+    - *City-wide marketplace directory:* The pilot runs shop-by-shop via direct links and QR codes before launching public cross-shop discovery.
+
+  * **Pilot Pass/Fail Metrics:**
+    - **Queue Accuracy & Adoption:** Staff log at least 85% of walk-ins within 2 minutes of arrival, and close at least 90% of completed cuts through the tablet.
+    - **Speed & Usability:** Front-desk walk-in entry takes 15 seconds or less; customer checks queue or books unaided in under 1 minute.
+    - **Technical Sync:** Real-time queue updates appear on all screens in under 2 seconds with zero double-booking errors over 100+ visits.
+    - **Commercial Conversion:** At least 2 of the 3 pilot shops agree to transition to the paid 1,000 EGP/month subscription at the end of the 30-day trial.
+
+* **Feature Prioritization (Top 20 Features):**
+
+  | # | Feature Name | Target User | Description & Why It Matters |
+  |---|---|---|---|
+  | **1** | **Quick walk-in entry (<15s)** | Front Desk / Cashier | Replaces paper notebook; must be faster than handwriting or staff abandon it during peak hours. |
+  | **2** | **One-tap chair seat and finish toggles** | Front Desk / Cashier | Frees chairs and updates the live queue with one touch; keeps staff hands-off clunky menus. |
+  | **3** | **In-shop waiting room TV screen** | Waiting Clients & Staff | A luxury display that can wait. Customers check queue status on their phones, so a dedicated TV is not needed for launch. |
+  | **4** | **Live per-barber queue tracker** | Customer | Shows live wait per barber (*"2 ahead, ~40 min"*); eliminates blind waiting and stops walk-outs. |
+  | **5** | **Barber queue pause/open toggle** | Barber | Gives barbers control over physical fatigue and shift pacing so they can pause incoming clients. |
+  | **6** | **Automated daily cut & cash ledger** | Shop Owner & Cashier | Instantly sums daily cuts, services, and cash per barber; replaces manual paper accounting. |
+  | **7** | **Real-time multi-device sync (<2s)** | System / All | WebSockets keep front desk and customer phones in sync with no delay or double-booking. |
+  | **8** | **SMS / WhatsApp proximity alerts** | Customer | Alerts customer when 1 person is ahead so they arrive just in time without sitting in the lobby. |
+  | **9** | **Deposit-backed advance slot booking** | Customer & Shop | Collects 30–50 EGP deposit via InstaPay/wallet to guarantee slot and eliminate no-shows. |
+  | **10** | **In-app checkout with deposit deduction** | Front Desk & Customer | Built directly into tablet with no dedicated POS needed; automatically deducts prepaid deposit from final bill. |
+  | **11** | **Dynamic service duration buffers** | Front Desk & Customer | Sizes slots by service (30m hair, 20m beard) with small buffers to prevent floor bottlenecks. |
+  | **12** | **Verified dual-axis review system** | Customer, Shop & Barber | Review prompt unlocked only after completed cut ticket, rating Shop Ambiance (1–5) and Barber Skill (1–5). |
+  | **13** | **Barber portable profile & social showcase** | Barber & Customer | Barber portfolio with verified cut stats, skill tags, and Instagram/TikTok transformation video links. |
+  | **14** | **Late arrival 10-minute grace release** | System & Front Desk | Auto-releases an advance slot to walk-ins if customer is >10 min late, forfeiting the deposit. |
+  | **15** | **Barbershop discovery & geo-search directory** | Customer | Search and filter barbershops by neighborhood (New Cairo, Nasr City), price, and live wait time. |
+  | **16** | **Smart cut-cycle reminder engine** | Customer & Barber | Automated reminder sent every 2–4 weeks based on past haircut frequency to bring customers back. |
+  | **17** | **Automated monthly SaaS billing** | Shop Owner & Platform | Recurring billing system charging 1,000 EGP/month subscription to shop owners. |
+  | **18** | **Multi-chair shop owner analytics** | Shop Owner | Dashboard tracking saved walk-outs, chair utilization rates, and barber revenue. |
+  | **19** | **AI dynamic wait prediction** | Customer & System | Machine learning model predicting wait times; deferred because fixed service buffers work well enough. |
+  | **20** | **Retail product inventory & stock tracking** | Shop Owner & Platform | Tracking shelf retail products (waxes, oils); hard to implement with zero early payoff since services drive >95% of revenue. |
+
+* **Roadmap (Now / Next / Later for 6–12 Months):**
+
+  ```mermaid
+  flowchart LR
+      subgraph NOW["NOW: Months 1–3 (Q1)"]
+          direction TB
+          N1["Operational Core & Live Queue MVP"]
+          N2["Front-Desk Tablet Quick Logging (<15s)"]
+          N3["Consumer Web Live Queue Tracker"]
+          N4["Barber Queue Pause / Open Control"]
+          N5["2–3 Pilot Shops Validated"]
+      end
+
+      subgraph NEXT["NEXT: Months 4–6 (Q2)"]
+          direction TB
+          X1["Commercial Rollout: 6–8 Active Shops"]
+          X2["Payment Gateway for 30–50 EGP Deposits"]
+          X3["In-App Checkout Deposit Deduction"]
+          X4["Automated WhatsApp / SMS Arrival Alerts"]
+          X5["1,000 EGP/mo B2B Paid Subscription"]
+      end
+
+      subgraph LATER["LATER: Months 7–12 (Q3-Q4)"]
+          direction TB
+          L1["Year 1 SOM Target: 20–24 Active Shops"]
+          L2["Consumer Marketplace Discovery Directory"]
+          L3["Barber Portable Identity & Video Portfolios"]
+          L4["10–15% Marketplace Commission Launch"]
+          L5["Cut-Cycle Automated Reminders (2–4 wks)"]
+      end
+
+      NOW --> NEXT --> LATER
+  ```
+
+  * **NOW: Months 1–3 (Q1) — Live Queue & Operational Core (MVP Validation)**
+    * **Goal:** Prove shop-floor adoption in 2–3 pilot shops in New Cairo and Nasr City, replace paper logs, and keep the live queue accurate.
+    * **Deliverables:**
+      - Front-desk tablet web app (quick walk-in entry under 15s, seat/finish chair buttons, automatic daily cut tally).
+      - Barber queue pause/open buttons to manage shift fatigue.
+      - Consumer mobile web app for checking per-barber wait times and remote queue check-in (no app download needed).
+      - Real-time WebSockets backend syncing tablet and customer phones in under 2 seconds.
+      - Concierge InstaPay deposit test (30–50 EGP) for star barber bookings.
+    * **Target Metrics & Exit Gate:**
+      - 2–3 pilot shops operating live.
+      - At least 85% of daily cuts logged digitally instead of paper.
+      - Walk-in entry time under 15 seconds.
+      - At least 50% deposit payment rate on advance booking attempts.
+      - At least 2 of 3 pilot shops convert to paying 1,000 EGP/month at the end of the 30-day trial.
+
+  * **NEXT: Months 4–6 (Q2) — Commercial Onboarding & Deposit Engine**
+    * **Goal:** Begin regular sales onboarding at 2 shops/month, automate deposit payments, and grow to 6–8 active paying shops in New Cairo and Nasr City.
+    * **Deliverables:**
+      - Payment gateway integration (InstaPay, mobile wallets, credit/debit cards for 30–50 EGP deposits).
+      - Front-desk in-app checkout module with automated deposit deduction (no external POS needed).
+      - Hybrid queue engine combining walk-ins and reservations with dynamic service buffers (30 min hair, 20 min beard).
+      - Automatic 10-minute late grace window and seat release.
+      - Automated WhatsApp / SMS queue proximity alerts (*"You are next; arrive in 10 minutes"*).
+      - Verified dual-axis review system (Shop Ambiance vs Barber Skill).
+      - Automated monthly 1,000 EGP subscription billing.
+    * **Target Metrics & Exit Gate:**
+      - 6 to 8 active paying shops (on track for Year 1 SOM pace of 2 shops/month).
+      - At least 50% deposit completion rate with under 5% no-shows.
+      - Monthly shop churn under 1.3% (<15% annual churn).
+      - Zero double-booking errors across all active shops.
+
+  * **LATER: Months 7–12 (Q3–Q4) — Marketplace Discovery & Reaching Year 1 SOM**
+    * **Goal:** Scale supply to 20–24 active paying shops across New Cairo and Nasr City (achieving our Year 1 SOM target), launch consumer marketplace discovery, and monetize new client bookings.
+    * **Deliverables:**
+      - Consumer marketplace directory and geo-search across all 24 partnered shops (filter by area, price, rating, and live wait).
+      - Barber portable identity and social portfolio (cut stats, style badges, Instagram/TikTok transformation links).
+      - Marketplace commission billing (10–15% on new customers who book through the app).
+      - Cut-cycle automated reminder engine (alerts every 2–4 weeks based on client frequency).
+      - In-shop lounge TV screen display (optional luxury queue board for high-end shops).
+      - Multi-branch owner analytics (chair utilization, staff performance, saved walk-outs).
+      - Groundwork and sales preparation to add Giza and hire 1 sales rep in Year 2 (to scale toward the 68-shop Year 2 target).
+    * **Target Metrics & Exit Gate:**
+      - 20 to 24 active paying shops (achieving 100% of the Year 1 SOM goal of 24 shops).
+      - Over 300 monthly marketplace bookings earning 10–15% commission.
+      - Sean Ellis PMF score: at least 40% "Very disappointed" among surveyed customers; at least 50% among shop owners.
+      - 60-day client cohort retention flattens at 35–40%.
+
+
+---
 
 ### 9. Company Type and Founding Structure
 
