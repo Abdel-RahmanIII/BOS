@@ -110,3 +110,65 @@ We reserve our single CTO's engineering bandwidth for our core differentiator (t
 * **Decision:** Compute live ETAs deterministically using **per-service fixed durations** (e.g., 30 min haircut, 20 min beard, 45 min combo) plus a configurable per-barber pace multiplier and small buffer, while logging actual `started_at` / `finished_at` timestamps on every cut.
 * **Alternatives Considered:** (1) *ML Regression Model* — could capture peak-hour variance and barber-specific speed automatically, but suffers from a complete cold-start problem at pilot launch and produces opaque errors that erode user trust; (2) *Manual Receptionist ETA Entry* — flexible, but breaks the `<15s` walk-in entry target and introduces inconsistent guesswork.
 * **Consequences:** *Positive:* Zero cold-start, transparent, debuggable ETAs from day one. *Negative:* Less accurate for outlier services (e.g., complex styling) until we accumulate enough timestamped cuts to auto-calibrate per-barber averages in Year 2.
+
+---
+
+### 4. Cloud Cost Model (AWS — `eu-central-1` Frankfurt + Cairo CloudFront Edge)
+
+We deploy on a single mainstream cloud (**AWS**), using **`eu-central-1` (Frankfurt)** (~60–80 ms RTT from Cairo, well within our `<2s` sync budget) paired with **Amazon CloudFront's Cairo Edge Location** (<20 ms local delivery for PWA assets and barber portfolios). To avoid upfront burn before product-market fit, we start on an all-in-one **Lightsail** instance at Pilot and graduate to managed **ECS Fargate + RDS + ElastiCache** only once paying shops fund the step-up.
+
+* **Baseline Assumptions:** On-demand list prices (`730 hrs/mo`), **50 EGP/USD** (aligned with Milestone 1 & Section 2), **zero reliance on promotional credits** in unit economics. *(Note: AWS's 6-month Free Tier provides $100–$200 in credits for new accounts, covering the entire Pilot at **$0 out-of-pocket**, with AWS Activate Founders offering up to $1,000 later.)*
+
+| Infrastructure Line Item | **100 MAU (Pilot)**<br>*(1–3 shops · 10–30 peak WS)* | **10,000 MAU (Growth)**<br>*(24–68 shops · 250–600 peak WS)* | **100,000 MAU (Scale — HA)**<br>*(154–300 shops · 1.5k–3k peak WS)* |
+| :--- | :---: | :---: | :---: |
+| **Compute (API + WS + PWA)** | 1× Lightsail (2 vCPU, 2 GB, Docker)<br>**$12.00** | 2× ECS Fargate ARM64 (0.5 vCPU, 2 GB)<br>**$40.80** | 4× ECS Fargate ARM64 (1 vCPU, 2 GB)<br>**$138.32** |
+| **Load Balancer & Public IPv4** | Included in Lightsail<br>**$0.00** | ALB ($22.63) + 4 IPv4 ($14.60)<br>**$37.23** | ALB ($28.47) + 6 IPv4 ($21.90)<br>**$50.37** |
+| **Managed PostgreSQL (RDS)** | On Lightsail *(pilot shortcut)*<br>**$0.00** | `db.t4g.small` 1-AZ + 30 GB gp3<br>**$30.83** | `db.t4g.medium` **Multi-AZ** + 100 GB gp3<br>**$134.12** |
+| **Managed Valkey (ElastiCache)** | In-memory WS *(1 node)*<br>**$0.00** | `cache.t4g.micro` (1 node)<br>**$10.22** | `cache.t4g.small` **Multi-AZ** (2 nodes)<br>**$42.34** |
+| **S3 + CloudFront (Cairo Edge)** | Portfolios deferred / Free Tier<br>**$0.00** | 20 GB S3 + 75 GB egress (1 TB Free)<br>**$1.00** | 100 GB S3 + 400 GB egress (1 TB Free)<br>**$7.00** |
+| **Backups, DNS & Monitoring** | Snapshots ($1.00) + Route 53 ($0.50)<br>**$1.50** | Route 53 + ~10 GB CloudWatch<br>**$3.00** | Route 53 + ~35 GB CloudWatch<br>**$15.50** |
+| **Total Monthly Infra (USD)** | **$13.50 / mo** | **$123.08 / mo** | **$387.65 / mo** |
+| **Total Monthly Infra (EGP @ 50)** | **675 EGP / mo** | **6,154 EGP / mo** | **19,383 EGP / mo** |
+| **Infra Cost per Active User** | **$0.135** *(6.75 EGP)* | **$0.0123** *(0.62 EGP)* | **$0.0039** *(0.19 EGP)* |
+| **Infra % of SaaS MRR** *(1k EGP/shop)* | **22.5%** *(at 3 shops; 0% w/ Free Tier)* | **9.1% – 25.6%** *(68–24 shops)* | **6.5% – 12.6%** *(300–154 shops)* |
+
+* **Gross Margin Handoff (Milestone 3):** Pure cloud infrastructure scales from **225 EGP/shop/mo** at Pilot down to **~65–126 EGP/shop/mo** (6.5%–12.6% of the 1,000 EGP/mo SaaS fee, excluding marketplace commissions). Variable payment and messaging COGS (Paymob ~3% + WhatsApp/SMS ~100 EGP/shop/mo) are modeled separately in Section 2 and combine cleanly with this table in Milestone 3 without double-counting—leaving **~75–80%+ blended SaaS gross margin** at scale.
+
+#### Main Cost Optimization Levers
+1. **Stage-Gated Architecture (Pay Only When Established):** Running a single Lightsail node at Pilot avoids ALB ($20/mo), RDS, and ElastiCache floors until paying shops cover the $123/mo managed stack (migrating at 5–10 paying shops; tracked in Section 7).
+2. **Avoid NAT Gateways & Egress Fees:** Placing ECS Fargate tasks in public subnets locked strictly to ALB Security Groups avoids a ~$38/mo NAT Gateway, while routing traffic through CloudFront keeps origin fetch at $0 and utilizes CloudFront's **1 TB/mo Always Free** egress via the Cairo Edge.
+3. **ARM64 Graviton + Valkey:** Standardizing on Graviton (`ARM64` Fargate, `db.t4g.*`) and ElastiCache for **Valkey** (Redis-compatible) cuts compute and cache spend by ~20% vs. x86/Redis OSS with zero code changes.
+4. **Peak-Hour Autoscaling & Savings Plans:** Scheduling Fargate scale-out strictly for Cairo peak hours (6:00–11:00 PM, Thu/Fri) and purchasing 1-Year Compute/RDS Savings Plans at 100k MAU reduces the $388/mo bill by **~25–30%** (to **~$290–$300/mo**).
+
+#### Sources
+* **Compute & Networking:** [AWS Lightsail Pricing](https://aws.amazon.com/lightsail/pricing/) · [AWS Fargate Pricing](https://aws.amazon.com/fargate/pricing/) · [Elastic Load Balancing (ALB) Pricing](https://aws.amazon.com/elasticloadbalancing/pricing/) · [VPC Public IPv4 Pricing](https://aws.amazon.com/vpc/pricing/)
+* **Data, Storage & Edge:** [Amazon RDS PostgreSQL Pricing](https://aws.amazon.com/rds/postgresql/pricing/) · [Amazon ElastiCache (Valkey) Pricing](https://aws.amazon.com/elasticache/pricing/) · [Amazon S3 Pricing](https://aws.amazon.com/s3/pricing/) · [Amazon CloudFront Pricing](https://aws.amazon.com/cloudfront/pricing/)
+* **DNS, Monitoring & Credits:** [Amazon Route 53 Pricing](https://aws.amazon.com/route53/pricing/) · [Amazon CloudWatch Pricing](https://aws.amazon.com/cloudwatch/pricing/) · [AWS Free Tier](https://aws.amazon.com/free/) · [AWS Activate](https://aws.amazon.com/startups/credits)
+
+---
+
+### 5. Regulation and Compliance
+
+*(Placeholder — to be completed)*
+
+---
+
+### 6. Vendors and Platform Risk
+
+*(Placeholder — to be completed)*
+
+---
+
+### 7. Technical Debt Policy
+
+As a solo-CTO startup shipping an MVP around an academic semester, we take **deliberate, time-boxed shortcuts** to validate shop-floor adoption quickly while tying every shortcut to a concrete business trigger for repayment:
+
+| Deliberate MVP Shortcut | Why We Take It Now | Repayment Trigger | Repayment Plan |
+| :--- | :--- | :--- | :--- |
+| **1. All-in-One Lightsail Node** *(self-hosted Postgres + in-memory WS)* | Saves ~$110/mo ($0 w/ Free Tier) and avoids VPC/ALB setup during the 3-shop pilot. | **5–10 paying shops** (~5k–10k EGP MRR) or multi-node scale need. | Migrate to managed ECS Fargate + RDS PostgreSQL + ElastiCache Valkey (Section 4). |
+| **2. Manual Concierge Deposits** *(InstaPay/wallet verification)* | Tests deposit willingness (M1 Assumption #2) immediately without waiting weeks for Paymob/CBE merchant onboarding. | **Q2 (≥6 active shops)** or **>50 deposits/week**. | Connect `PaymentProvider` adapter to Paymob API + automated webhooks (Section 2). |
+| **3. Hardcoded Service-Duration ETAs** *(30m hair / 20m beard)* | Eliminates cold-start errors on Day 1 while still logging actual `started_at`/`finished_at` timestamps (ADR-005). | **1,000+ logged cuts/shop** (Q3–Q4). | Replace static defaults with rolling per-barber median durations. |
+| **4. Critical-Path-Only Testing** *(no E2E suite or staging env)* | Keeps MVP velocity high while still testing zero-tolerance invariants (slot locking & daily cash ledger math). | **10 active shops** or hiring **Engineer #2**. | Add automated CI/CD staging environment and Playwright E2E tests for core flows. |
+| **5. Manual Shop Onboarding** *(no self-serve B2B portal)* | White-glove setup takes ~15 min/shop at 2 shops/month and saves weeks of admin CRUD UI work. | **Year 2** (hiring Sales Rep #1 at **≥4 shops/month**). | Build self-serve shop, barber, and service-menu onboarding wizard. |
+
+* **Repayment Rule:** Post-pilot, we allocate **20% of engineering capacity** (1 day/week) to retire triggered debt before starting new roadmap features; no shortcut remains open past its trigger without explicit CEO/CTO sign-off.
