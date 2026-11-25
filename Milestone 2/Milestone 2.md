@@ -159,7 +159,76 @@ We deploy on a single mainstream cloud (**AWS**), using **`eu-central-1` (Frankf
 
 ### 6. Vendors and Platform Risk
 
-*(Placeholder — to be completed)*
+## Critical Service: Payment Gateway
+
+We chose the payment gateway because both of our revenue flows depend on it:
+- the EGP 1,000 monthly shop subscription, and
+- the EGP 30–50 customer booking deposits (Milestone 1 roadmap, Months 4–6).
+
+If it fails, we cannot collect revenue and booked slots are not secured.
+
+**Requirements specific to Egypt:**
+- **Wallets, not just cards.** Only 22% of Egyptian adults owned a debit or credit card in 2021 [11].
+- **InstaPay support.** InstaPay had about 16 million users by mid-2025 [12].
+- **A current Central Bank licence.** Every payment provider must hold a licence under the June 2025 rules, whose grace period ended on 31 May 2026 [13].
+
+## Mini-RFP: Vendor Scoring
+
+Each vendor is scored from 1 (weak) to 5 (strong). The weighted score = Σ(score × weight).
+
+| Criterion | Weight | Paymob | Kashier | Fawry (FawryPay) |
+|---|---|---|---|---|
+| **Payment methods** (cards, wallets, InstaPay) | 25% | **5:** cards and all major wallets (Vodafone Cash, Orange Cash, e& money, WE Pay) [3]; InstaPay announced [5] | **3:** card payments; its FAQ lists wallets as "coming soon" [6] | **4:** cards plus cash at 166,500+ locations [9] |
+| **Recurring billing** for subscriptions | 20% | **5:** built-in subscription module with automatic monthly charges [4] | **4:** supports recurring payments [7] | **2:** no public subscription feature |
+| **Cost** | 20% | **4:** 2.75% + EGP 3, no setup or monthly fee [1] | **4:** 2.75–2.85% + EGP 3, no monthly fee, no charge on failed transactions [2][6] | **2:** rates not published, quote only [2] |
+| **Settlement speed** (cash flow) | 10% | **3:** weekly [2] | **5:** same-day, T+1 or T+2 [2] | **2:** not published |
+| **Compliance and security** | 15% | **5:** first fintech licensed by the Central Bank of Egypt as a Payments Facilitator (2018) [14]; PCI-compliant with 3-D Secure [5] | **5:** Central Bank-approved payment provider since 2019 [7] | **5:** fully regulated [10] |
+| **Integration and support** | 10% | **5:** full API docs, mobile SDKs, sandbox [3] | **3:** API and sandbox, but weak merchant support reviews [8] | **3:** API available, merchant onboarding required |
+| **Weighted score** | 100% | **4.60** | **3.90** | **3.05** |
+
+**Decision:**
+- **Primary: Paymob.** It is the only candidate with both wallets and a ready subscription module, which match our two revenue flows.
+- **Backup: Kashier.** It settles fastest and is also Central Bank-approved, so it is the fallback gateway (see risk register).
+- **Fawry:** revisit later only if many customers want to pay deposits in cash.
+
+## SLA and IP Terms We Would Insist On
+
+| Type | Term | Why |
+|---|---|---|
+| **SLA: uptime** | **≥ 99.9% monthly uptime, with notice of any outage.** Paymob's standard merchant terms include no uptime commitment [15], so we negotiate this once our volume qualifies for a custom agreement. Until then, we monitor the gateway ourselves and keep Kashier ready as a backup | If payments fail, shops can't pay us |
+| **SLA: settlement** | A settlement schedule fixed in our merchant application (Paymob settles at the frequency chosen there [15]). Any withheld funds explained in writing with a reason | Protects our cash flow |
+| **IP: our data** | We own our software and all shop, customer and transaction data. The vendor may use it only to process our payments, in line with Egypt's Personal Data Protection Law No. 151 of 2020 | Our shop and customer data is our main asset |
+| **IP: licences and data on exit** | Paymob licenses its software and SDK to us on a non-exclusive basis (as in its standard terms [15]) and gains no rights in our software. On exit, we receive a full export of our transaction data | Our product stays fully ours, and we can move to another gateway without losing our records |
+
+## Platform Dependency Risk Register
+
+Probability (P) and impact (I) are rated 1–5. Score = P × I.
+
+| # | Dependency | Risk | P | I | Score | Mitigation |
+|---|---|---|---|---|---|---|
+| 1 | **Shop's own device** | The front-desk device is dead or lost, so the queue stops updating | 3 | 4 | **12** | The system works in any browser, so staff log in on another phone in seconds. Paper fallback for short outages, entered later |
+| 2 | **Payment gateway** (single provider) | Outage or account freeze stops collections | 2 | 5 | **10** | Kashier ready as a backup gateway. InstaPay manual transfer (our MVP method) as a last resort |
+| 3 | **Cloud hosting** (single provider) | Outage takes the live queue offline at every shop | 2 | 5 | **10** | Hosting across multiple data centres, daily backups, and an alert when the queue stops syncing |
+
+There is no AI API dependency in the MVP: wait times use fixed service times (30 minutes for hair, 20 for a beard), so there is no single-AI-provider risk.
+
+## References
+
+[1] Paymob, "Pricing" (standard 2.75% + EGP 3). https://paymob.com/en/pricing<br>
+[2] Startupik, "Payment Gateways for Startups in Egypt," Nov 2026. https://startupik.com/payment-gateways-for-startups-in-egypt/<br>
+[3] Paymob Developers, documentation overview (supported wallets, SDKs). https://developers.paymob.com/paymob-docs/llms.txt<br>
+[4] Paymob Developers, "Subscriptions." https://developers.paymob.com/paymob-docs/payments-and-features/core-features/subscriptions<br>
+[5] WooCommerce, "Paymob" (payment methods, PCI compliance, InstaPay). https://woocommerce.com/products/paymob/<br>
+[6] Kashier, "FAQs." https://kashier.io/en/faqs<br>
+[7] KrASIA, "Egyptian payments platform Kashier raises six-figure seed." https://kr-asia.com/egyptian-payments-platform-kashier-raises-six-figure-seed<br>
+[8] Shopify App Store, "Kashier Online Payments" (merchant reviews). https://apps.shopify.com/kashier-online-payments<br>
+[9] Checkout.com, "Fawry." https://www.checkout.com/payment-methods/fawry<br>
+[10] Tap Payments, "Fawry." https://www.tap.company/products/payment-methods/fawry<br>
+[11] PYMNTS, "Egypt news and trends" (World Bank 2021 card ownership). https://www.pymnts.com/trends/egypt<br>
+[12] Chambers and Partners, "Fintech 2026: Egypt, Trends and Developments." https://practiceguides.chambers.com/practice-guides/fintech-2026/egypt/trends-and-developments<br>
+[13] Chambers and Partners, "Fintech 2026" guide, p. 237 (PSP licensing grace period). https://gpg-pdf.chambers.com/fintech-2026/238/<br>
+[14] Zawya, "Paymob enables Apple Pay acceptance for its merchants in Egypt" (CBE Payments Facilitator licence, 2018). https://www.zawya.com/en/press-release/companies-news/paymob-enables-apple-pay-acceptance-for-its-merchants-in-egypt-ycbdpsjc<br>
+[15] Paymob, "General and Special Terms and Conditions" (merchant terms, Oman edition; the Egypt edition is issued at sign-up). https://om.paymob.com/terms-conditions
 
 ---
 
